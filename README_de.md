@@ -2,7 +2,7 @@
 
 <h1>GPT-6.2 Astra · Demos und Anwendungsbeispiele</h1>
 
-<a href="https://evolink.ai?utm_source=github&utm_medium=banner&utm_campaign=gpt-6-2-astra-usecases&utm_content=readme_banner"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/banner-b37e28d1a0d3.png" alt="GPT-6.2 Astra — Demos und Anwendungsbeispiele" width="760"></a>
+<a href="https://evolink.ai?utm_source=github&utm_medium=banner&utm_campaign=gpt-6-2-astra-usecases&utm_content=readme_banner"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/banner-d7e110b5529b.png" alt="GPT-6.2 Astra — Demos und Anwendungsbeispiele" width="760"></a>
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
 [![EvoLink entdecken](https://img.shields.io/badge/Explore-EvoLink-111111)](https://evolink.ai?utm_source=github&utm_medium=readme&utm_campaign=gpt-6-2-astra-usecases&utm_content=landing_overview)
