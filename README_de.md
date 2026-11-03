@@ -5,7 +5,7 @@
 <a href="https://evolink.ai?utm_source=github&utm_medium=banner&utm_campaign=gpt-6-2-astra-usecases&utm_content=readme_banner"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/banner-b37e28d1a0d3.png" alt="GPT-6.2 Astra — Demos und Anwendungsbeispiele" width="760"></a>
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
-[![EvoLink entdecken](https://img.shields.io/badge/Explore-EvoLink-111111)](https://evolink.ai/blog?utm_source=github&utm_medium=badge&utm_campaign=gpt-6-2-astra-usecases&utm_content=explore)
+[![EvoLink entdecken](https://img.shields.io/badge/Explore-EvoLink-111111)](https://evolink.ai?utm_source=github&utm_medium=readme&utm_campaign=gpt-6-2-astra-usecases&utm_content=landing_overview)
 
 [![English](https://img.shields.io/badge/English-2563eb)](README.md)
 [![Español](https://img.shields.io/badge/Espa%C3%B1ol-2563eb)](README_es.md)
@@ -42,7 +42,7 @@ Eine Sammlung von Demos und Anwendungsbeispielen für GPT-6.2 Astra aus der Crea
 2. Klicke auf eine Vorschau, um die Demo anzusehen, und öffne anschließend den Titel des Beispiels für den ursprünglichen Kontext.
 3. Nutze veröffentlichte Aufgabenbeschreibungen, sofern vorhanden, oder übertrage die Idee auf eine eigene Aufgabe.
 
-[EvoLink entdecken](https://evolink.ai?utm_source=github&utm_medium=quickstart&utm_campaign=gpt-6-2-astra-usecases&utm_content=explore)
+[EvoLink entdecken](https://evolink.ai?utm_source=github&utm_medium=readme&utm_campaign=gpt-6-2-astra-usecases&utm_content=landing_overview)
 
 <a id="menu"></a>
 ## 📑 Inhaltsverzeichnis

@@ -5,7 +5,7 @@
 <a href="https://evolink.ai?utm_source=github&utm_medium=banner&utm_campaign=gpt-6-2-astra-usecases&utm_content=readme_banner"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/banner-b37e28d1a0d3.png" alt="GPT-6.2 Astra — 데모 및 활용 사례" width="760"></a>
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
-[![EvoLink 둘러보기](https://img.shields.io/badge/Explore-EvoLink-111111)](https://evolink.ai/blog?utm_source=github&utm_medium=badge&utm_campaign=gpt-6-2-astra-usecases&utm_content=explore)
+[![EvoLink 둘러보기](https://img.shields.io/badge/Explore-EvoLink-111111)](https://evolink.ai?utm_source=github&utm_medium=readme&utm_campaign=gpt-6-2-astra-usecases&utm_content=landing_overview)
 
 [![English](https://img.shields.io/badge/English-2563eb)](README.md)
 [![Español](https://img.shields.io/badge/Espa%C3%B1ol-2563eb)](README_es.md)
@@ -42,7 +42,7 @@
 2. 미리보기를 눌러 데모를 시청한 다음, 사례 제목을 열어 원래 맥락을 확인합니다.
 3. 공개된 제작 지시가 있으면 따라 해 보거나, 아이디어를 자신의 작업에 맞게 응용합니다.
 
-[EvoLink 둘러보기](https://evolink.ai?utm_source=github&utm_medium=quickstart&utm_campaign=gpt-6-2-astra-usecases&utm_content=explore)
+[EvoLink 둘러보기](https://evolink.ai?utm_source=github&utm_medium=readme&utm_campaign=gpt-6-2-astra-usecases&utm_content=landing_overview)
 
 <a id="menu"></a>
 ## 📑 목차
