@@ -30,7 +30,7 @@ Eine Sammlung von Demos und Anwendungsbeispielen für GPT-6.2 Astra aus der Crea
 <a id="overview"></a>
 ## 📊 Überblick
 
-10 Beispiele · 11 Demo-Visualisierungen · 4 Aufgabenbereiche. Enthalten sind alle Demonstrationen der geprüften Sammlung, die die Auswahlkriterien erfüllen; erneute Veröffentlichungen derselben Arbeit sind zusammengefasst. Vollständige Prompts sind optional.
+36 Beispiele · 44 Demo-Visualisierungen · 4 Aufgabenbereiche. Enthalten sind alle Demonstrationen der geprüften Sammlung, die die Auswahlkriterien erfüllen; erneute Veröffentlichungen derselben Arbeit sind zusammengefasst. Vollständige Prompts sind optional.
 
 > [!NOTE]
 > Modellbezeichnungen, Zeitangaben und Beobachtungen zu Vergleichen entsprechen den Angaben der verlinkten Urheber.
@@ -59,6 +59,32 @@ Eine Sammlung von Demos und Anwendungsbeispielen für GPT-6.2 Astra aus der Crea
 | [8. Eine japanische Fantasiestadt in Pixel-Art](#case-8) | Spiele und Szenen | Zwei Städte am Wasser in Pixel-Art | Bewertung |
 | [9. Eine animierte Modellvorstellung](#case-9) | Frontend und Bewegung | Abstrakte Grafik und Typografie | Demo |
 | [10. Vier Modelle erstellen ein Open-World-RPG](#case-10) | Spiele und Szenen | Vier beschriftete Varianten einer RPG-Szene | Bewertung |
+| [11. Vier PS5-Controller im Vergleich](#case-11) | Illustration | Vier beschriftete Controllerbilder zur selben Aufgabe | Bewertung |
+| [12. SVG-Vergleich mit Hitori Gotoh auf einer Gitarre](#case-12) | Illustration | Fünf gerenderte Ergebnisse mit und ohne Referenz | Bewertung |
+| [13. The Snow Post, ein interaktiver Bahnhof](#case-13) | Frontend und Bewegung | Verschneiter Bahnhof mit einem Brief und Kamerasteuerung | Demo |
+| [14. Ein fliegendes Wesen über den Wolken](#case-14) | Spiele und Szenen | Zwei beschriftete Flugszenen aus Arena | Bewertung |
+| [15. Ein Pelikan an der Küste als Animation und Standbild](#case-15) | 3D und Animation | Eine animierte Küstenszene und ein Standbild | Bewertung |
+| [16. Eine Minecraft-Landschaft als SVG](#case-16) | Illustration | Landschaft im Pixelstil mit Inventarleiste | Demo |
+| [17. Animation chinesischer Landschaften und Architektur](#case-17) | Frontend und Bewegung | Tuschelandschaft, Gartenpavillon und architektonischer Innenraum | Demo |
+| [18. Webanimation The Kite That Pulled the Sky](#case-18) | Frontend und Bewegung | Roter Drachen, aufreißende Gewitterwolken und Sonnenaufgang | Demo |
+| [19. Demo einer Spielumgebung für Root](#case-19) | Spiele und Szenen | Aufnahme einer Spielumgebung und ihrer Oberfläche | Demo |
+| [20. Ruby Kart, ein Rennspiel für den Browser](#case-20) | Spiele und Szenen | Kart-Rennen in HTML mit Strecken und Menüs | Demo |
+| [21. Eine Pokémon-Kampfszene als SVG](#case-21) | Illustration | Drei Kreaturen in einer dramatischen Kampfszene | Demo |
+| [22. Zwei Roboteranimationen in einem moosigen Wald](#case-22) | Frontend und Bewegung | Neuer Waldroboter-Clip über einem wiederverwendeten Vergleichsclip | Bewertung |
+| [23. Hatch Panic!, ein Survivalspiel-Prototyp](#case-23) | Spiele und Szenen | Menü und Spielsequenz eines Survivalspiels | Demo |
+| [24. Vergleich zweier SVG-Pelikane an der Küste](#case-24) | 3D und Animation | Bildaufbau und Fahrradgeometrie bei derselben Aufgabenstellung | Bewertung |
+| [25. Mechanische Glaspfaue im Vergleich](#case-25) | Illustration | Zwei Pfauendarstellungen mit Glasoptik | Bewertung |
+| [26. Eine Drachenstadt über den Wolken](#case-26) | Illustration | Zwei Szenen mit einem Drachen und Gebäuden in den Wolken | Bewertung |
+| [27. Ein Papagei fährt Elektroroller](#case-27) | Frontend und Bewegung | Küstenillustration auf einer Webseite | Demo |
+| [28. Explosionszeichnungen eines Uhrwerks im Vergleich](#case-28) | Illustration | Zwei Diagramme mit getrennt dargestellten Uhrwerksteilen | Bewertung |
+| [29. Illustriertes Raster zum chinesischen Tierkreis](#case-29) | Illustration | Zwei Anordnungen der zwölf Tierkreiszeichen | Bewertung |
+| [30. Schmetterlingsschaukästen im Vergleich](#case-30) | Illustration | Zwei gerahmte Raster mit Schmetterlingsexemplaren | Bewertung |
+| [31. Zwei Animationen des Affenkönigs im Flugzeug](#case-31) | Frontend und Bewegung | Zwei Darstellungen eines roten Flugzeugs mit Pilot | Bewertung |
+| [32. Ein kurzer Weltraumthriller](#case-32) | Frontend und Bewegung | Stilisiertes Cockpit und dramatische Weltraumaufnahmen | Demo |
+| [33. Zwei realistische Illustrationen radfahrender Pelikane](#case-33) | Illustration | Zwei Pelikanbilder ohne Modellzuordnung zur selben Aufgabe | Bewertung |
+| [34. Lichtstudie am Bahnhof Sakuragaoka](#case-34) | Frontend und Bewegung | Eine Bahnhofsszene mit verschiedenen Lichtstimmungen | Demo |
+| [35. Stellaris-inspirierte Planetenansichten mit Bedienoberfläche im Vergleich](#case-35) | Spiele und Szenen | Zwei Aufnahmen von Benutzeroberflächen mit Ringplaneten | Bewertung |
+| [36. Ein Wal springt bei Sonnenaufgang](#case-36) | Frontend und Bewegung | Hochformat-Animation vom Boot bis zum Walsprung | Demo |
 
 [Überblick](#overview) · [Schnellstart](#quick-start) · [Verwandte Repositories](#related-repositories) · [Danksagung](#acknowledge)
 
@@ -202,6 +228,384 @@ Type: Evaluation | Date: 2026-11-02
 
 ---
 
+<a id="case-11"></a>
+### Fall 11: [Vier PS5-Controller im Vergleich](https://x.com/marcthecreatorr/status/2117596659215417399) (von [@marcthecreatorr](https://x.com/marcthecreatorr))
+
+**Vergleiche Position der Tasten, Proportionen und Beleuchtung in vier Ergebnissen zur selben Aufgabe.**
+
+Marc veröffentlicht vier PS5-Controller mit den Bezeichnungen Fable 5.5, GPT-6.2 Astra, Opus 5.5 und GPT-6 Astra. Die gemeinsame Aufgabenstellung verlangte eine SVG-Grafik. Oben rechts ist der Controller schräg zu sehen, anders als die Frontalansicht des früheren Controllers in dieser Sammlung. Marc stellt später infrage, ob die Astra-Darstellung reines SVG ist. Das Bild erlaubt einen visuellen Vergleich.
+
+[Öffentliche Aufgabenbeschreibung des Urhebers lesen](https://x.com/marcthecreatorr/status/2117596659215417399).
+
+[![Vier PS5-Controller im Vergleich](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2117596647832055808-c30d3bb840db.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2117596647832055808-c30d3bb840db.jpg)
+
+Type: Evaluation | Date: 2026-11-03
+
+---
+
+<a id="case-12"></a>
+### Fall 12: [SVG-Vergleich mit Hitori Gotoh auf einer Gitarre](https://linux.do/t/topic/3117060) (von [@nelia](https://linux.do/u/nelia))
+
+**Vergleiche Ergebnisse mit Referenz und Ergebnisse ohne Referenz jeweils innerhalb derselben Gruppe.**
+
+Nelia bittet um eine SVG-Illustration von Hitori Gotoh, die auf einer Gitarre reitet, ohne ein Bildmodell aufzurufen. Der Eröffnungsbeitrag zeigt ein mit GPT-6.2 Astra beschriftetes Ergebnis ohne Referenz sowie Beispiele mit GPT-6 Astra und Opus 5.5 mit und ohne Referenz. Die Bedingungen der Durchläufe unterscheiden sich. Vergleiche die sichtbaren Gestaltungsentscheidungen innerhalb derselben Referenzbedingungen.
+
+[Öffentliche Aufgabenbeschreibung des Urhebers lesen](https://linux.do/t/topic/3117060).
+
+<table><thead><tr><th>GPT-6.2 Astra · ohne Referenz</th><th>Opus 5.5 · ohne Referenz</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/linuxdo-3117060-1-93c7b2f5e828.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/linuxdo-3117060-1-93c7b2f5e828.jpg" alt="SVG-Vergleich mit Hitori Gotoh auf einer Gitarre — GPT-6.2 Astra · ohne Referenz" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/linuxdo-3117060-2-6653b92c6da8.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/linuxdo-3117060-2-6653b92c6da8.jpg" alt="SVG-Vergleich mit Hitori Gotoh auf einer Gitarre — Opus 5.5 · ohne Referenz" width="360"></a></td></tr></tbody></table>
+
+<table><thead><tr><th>Opus 5.5 Max · mit Referenz</th><th>GPT-6 Astra · ohne Referenz</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/linuxdo-3117060-3-835157487535.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/linuxdo-3117060-3-835157487535.jpg" alt="SVG-Vergleich mit Hitori Gotoh auf einer Gitarre — Opus 5.5 Max · mit Referenz" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/linuxdo-3117060-4-f6dfeeaf23c0.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/linuxdo-3117060-4-f6dfeeaf23c0.jpg" alt="SVG-Vergleich mit Hitori Gotoh auf einer Gitarre — GPT-6 Astra · ohne Referenz" width="360"></a></td></tr></tbody></table>
+
+<table><thead><tr><th>GPT-6 Astra · mit Referenz</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/linuxdo-3117060-5-1fc92a043d16.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/linuxdo-3117060-5-1fc92a043d16.jpg" alt="SVG-Vergleich mit Hitori Gotoh auf einer Gitarre — GPT-6 Astra · mit Referenz" width="360"></a></td></tr></tbody></table>
+
+Type: Evaluation | Date: 2026-11-03
+
+---
+
+<a id="case-13"></a>
+### Fall 13: [The Snow Post, ein interaktiver Bahnhof](https://linux.do/t/topic/3117060#post_10) (von [@nelia](https://linux.do/u/nelia))
+
+**Verbinde in einer erkundbaren Szene eine visuelle Stimmung mit einer kleinen erzählerischen Interaktion.**
+
+Nelia verlinkt die aufrufbare HTML-Szene The Snow Post und kennzeichnet sie als Ergebnis von GPT-6.2 Astra. Zu sehen ist ein warm beleuchteter Bahnhof in einer verschneiten Nacht, mit unterschiedlichen Blickwinkeln und einem Brief zum Öffnen. Das Beispiel enthält eine Aufnahme der veröffentlichten Demo. Die Antwort des Urhebers beschreibt auch die Aufgabe für die verschneite 3D-Szene.
+
+[Öffentliche Aufgabenbeschreibung des Urhebers lesen](https://linux.do/t/topic/3117060#post_10).
+
+[Interaktiven Bahnhof öffnen](https://yukino-snowletter-halt.atonelia.chatgpt.site/).
+
+[![The Snow Post, ein interaktiver Bahnhof](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/linuxdo-3117060-10-30b7ecde6903.png)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/linuxdo-3117060-10-30b7ecde6903.png)
+
+Type: Demo | Date: 2026-11-03
+
+---
+
+<a id="case-14"></a>
+### Fall 14: [Ein fliegendes Wesen über den Wolken](https://x.com/AI_Screening/status/2117614469442588847) (von [@AI_Screening](https://x.com/AI_Screening))
+
+**Vergleiche Silhouette, Beleuchtung und Bildausschnitt in zwei Flugszenen.**
+
+AI_Screening veröffentlicht ein Arena-Vergleichsvideo mit zwei übereinander angeordneten Szenen und den Bezeichnungen Gemini 4 Carbon checkpoint und GPT-6.2 Astra. Oben ist eine dunkle fliegende Figur vor einer orangefarbenen Sonne zu sehen. Unten reicht der Blick weiter über helle Wolken und Berge. Das Video erlaubt einen Vergleich der beiden Darstellungen. Die Quelle nennt keinen unter kontrollierten Bedingungen ermittelten Leistungswert.
+
+[![Ein fliegendes Wesen über den Wolken](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2117614345534488576-poster-e742bc1466cd.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2117614345534488576-d2bac7ad0c70.mp4)
+
+Type: Evaluation | Date: 2026-11-03
+
+---
+
+<a id="case-15"></a>
+### Fall 15: [Ein Pelikan an der Küste als Animation und Standbild](https://x.com/hakmgpt/status/2117644908722835749) (von [@hakmgpt](https://x.com/hakmgpt))
+
+**Vergleiche Bewegung und Bildaufbau bei zwei Umsetzungen derselben Küstenszene.**
+
+hakmgpt teilt die Animation The Tidal Rider und ein separates Standbild eines Pelikans auf einem Fahrrad. Laut Beitrag stammen die Ergebnisse von einem Freund, nutzen denselben Prompt und sind mit GPT-6.2 Astra Xhigh und GPT-6 Astra max beschriftet. Das Routing sei unklar. Das Paar zeigt, wie sich Fahrradgeometrie, Küstenlinie und Proportionen des Vogels bei derselben Aufgabe unterscheiden können. Die Quelle nennt unterschiedliche Reasoning-Einstellungen.
+
+<table><thead><tr><th>Animation</th><th>Standbild</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2117644853517369344-73b02afe11b4.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2117644853517369344-poster-8e32e31d82f1.jpg" alt="Ein Pelikan an der Küste als Animation und Standbild — Animation" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2117644853521563648-edfca969747d.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2117644853521563648-edfca969747d.jpg" alt="Ein Pelikan an der Küste als Animation und Standbild — Standbild" width="360"></a></td></tr></tbody></table>
+
+Type: Evaluation | Date: 2026-11-03
+
+---
+
+<a id="case-16"></a>
+### Fall 16: [Eine Minecraft-Landschaft als SVG](https://x.com/FixlationAI/status/2117646465325527064) (von [@FixlationAI](https://x.com/FixlationAI))
+
+**Prüfe anhand einer vertrauten Spielansicht, wie eine Vektorgrafik Details im Pixelstil erhält.**
+
+FixlationAI präsentiert das Bild als SVG-Nachbildung einer Minecraft-Spielansicht mit GPT-6.2 Astra. Zu sehen sind blockiges Gelände, ein Fluss, ein Dorf, ein Werkzeug im Vordergrund und die Inventarleiste. Achte darauf, wie diese Elemente in der Nachbildung erhalten bleiben. Der Beitrag zeigt das gerenderte Ergebnis. Aus dem Bild allein geht der Aufbau der SVG-Datei nicht hervor.
+
+[![Eine Minecraft-Landschaft als SVG](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2117638117188329472-d9e7e80957b2.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2117638117188329472-d9e7e80957b2.jpg)
+
+Type: Demo | Date: 2026-11-03
+
+---
+
+<a id="case-17"></a>
+### Fall 17: [Animation chinesischer Landschaften und Architektur](https://x.com/YFeng2022/status/2117924044439712156) (von [@YFeng2022](https://x.com/YFeng2022))
+
+**Verbinde Landschaften, Architektur und Musik in einer längeren Animation durch ein gemeinsames visuelles Thema.**
+
+YFeng2022 veröffentlicht Chinese Aesthetics, eine rund dreieinhalbminütige Animation, die von einer Landschaft im Tuschemalerei-Stil zu einem Gartenpavillon und einem Innenraum übergeht. Der Urheber berichtet, Three.js, TypeScript und Vite ohne 3D-Assets verwendet und die Musik mit Python synthetisiert zu haben. Der Beitrag bezeichnet den Durchlauf als GPT6-PRO und fragt, ob die Anfrage an GPT-6.2 Astra geleitet wurde.
+
+[![Animation chinesischer Landschaften und Architektur](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2117922484657741824-poster-017d9025411b.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2117922484657741824-c1bb389e18ef.mp4)
+
+Type: Demo | Date: 2026-11-04
+
+---
+
+<a id="case-18"></a>
+### Fall 18: [Webanimation The Kite That Pulled the Sky](https://x.com/pankajkumar_dev/status/2117948791496032542) (von [@pankajkumar_dev](https://x.com/pankajkumar_dev))
+
+**Übertrage einen visuellen Erzählmoment in eine animierte Webseite mit einer klar inszenierten Enthüllung.**
+
+Pankaj Kumar bittet um eine handgezeichnete animierte Webseite, auf der ein Kind einen roten Drachen steigen lässt. Der Drachen zieht Gewitterwolken auseinander und gibt den Blick auf den Sonnenaufgang frei. Das Video zeigt die Drachenschnur, bewegtes Gras und Vögel, während sich der Himmel verändert. Kumar teilt den Quellcode des Projekts und beschreibt eine nachträgliche Korrektur an der Hand.
+
+[Öffentliche Aufgabenbeschreibung des Urhebers lesen](https://x.com/pankajkumar_dev/status/2117948791496032542).
+
+[Quellcode ansehen](https://github.com/PankajKumardev/The-Kite-That-Pulled-the-Sky).
+
+[![Webanimation The Kite That Pulled the Sky](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2117947822310051840-poster-24dd2030b636.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2117947822310051840-165bbde0aea5.mp4)
+
+Type: Demo | Date: 2026-11-04
+
+---
+
+<a id="case-19"></a>
+### Fall 19: [Demo einer Spielumgebung für Root](https://x.com/mirochill/status/2117967584108708169) (von [@mirochill](https://x.com/mirochill))
+
+**Untersuche, wie ein Spielprototyp Umgebungsdetails mit der Spieloberfläche verbindet.**
+
+Mirochill veröffentlicht eine Root-Demo mit der Bezeichnung GPT Astra 6.2 Max. Die Aufnahme zeigt einen möblierten Raum mit Elementen der Spieloberfläche. Der Urheber bespricht das sichtbare Ergebnis und beschreibt die Oberfläche als einfach. Im Video lassen sich der Detailgrad der Szene und die Menge an Informationen auf dem Bildschirm vergleichen.
+
+[![Demo einer Spielumgebung für Root](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2117967318160494593-poster-7962246667b7.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2117967318160494593-b2fa275a855a.mp4)
+
+Type: Demo | Date: 2026-11-04
+
+---
+
+<a id="case-20"></a>
+### Fall 20: [Ruby Kart, ein Rennspiel für den Browser](https://x.com/N1n3VASthR33H/status/2117988488041890064) (von [@N1n3VASthR33H](https://x.com/N1n3VASthR33H))
+
+**Untersuche, wie ein Rennspiel-Prototyp im Browser Rennen, Streckenauswahl und Oberfläche organisiert.**
+
+N1n3VASthR33H teilt Ruby Kart und berichtet, das Spiel in mehreren Durchgängen über eine Testroute von GPT-6.2 Astra erstellt zu haben. Das ursprüngliche Video zeigt das Kart-Rennspiel im Browser und seine Präsentationsbildschirme. Der Urheber verlinkt ein HTML-Projekt und eine spielbare Fassung und bittet bei Weiterveröffentlichungen ausdrücklich um Namensnennung.
+
+[HTML-Projekt ansehen](https://github.com/vvvvvvvvvashhh/ruby-kart).
+
+[![Ruby Kart, ein Rennspiel für den Browser](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2117982148850544640-poster-406fd7fd7425.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2117982148850544640-94d0e75c3551.mp4)
+
+Type: Demo | Date: 2026-11-04
+
+---
+
+<a id="case-21"></a>
+### Fall 21: [Eine Pokémon-Kampfszene als SVG](https://x.com/mirochill/status/2117994297186226593) (von [@mirochill](https://x.com/mirochill))
+
+**Untersuche, wie eine Vektorgrafik Silhouetten, räumliche Tiefe und Bewegungslinien umsetzt.**
+
+Mirochill präsentiert eine SVG-Nachbildung einer Pokémon-Szene und berichtet, kein Referenzbild vorgegeben zu haben. Eine grüne Kreatur schwebt über zwei gegnerischen Figuren. Wasser, Felsen und Beleuchtung setzen die Silhouetten voneinander ab. Das sichtbare Ergebnis veranschaulicht die Bildkomposition. Die Quelle nennt das SVG-Format und stellt die zugrunde liegende Datei nicht bereit.
+
+[![Eine Pokémon-Kampfszene als SVG](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2117993619818782720-26c81e422dd3.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2117993619818782720-26c81e422dd3.jpg)
+
+Type: Demo | Date: 2026-11-04
+
+---
+
+<a id="case-22"></a>
+### Fall 22: [Zwei Roboteranimationen in einem moosigen Wald](https://x.com/YouArtStudio/status/2118023643393343757) (von [@YouArtStudio](https://x.com/YouArtStudio))
+
+**Vergleiche, wie zwei programmierte Animationen einen Roboter durch Silhouette, Größenverhältnisse und Landschaft inszenieren.**
+
+YouArtStudio veröffentlicht ein Video mit GPT-6.2 Astra oben und Fable 5.5 unten und beschreibt beide Hälften als durch Code erzeugt. Oben ist ein Roboter mit rundem Helm und bernsteinfarbenen Augen in einer Waldszene zu sehen. Unten wird Chetasluas Fable 5.5-Animation aus dem früheren Waldvergleich in dieser Sammlung wiederverwendet. Das obere Video ist ein eigenes Ergebnis. Die ursprünglichen Produktionsschritte sind nicht zu sehen.
+
+[Früheren Waldvergleich ansehen](https://x.com/leo114119/status/2117209849842761983).
+
+[![Zwei Roboteranimationen in einem moosigen Wald](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2118023628117725184-poster-bcdcf77d0cab.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2118023628117725184-a0e3fe8cc2f2.mp4)
+
+Type: Evaluation | Date: 2026-11-05
+
+---
+
+<a id="case-23"></a>
+### Fall 23: [Hatch Panic!, ein Survivalspiel-Prototyp](https://x.com/mirochill/status/2118069196449833414) (von [@mirochill](https://x.com/mirochill))
+
+**Prüfe anhand einer Survivalspiel-Aufgabe das Menü, die Einheitlichkeit der Grafiken und die Rückmeldungen während des Spiels.**
+
+Mirochill teilt Hatch Panic!, eine Nachbildung von 60 Seconds! Die Aufnahme zeigt den illustrierten Titelbildschirm und die Spieloberfläche. Laut Urheber lief die Anfrage möglicherweise über eine GPT-6.2 Astra-Route. Der Beitrag geht außerdem auf die erzeugten Grafiken ein. Die Route bleibt offen, und die Quelle beziffert keine Verbesserung.
+
+[![Hatch Panic!, ein Survivalspiel-Prototyp](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2118068136633135104-poster-8ec60b8574cf.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2118068136633135104-fce022f42bed.mp4)
+
+Type: Demo | Date: 2026-11-05
+
+---
+
+<a id="case-24"></a>
+### Fall 24: [Vergleich zweier SVG-Pelikane an der Küste](https://x.com/leo114119/status/2118711360687370622) (von [@leo114119](https://x.com/leo114119))
+
+**Nutze dieselbe Vorgabe für eine SVG-Animation, um die Inszenierung einer Fahrradschleife in zwei Ergebnissen zu vergleichen.**
+
+Leo teilt ferrets zwei Umsetzungen eines Pelikans an der Küste. Die Aufgabe verlangt eine HTML-Seite mit einer 2D-SVG-Animation eines Pelikans auf einem Fahrrad. Das obere Bild trägt die Bezeichnung GPT-6 Astra, das untere GPT-6.2 Astra. Vergleiche das Verhältnis zwischen Vogel, Fahrrad und Ufer. Die angehängte Montage ist eine statische Vorschau der beiden Seiten.
+
+[Öffentliche Aufgabenbeschreibung des Urhebers lesen](https://x.com/leo114119/status/2118711360687370622).
+
+[Ursprünglicher Vergleich von ferret (问心)](https://linux.do/t/topic/3132699).
+
+[![Vergleich zweier SVG-Pelikane an der Küste](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2118711291347095552-551badeb988e.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2118711291347095552-551badeb988e.jpg)
+
+Type: Evaluation | Date: 2026-11-06
+
+---
+
+<a id="case-25"></a>
+### Fall 25: [Mechanische Glaspfaue im Vergleich](https://x.com/leo114119/status/2118715056070467912) (von [@leo114119](https://x.com/leo114119))
+
+**Vergleiche anhand der wiederkehrenden Federformen und Glanzlichter, wie zwei Darstellungen Glas andeuten.**
+
+Leo teilt ferrets Vergleich mechanischer Pfaue. Das obere GPT-6 Astra-Bild zeigt einen flacheren Federfächer. Unten gibt GPT-6.2 Astra den Federschichten, dem Körper und dem Sockel sichtbar mehr Tiefe. An den Screenshots lassen sich Materialwirkung und Komposition vergleichen. Die Funktion der Bedienelemente geht daraus nicht hervor.
+
+[Ursprünglicher Vergleich von ferret (问心)](https://linux.do/t/topic/3132699).
+
+[![Mechanische Glaspfaue im Vergleich](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2118715028719439872-c8f5ebd4d7b3.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2118715028719439872-c8f5ebd4d7b3.jpg)
+
+Type: Evaluation | Date: 2026-11-06
+
+---
+
+<a id="case-26"></a>
+### Fall 26: [Eine Drachenstadt über den Wolken](https://x.com/leo114119/status/2118731885371150821) (von [@leo114119](https://x.com/leo114119))
+
+**Vergleiche Oberflächendetails und räumliche Tiefe in zwei Umsetzungen derselben Fantasieszene.**
+
+Leo teilt ferrets Vergleich Dragon City Above the Clouds mit GPT-6 Astra oben und GPT-6.2 Astra unten. Beide Szenen zeigen einen langen Drachen zwischen Gebäuden oberhalb der Wolkendecke. Unten sind Schuppen, Kopfdetails und die Staffelung des Vordergrunds deutlicher zu erkennen. Der sichtbare Unterschied betrifft die Gestaltung. Ferret beschreibt die Bedingungen der ursprünglichen Durchläufe.
+
+[Ursprünglicher Vergleich von ferret (问心)](https://linux.do/t/topic/3132699).
+
+[![Eine Drachenstadt über den Wolken](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2118716715051999233-1a5d766e0e37.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2118716715051999233-1a5d766e0e37.jpg)
+
+Type: Evaluation | Date: 2026-11-06
+
+---
+
+<a id="case-27"></a>
+### Fall 27: [Ein Papagei fährt Elektroroller](https://x.com/leo114119/status/2118846415845904510) (von [@leo114119](https://x.com/leo114119))
+
+**Untersuche an einer spielerischen Verkehrsszene, wie eine Webseite Illustration und Bedienelemente verbindet.**
+
+Leo präsentiert eine Webseite mit einem Papagei auf einem roten Elektroroller an der Küste. Im Hintergrund sind die Uferlinie und ein Leuchtturm zu sehen, darunter liegen Bedienelemente. Der Beitrag beschreibt das Ergebnis als möglichen Test von GPT-6.2 Astra in Codex. Der Screenshot dokumentiert die Seitengestaltung.
+
+[![Ein Papagei fährt Elektroroller](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2118846343498141696-6cb314bb30fe.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2118846343498141696-6cb314bb30fe.jpg)
+
+Type: Demo | Date: 2026-11-07
+
+---
+
+<a id="case-28"></a>
+### Fall 28: [Explosionszeichnungen eines Uhrwerks im Vergleich](https://x.com/leo114119/status/2118856012274749530) (von [@leo114119](https://x.com/leo114119))
+
+**Vergleiche, wie Explosionszeichnungen Abstand, Tiefe und Beschriftung einsetzen, um Bauteile leichter erkennbar zu machen.**
+
+Leo teilt zwei Webansichten von ferret, die ein zerlegtes Uhrwerk zeigen, oben GPT-6 Astra und unten GPT-6.2 Astra. Beide ordnen die Bauteile senkrecht übereinander an. Unten ist der Kontrast zwischen Zifferblatt, Zahnradformen und Gehäuse stärker. Die Screenshots zeigen die Aufbereitung des Diagramms. Die mechanischen Maße sind damit nicht überprüft.
+
+[Ursprünglicher Vergleich von ferret (问心)](https://linux.do/t/topic/3132699).
+
+[![Explosionszeichnungen eines Uhrwerks im Vergleich](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2118855536057753600-9ac05d51778b.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2118855536057753600-9ac05d51778b.jpg)
+
+Type: Evaluation | Date: 2026-11-07
+
+---
+
+<a id="case-29"></a>
+### Fall 29: [Illustriertes Raster zum chinesischen Tierkreis](https://x.com/leo114119/status/2118871556000776276) (von [@leo114119](https://x.com/leo114119))
+
+**Vergleiche anhand derselben Motive, wie einheitlich Layout und Illustrationsstil ausfallen.**
+
+Leo teilt ferrets Vergleich zweier Seiten zum chinesischen Tierkreis. Oben zeigt GPT-6 Astra heller gehaltene Tierzeichnungen. Unten nutzt GPT-6.2 Astra bei mehreren Figuren dichtere Schattierungen und mehr Details. Vergleiche, wie die zwölf Tiere angeordnet sind und wie einheitlich jede Seite sie darstellt.
+
+[Ursprünglicher Vergleich von ferret (问心)](https://linux.do/t/topic/3132699).
+
+[![Illustriertes Raster zum chinesischen Tierkreis](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2118856377263128576-385c6a679645.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2118856377263128576-385c6a679645.jpg)
+
+Type: Evaluation | Date: 2026-11-07
+
+---
+
+<a id="case-30"></a>
+### Fall 30: [Schmetterlingsschaukästen im Vergleich](https://x.com/leo114119/status/2118887410272440412) (von [@leo114119](https://x.com/leo114119))
+
+**Vergleiche anhand von Abständen, Beschriftungen und Farben die visuelle Hierarchie einer Schmetterlingssammlung.**
+
+Leo teilt ferrets Seiten mit Schmetterlingsschaukästen, oben mit GPT-6 Astra und unten mit GPT-6.2 Astra beschriftet. Beide verwenden ein gerahmtes Raster. Unten kommen abwechslungsreichere Flügelstellungen, sichtbare Textetiketten und Schatten hinzu. Das Paar zeigt den Unterschied zwischen einem dekorativen Bildraster und einer Gestaltung, die an einen echten Schaukasten erinnert.
+
+[Ursprünglicher Vergleich von ferret (问心)](https://linux.do/t/topic/3132699).
+
+[![Schmetterlingsschaukästen im Vergleich](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2118857009642524672-ea2007cc79a8.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2118857009642524672-ea2007cc79a8.jpg)
+
+Type: Evaluation | Date: 2026-11-07
+
+---
+
+<a id="case-31"></a>
+### Fall 31: [Zwei Animationen des Affenkönigs im Flugzeug](https://x.com/leo114119/status/2119212146970267749) (von [@leo114119](https://x.com/leo114119))
+
+**Vergleiche Figurenzeichnung und Kameraführung in zwei Fassungen derselben Flugszene.**
+
+Leo teilt eine Montage des Affenkönigs, der ein rotes Flugzeug steuert. Die obere Hälfte ist mit GPT-6.2 Astra beschriftet und zeigt eine rundlich gezeichnete Figur und ein räumlich dargestelltes Flugzeug über einer Landschaft. Die untere Hälfte mit GPT-6 Astra ist flächiger illustriert. Die Montage behält die Bezeichnungen und die Reihenfolge des Beitrags bei.
+
+[![Zwei Animationen des Affenkönigs im Flugzeug](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2119212087851225088-poster-ddfddf30bb2a.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2119212087851225088-4161c8a02a23.mp4)
+
+Type: Evaluation | Date: 2026-11-08
+
+---
+
+<a id="case-32"></a>
+### Fall 32: [Ein kurzer Weltraumthriller](https://x.com/sgdd666/status/2119323025229410673) (von [@sgdd666](https://x.com/sgdd666))
+
+**Beurteile Bildkomposition und Erzähltempo getrennt, wenn du kurze erzählerische Videos vergleichst.**
+
+sgdd666 antwortet mit dem Video auf die Bitte, einen Prompt zu testen. UFO2002616 verlinkt genau dieses Video und schreibt es einem GPT-6.2 Astra-Durchlauf eines Freundes zu. Die Aufnahmen zeigen ein stilisiertes Cockpit und dramatische Weltraumszenen. Der Verfasser des Prompts kommentiert visuelle Details und Erzähltempo getrennt. Diese Eindrücke beziehen sich auf das geteilte Video.
+
+[Zuschreibung des Prompt-Autors lesen](https://x.com/UFO2002616/status/2119344880115740709).
+
+[![Ein kurzer Weltraumthriller](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2119322919436484608-poster-a58b8c5be500.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2119322919436484608-e7b0b2653a7e.mp4)
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-33"></a>
+### Fall 33: [Zwei realistische Illustrationen radfahrender Pelikane](https://x.com/Mashiro_0619/status/2119369786513821916) (von [@Mashiro_0619](https://x.com/Mashiro_0619))
+
+**Vergleiche Gefieder, Fahrradgeometrie und Küstenlicht in zwei Standbildern.**
+
+Mashiro veröffentlicht zwei Küstenillustrationen mit Pelikanen und gibt an, denselben Prompt mit GPT-6.2 Astra und Fable 5.5 verwendet zu haben. Ein Vogel hat dunkleres Gefieder bei wärmerem Licht. Der andere ist weißer und steht vor einem klareren blauen Himmel. Der Beitrag lädt zum Raten ein. Der Vergleich übernimmt die ursprüngliche Bildreihenfolge und lässt offen, welches Modell zu welchem Bild gehört.
+
+<table><thead><tr><th>Ergebnis 1</th><th>Ergebnis 2</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2119369766368587776-d31a11bb145f.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2119369766368587776-d31a11bb145f.jpg" alt="Zwei realistische Illustrationen radfahrender Pelikane — Ergebnis 1" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2119369776367816704-70ba33013015.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2119369776367816704-70ba33013015.jpg" alt="Zwei realistische Illustrationen radfahrender Pelikane — Ergebnis 2" width="360"></a></td></tr></tbody></table>
+
+Type: Evaluation | Date: 2026-11-08
+
+---
+
+<a id="case-34"></a>
+### Fall 34: [Lichtstudie am Bahnhof Sakuragaoka](https://x.com/NFT_Chen/status/2119445997193773129) (von [@NFT_Chen](https://x.com/NFT_Chen))
+
+**Vergleiche, ob Schilder und kleine Szenendetails beim Wechsel der Beleuchtung erkennbar bleiben.**
+
+NFT_Chen veröffentlicht ein mit GPT-6.2 Astra beschriftetes Video einer Straße und eines Bahnhofs mit dem Schild 桜ヶ丘. Die Quelle beschreibt drei Lichtstimmungen, von Abenddämmerung bis zu rosa und violetten Nachttönen. Prüfe anhand des sichtbaren Bahnhofsnamens und wiederkehrender Details im Vordergrund, wie konsistent die Szene bleibt.
+
+[![Lichtstudie am Bahnhof Sakuragaoka](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2119444368012845056-poster-de4d6c90607d.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2119444368012845056-ee64f913b52c.mp4)
+
+Type: Demo | Date: 2026-11-08
+
+---
+
+<a id="case-35"></a>
+### Fall 35: [Stellaris-inspirierte Planetenansichten mit Bedienoberfläche im Vergleich](https://x.com/j4kcdq/status/2119666983272882237) (von [@j4kcdq](https://x.com/j4kcdq))
+
+**Vergleiche, wie zwei Prototypen die Planetendarstellung mit gut lesbaren Bedienelementen verbinden.**
+
+j4kcdq teilt zwei von Stellaris inspirierte Ergebnisse, die jeweils in einem Durchgang entstanden. Die Quelle bezeichnet die erste Aufnahme als GPT-6.2 Astra und die zweite als GPT-6 Astra. Das erste Video zeigt einen einzelnen Planeten. Beschränke den Vergleich auf Darstellung und Beleuchtung des Ringplaneten sowie die sichtbare Oberfläche.
+
+[Öffentliche Aufgabenbeschreibung des Urhebers lesen](https://x.com/j4kcdq/status/2119666983272882237).
+
+<table><thead><tr><th>GPT-6.2 Astra</th><th>GPT-6 Astra</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2119666926402326528-81f6d792ecfb.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2119666926402326528-poster-3bedb13f8283.jpg" alt="Stellaris-inspirierte Planetenansichten mit Bedienoberfläche im Vergleich — GPT-6.2 Astra" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2119666954751643648-d6f6a666e7b9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2119666954751643648-poster-a84dc8f15c6c.jpg" alt="Stellaris-inspirierte Planetenansichten mit Bedienoberfläche im Vergleich — GPT-6 Astra" width="360"></a></td></tr></tbody></table>
+
+Type: Evaluation | Date: 2026-11-09
+
+---
+
+<a id="case-36"></a>
+### Fall 36: [Ein Wal springt bei Sonnenaufgang](https://x.com/twno1indiaa3/status/2119697671007146271) (von [@twno1indiaa3](https://x.com/twno1indiaa3))
+
+**Gib bei einer kurzen Hochformat-Animation den Zeitablauf und die Abfolge der Ereignisse klar vor.**
+
+Der Urheber veröffentlicht ein Hochformatvideo mit einem kleinen Boot auf dem Meer im Morgengrauen, gefolgt von einem Walsprung und einem Regenbogen. Die öffentliche Aufgabenbeschreibung nennt den Zeitpunkt des Sprungs und den Lichtwechsel. Das geteilte Video dauert insgesamt rund 4,55 Sekunden. Der Urheber fragt, ob das Ergebnis über eine GPT-6.2 Astra-Route entstanden ist. Das Video zeigt die Abfolge, und die Modellzuordnung bleibt als Frage des Urhebers offen.
+
+[Öffentliche Aufgabenbeschreibung des Urhebers lesen](https://x.com/twno1indiaa3/status/2119697671007146271).
+
+[![Ein Wal springt bei Sonnenaufgang](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2119697636861386752-poster-aaeedf32e13f.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2119697636861386752-ad3e3804e9bc.mp4)
+
+Type: Demo | Date: 2026-11-09
+
+---
+
 <a id="related-repositories"></a>
 ## Related Repositories
 
@@ -213,6 +617,6 @@ Type: Evaluation | Date: 2026-11-02
 <a id="acknowledge"></a>
 ## 🙏 Danksagung
 
-[@SadAlbert10](https://x.com/SadAlbert10), [@leo114119](https://x.com/leo114119), [@FiniYang](https://x.com/FiniYang), [@notjazii](https://x.com/notjazii), [@GulaGala001](https://x.com/GulaGala001), [@noclipepe](https://x.com/noclipepe), [@chetaslua](https://x.com/chetaslua), [@Smlay_ero](https://x.com/Smlay_ero), [@Octoberry](https://x.com/Octoberry)
+[@SadAlbert10](https://x.com/SadAlbert10), [@leo114119](https://x.com/leo114119), [@FiniYang](https://x.com/FiniYang), [@notjazii](https://x.com/notjazii), [@GulaGala001](https://x.com/GulaGala001), [@noclipepe](https://x.com/noclipepe), [@marcthecreatorr](https://x.com/marcthecreatorr), [@nelia](https://linux.do/u/nelia), [@AI_Screening](https://x.com/AI_Screening), [@hakmgpt](https://x.com/hakmgpt), [@FixlationAI](https://x.com/FixlationAI), [@YFeng2022](https://x.com/YFeng2022), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@mirochill](https://x.com/mirochill), [@N1n3VASthR33H](https://x.com/N1n3VASthR33H), [@YouArtStudio](https://x.com/YouArtStudio), [@sgdd666](https://x.com/sgdd666), [@Mashiro_0619](https://x.com/Mashiro_0619), [@NFT_Chen](https://x.com/NFT_Chen), [@j4kcdq](https://x.com/j4kcdq), [@twno1indiaa3](https://x.com/twno1indiaa3), [ferret (问心)](https://linux.do/u/ferret), [@chetaslua](https://x.com/chetaslua), [@Smlay_ero](https://x.com/Smlay_ero), [@Octoberry](https://x.com/Octoberry)
 
 Danke an die Urheber und alle, die diese Demonstrationen geteilt haben. Medien Dritter behalten ihre ursprünglichen Rechte. Für eine Korrektur der Urheberangabe oder eine Bitte um Entfernung öffne ein Issue mit dem entsprechenden Quellenlink.
