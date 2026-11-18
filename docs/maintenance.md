@@ -12,7 +12,7 @@ Use a stable `case-N` anchor, a source-linked H3 title with creator credit, one 
 
 1. Review every new concrete demo and merge duplicates by underlying work.
 2. Add every qualifying work, without a selection cap.
-3. Update English first, then synchronize all ten translations and the two indexes.
+3. Assign new cases the next available numbers. Place the latest batch first in the Menu, case section, and both indexes. Update English first, then sync the same order to all ten translations.
 4. Use R2-hosted images or R2 posters linked to playable videos. Place separate comparison clips together.
 5. Check all relative links, anchors, case counts, metadata, media URLs and translated text. Inspect desktop and narrow README layouts.
 6. Honor source corrections and removal requests. Keep credentials and private working material out of commits.
