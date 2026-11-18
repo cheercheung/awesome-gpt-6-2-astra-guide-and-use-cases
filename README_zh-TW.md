@@ -30,7 +30,7 @@
 <a id="overview"></a>
 ## 📊 概覽
 
-36 個案例 · 44 項示範視覺素材 · 4 類任務。已審閱資料中所有符合條件的示範均已收錄；同一作品的轉貼歸為一組。完整提示詞並非收錄的必要條件。
+59 個案例 · 101 項示範視覺素材 · 4 類任務。已審閱資料中所有符合條件的示範均已收錄；同一作品的轉貼歸為一組。完整提示詞並非收錄的必要條件。
 
 > [!NOTE]
 > 模型標籤、耗時與比較觀察均沿用所連結創作者的說法。
@@ -85,6 +85,29 @@
 | [34. 櫻丘車站光照習作](#case-34) | 前端與動態設計 | 同一車站場景的多種光照方案 | 示範 |
 | [35. Stellaris 風格行星介面比較](#case-35) | 遊戲與場景 | 兩段帶行星環的行星介面錄影 | 評測 |
 | [36. 日出時鯨魚躍出海面](#case-36) | 前端與動態設計 | 從小船轉為鯨魚躍水的直式動畫 | 示範 |
+| [37. 下載現成素材得到的暴龍成果](#case-37) | 3D 與動畫 | 暴龍成品及素材來源說明 | 限制 |
+| [38. 單次模型呼叫得到的籃球員姿態](#case-38) | 3D 與動畫 | 疊加球員骨架的籃球影片 | 示範 |
+| [39. 透過追問擴充的 Babylon.js 地城](#case-39) | 遊戲與場景 | 地城、鍛造區與魔像戰鬥 | 示範 |
+| [40. LIBERO 試驗中的機器人操控程式](#case-40) | 3D 與動畫 | 附標籤的機器人操控模擬軌跡 | 評測 |
+| [41. 迭代預算不同的汽車模型](#case-41) | 3D 與動畫 | 兩輛附模型標籤的白色跑車 | 評測 |
+| [42. 不同模型世代以 TikZ 繪製獨角獸](#case-42) | 插畫 | 同一 TikZ 要求下的兩幅獨角獸插畫 | 評測 |
+| [43. 以 Blender 製作的牛仔玩具短片](#case-43) | 3D 與動畫 | 兩種附標籤的牛仔玩具短片呈現 | 評測 |
+| [44. 相同要求下的像素風飛行遊戲](#case-44) | 遊戲與場景 | 附標籤的飛行遊戲影片及報告費用 | 評測 |
+| [45. 附裝片動畫的瀏覽器 CD 點唱機](#case-45) | 前端與動態設計 | CD 機械臂、雙播放台與選曲介面 | 示範 |
+| [46. 將一段創作者影片改成三種產品廣告](#case-46) | 前端與動態設計 | 多種工具協作完成的產品廣告流程 | 教學 |
+| [47. 分離兩個互相扣住的爪形零件](#case-47) | 3D 與動畫 | 兩段附標籤的爪形零件操控過程 | 評測 |
+| [48. 未來感服裝概念與兩種廣告呈現](#case-48) | 前端與動態設計 | 四張概念及脈絡圖片與兩段宣傳影片 | 示範 |
+| [49. 模型標籤混合的二十個體素場景](#case-49) | 3D 與動畫 | 十七張標示 Astra、兩張標示 Sol 與一張未標模型的場景 | 示範 |
+| [50. 在潛艇遊戲中探索亞特蘭提斯](#case-50) | 遊戲與場景 | 兩種附標籤的水下探索遊戲場景 | 評測 |
+| [51. 海浪中航行的海盜船動畫](#case-51) | 前端與動態設計 | 帆船、夕陽與流動海面 | 示範 |
+| [52. 基準榜單旁的 Wojak 三維輸出](#case-52) | 插畫 | 排行榜與角色輸出範例 | 評測 |
+| [53. 在紐約上方化為機甲的 Yonkers](#case-53) | 3D 與動畫 | 兩種附標籤的機甲與地圖動畫 | 評測 |
+| [54. PacBench 的單頁小精靈復刻](#case-54) | 遊戲與場景 | 小精靈迷宮、操作方式與公開執行紀錄 | 評測 |
+| [55. 附關卡編輯器的 AX Ball 打磚塊遊戲](#case-55) | 遊戲與場景 | 打磚塊遊戲、關卡編輯器及介面 | 示範 |
+| [56. 五檔推理強度下的鵜鶘 SVG](#case-56) | 插畫 | 從 low 到 max 的五幅鵜鶘 SVG 輸出 | 評測 |
+| [57. 倉鼠打桌球的 SVG 比較](#case-57) | 插畫 | 兩幅附標籤的倉鼠桌球 SVG | 評測 |
+| [58. 五檔推理設定下的互動拉麵場景](#case-58) | 前端與動態設計 | 五種互動拉麵場景實作 | 評測 |
+| [59. Meridian Sound Racing 瀏覽器賽車](#case-59) | 遊戲與場景 | 官方未來風賽車與選車介面 | 示範 |
 
 [概覽](#overview) · [快速開始](#quick-start) · [相關儲存庫](#related-repositories) · [致謝](#acknowledge)
 
@@ -536,11 +559,11 @@ Type: Evaluation | Date: 2026-11-08
 ---
 
 <a id="case-32"></a>
-### 案例 32: [太空驚悚短片](https://x.com/sgdd666/status/2119323025229410673) (作者 [@sgdd666](https://x.com/sgdd666))
+### 案例 32: [太空驚悚短片](https://x.com/ATFANSEN/status/2119323025229410673) (作者 [@ATFANSEN](https://x.com/ATFANSEN))
 
 **比較敘事短片時，分別觀察鏡頭構圖與節奏。**
 
-sgdd666 回覆了一則測試提示詞的請求，並提供這段短片。UFO2002616 連結了同一段影片，表示來自一位朋友執行 GPT-6.2 Astra 的成果。畫面包含風格化駕駛艙與戲劇性的太空影像。提示詞作者分別評論了視覺細節和節奏，這些觀感針對的是分享的短片。
+ATFANSEN 回覆了一則測試提示詞的請求，並提供這段短片。UFO2002616 連結了同一段影片，表示來自一位朋友執行 GPT-6.2 Astra 的成果。畫面包含風格化駕駛艙與戲劇性的太空影像。提示詞作者分別評論了視覺細節和節奏，這些觀感針對的是分享的短片。
 
 [查看提示詞作者對作品來源的說明](https://x.com/UFO2002616/status/2119344880115740709).
 
@@ -606,6 +629,357 @@ Type: Demo | Date: 2026-11-09
 
 ---
 
+<a id="case-37"></a>
+### 案例 37: [下載現成素材得到的暴龍成果](https://x.com/luckeyfaraday/status/2122854206709051691) (作者 [@luckeyfaraday](https://x.com/luckeyfaraday))
+
+**評估建模任務時，同時檢查成品與素材來源。**
+
+作者分享旋轉的暴龍影片及對話截圖；截圖指出 Astra 下載了現成的動畫模型，而非自行建模，並將 animalanimator.com 列為素材來源。這提醒讀者區分素材組裝與原創建模。貼文沒有提供完整、可重現的指令紀錄。
+
+<table><thead><tr><th>圖示 1</th><th>圖示 2</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122854195858391040-3bc46739b1ed.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122854195858391040-3bc46739b1ed.jpg" alt="下載現成素材得到的暴龍成果 — 圖示 1" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122854195904581632-ad500c08062d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122854195904581632-poster-b6fad0683195.jpg" alt="下載現成素材得到的暴龍成果 — 圖示 2" width="360"></a></td></tr></tbody></table>
+
+Type: Limit | Date: 2026-11-18
+
+---
+
+<a id="case-38"></a>
+### 案例 38: [單次模型呼叫得到的籃球員姿態](https://x.com/skalskip92/status/2122847867782009063) (作者 [@skalskip92](https://x.com/skalskip92))
+
+**利用運動場景檢查空間解讀與姿態對齊。**
+
+Piotr Skalski 展示疊加球員骨架的籃球影片，並稱三維姿態估計來自一次 GPT-6.2 Astra high API 呼叫。影片提供可觀察的對齊範例，但未證明其在整個資料集上的準確率，也未記錄正式環境的追蹤流程。
+
+[![單次模型呼叫得到的籃球員姿態](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122845931888336896-poster-d9ff3af854f1.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122845931888336896-502028b390cf.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-39"></a>
+### 案例 39: [透過追問擴充的 Babylon.js 地城](https://x.com/intheworldofai/status/2122846010367934819) (作者 [@intheworldofai](https://x.com/intheworldofai))
+
+**觀察簡短追問如何改變既有的瀏覽器遊戲場景。**
+
+創作者先製作 Minecraft Dungeons 風格的 Babylon.js RPG，接著要求改進。分享的影片呈現冰封鍛造區、鐵匠及大型魔像戰鬥。作者稱兩座地城皆可在單一 HTML 檔案中離線執行，並將此次執行標示為 Ultra Mode。這是迭代展示，沒有提供受控比較。
+
+[![透過追問擴充的 Babylon.js 地城](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122845893455908865-poster-25a2d79f3f20.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122845893455908865-f0b001903b84.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-40"></a>
+### 案例 40: [LIBERO 試驗中的機器人操控程式](https://x.com/withplayground/status/2122844707474522616) (作者 [@withplayground](https://x.com/withplayground))
+
+**比較機器人控制輸出時，分別保留各自的評估條件。**
+
+Playground 展示附標籤的機器人操控軌跡，並報告測試了在無法存取模擬器、示範或網路時撰寫的程式。發布者區分神經網路方案與 Python 程式方案，稱兩者在 500 次 LIBERO 試驗中的成功率分別為 79% 和 96.8%。這些是發布者的結果，並非獨立重現的測量，也無法證明已部署於實體機器人。
+
+[![LIBERO 試驗中的機器人操控程式](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122842367208075264-poster-a9d4e9a475f4.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122842367208075264-06fcbd0e72d0.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-41"></a>
+### 案例 41: [迭代預算不同的汽車模型](https://x.com/ZryMiller/status/2122841159739580651) (作者 [@ZryMiller](https://x.com/ZryMiller))
+
+**比較幾何形狀與細節，同時記錄每個模型不同的投入時間。**
+
+ZryMiller 展示分別標示為 Astra 6.2 與 Fable 5.2 的兩輛白色跑車。創作者稱 Astra 用了約三小時，而 Fable 的作品已持續製作兩天，並認為 Astra 模型細節較少。觀看畫面時應保留這項迭代預算差異；這不是同等預算測試。
+
+[![迭代預算不同的汽車模型](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122841072682573824-poster-a76b592b0e63.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122841072682573824-27a7f97b5057.mp4)
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-42"></a>
+### 案例 42: [不同模型世代以 TikZ 繪製獨角獸](https://x.com/Angaisb_/status/2122836282875523449) (作者 [@Angaisb_](https://x.com/Angaisb_))
+
+**以相同繪畫要求比較可辨識的外形與視覺細節。**
+
+Angaisb_ 分享的原圖在相同的 TikZ 獨角獸繪畫要求下，並列 GPT-4 的簡單粉紅獨角獸與 GPT-6.2 Astra 較精細的插畫。這是公開的視覺範例，但未展示完整生成紀錄，因此不應解讀為整體品質評分。
+
+[![不同模型世代以 TikZ 繪製獨角獸](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122836253536141312-1bcd09c6e022.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122836253536141312-1bcd09c6e022.jpg)
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-43"></a>
+### 案例 43: [以 Blender 製作的牛仔玩具短片](https://x.com/ChrisGPT/status/2122837291874070590) (作者 [@ChrisGPT](https://x.com/ChrisGPT))
+
+**依相同創作要求比較短片調度與角色動作。**
+
+ChrisGPT 分享附標籤的分割畫面牛仔玩具短片，稱 GPT-6.2 Astra 與 Fable 5.2 收到相同的十秒 Blender 創作要求。作者報告 Astra 耗時約兩小時、生成約 60,000 tokens；Fable 則約二十小時、150,000–300,000 tokens。這些是創作者報告的執行資料，公開影片提供視覺比較。
+
+[![以 Blender 製作的牛仔玩具短片](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122837214916673536-poster-727538b72b7b.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122837214916673536-da2cd6faa9e1.mp4)
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-44"></a>
+### 案例 44: [相同要求下的像素風飛行遊戲](https://x.com/Densitylucky/status/2122834417647513702) (作者 [@Densitylucky](https://x.com/Densitylucky))
+
+**保留創作者的費用標籤，比較遊戲呈現與移動效果。**
+
+Densitylucky 展示分別歸屬於 Fable 5.2 與 GPT-6.2 Astra 的兩款像素風飛行遊戲，稱兩者使用相同提示詞，費用分別為 $22.78 和約 $10.03。貼文亦提到一個 143 KB 程式檔案，並指向回覆中的提示詞與遊戲連結。這些說法伴隨錄製的比較影片，並非已重現的基準測試。
+
+[![相同要求下的像素風飛行遊戲](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122804011715960832-poster-2c7efc75a6c7.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122804011715960832-4aa208e66880.mp4)
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-45"></a>
+### 案例 45: [附裝片動畫的瀏覽器 CD 點唱機](https://x.com/ShadeLurk/status/2122831337321349384) (作者 [@ShadeLurk](https://x.com/ShadeLurk))
+
+**在單一互動頁面結合選曲、機械動作與音訊播放。**
+
+ShadeLurk 的點唱機以機械臂動畫在唱片盒與雙播放台之間移動 CD。作者介紹其使用 Web Audio 與 Canvas/WebGL，將五首歌曲嵌入單一 HTML 檔案，並稱回覆中提供原始碼供讀者改編。錄影展示介面與裝片過程；來源脈絡提供作者的重用說明。
+
+[![附裝片動畫的瀏覽器 CD 點唱機](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122831048778432512-poster-ad656ceeaf63.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122831048778432512-b671cbfaded9.mp4)
+
+Type: Demo | Date: 2026-11-17
+
+---
+
+<a id="case-46"></a>
+### 案例 46: [將一段創作者影片改成三種產品廣告](https://x.com/magnific/status/2122830927332258093) (作者 [@magnific](https://x.com/magnific))
+
+**區分代理的流程協調與實際生成、編輯影片的媒體模型。**
+
+Magnific 展示 Astra 輔助的 MCP 流程，將一段創作者影片製成三種產品廣告。後續貼文明確指出，基礎影片由 Seedance 2.5 透過 Magnific MCP 生成，後續處理使用 Magnific Illusion。Astra 負責協調流程。發布者在討論串提供提示詞，因此本案例並未聲稱 Astra 直接合成影片畫格。
+
+[閱讀基礎影片的生成設定](https://x.com/magnific/status/2122830970051240072).
+
+[![將一段創作者影片改成三種產品廣告](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122830897535926272-poster-b2000a997bd8.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122830897535926272-104445c4389c.mp4)
+
+Type: Tutorial | Date: 2026-11-17
+
+---
+
+<a id="case-47"></a>
+### 案例 47: [分離兩個互相扣住的爪形零件](https://x.com/PhysAIAnalysis/status/2122830478663434403) (作者 [@PhysAIAnalysis](https://x.com/PhysAIAnalysis))
+
+**檢查模擬操控過程是否真正完成幾何目標。**
+
+Physical AI Analysis 並列展示爪形零件分離任務。影片要求模型在不破壞任一零件的情況下，分離互相扣住的兩個零件。發布者稱 Astra 將 interlock 指標降至零，而 Fable 5.2 仍維持鎖定，並提供耗時與費用。這些是該發布者特定設定下的結果，不代表通用物理推理排名。
+
+[![分離兩個互相扣住的爪形零件](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122830420450652160-poster-9e835ee2df7b.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122830420450652160-3859bea86b4f.mp4)
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-48"></a>
+### 案例 48: [未來感服裝概念與兩種廣告呈現](https://x.com/Masimo_Blue/status/2122829067238178940) (作者 [@Masimo_Blue](https://x.com/Masimo_Blue))
+
+**觀察同一視覺產品概念如何衍生成不同宣傳方案。**
+
+Masimo_Blue 先發布歸屬於 GPT-6.2 Astra 的未來感內褲概念，接著引用該設計貼文分享兩段宣傳影片。圖片包含設計與對話脈絡；影片採用不同字體、產品布景與燈光。作者也質疑尖銳金屬配件的實用性。貼文並未完整交代算圖工具或製作流程。
+
+[查看兩種宣傳呈現](https://x.com/Masimo_Blue/status/2122829971660112029).
+
+<table><thead><tr><th>圖示 1</th><th>圖示 2</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122829062288896000-63e2de62584b.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122829062288896000-63e2de62584b.jpg" alt="未來感服裝概念與兩種廣告呈現 — 圖示 1" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122829062339227649-28f334f041ec.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122829062339227649-28f334f041ec.jpg" alt="未來感服裝概念與兩種廣告呈現 — 圖示 2" width="360"></a></td></tr></tbody></table>
+
+<table><thead><tr><th>圖示 3</th><th>圖示 4</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122829062318198784-bb9949078abf.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122829062318198784-bb9949078abf.jpg" alt="未來感服裝概念與兩種廣告呈現 — 圖示 3" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122829062288941056-fe09897d873a.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122829062288941056-fe09897d873a.jpg" alt="未來感服裝概念與兩種廣告呈現 — 圖示 4" width="360"></a></td></tr></tbody></table>
+
+<table><thead><tr><th>圖示 5</th><th>圖示 6</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122829929415102464-91c555a9a21d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122829929415102464-poster-4849f6896d0a.jpg" alt="未來感服裝概念與兩種廣告呈現 — 圖示 5" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122829929369006080-c5a01b646e59.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122829929369006080-poster-a2653c788379.jpg" alt="未來感服裝概念與兩種廣告呈現 — 圖示 6" width="360"></a></td></tr></tbody></table>
+
+Type: Demo | Date: 2026-11-17
+
+---
+
+<a id="case-49"></a>
+### 案例 49: [模型標籤混合的二十個體素場景](https://x.com/voxelbench/status/2122829449330667636) (作者 [@voxelbench](https://x.com/voxelbench))
+
+**比較圖庫時，同時核對圖內模型標籤與貼文說明。**
+
+VoxelBench 的貼文將這組二十張圖歸於 Astra，並提醒錯誤率異常偏高。但圖內標籤呈現混合情況：十七張標示 GPT-6.2 Astra，兩張標示 GPT-6.2 Sol，另有一張沒有模型標籤。此處依來源順序完整保留二十張圖，並清楚標出這些差異。連結的失敗報告與這些精選成功場景一併保留；這組圖庫無法證明成功率。
+
+[閱讀報告中的生成失敗](https://x.com/voxelbench/status/2122778737959969177).
+
+<table><thead><tr><th>GPT-6.2 Astra · 1</th><th>GPT-6.2 Astra · 2</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888984190977-c95c0845ed46.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888984190977-c95c0845ed46.jpg" alt="模型標籤混合的二十個體素場景 — GPT-6.2 Astra · 1" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888984190976-a197cd919d57.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888984190976-a197cd919d57.jpg" alt="模型標籤混合的二十個體素場景 — GPT-6.2 Astra · 2" width="360"></a></td></tr></tbody></table>
+
+<table><thead><tr><th>GPT-6.2 Astra · 3</th><th>GPT-6.2 Astra · 4</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888984141824-d9b790a4b3a7.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888984141824-d9b790a4b3a7.jpg" alt="模型標籤混合的二十個體素場景 — GPT-6.2 Astra · 3" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888975810560-b28967f83579.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888975810560-b28967f83579.jpg" alt="模型標籤混合的二十個體素場景 — GPT-6.2 Astra · 4" width="360"></a></td></tr></tbody></table>
+
+<table><thead><tr><th>GPT-6.2 Astra · 5</th><th>GPT-6.2 Astra · 6</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888980017152-ef9efa130825.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888980017152-ef9efa130825.jpg" alt="模型標籤混合的二十個體素場景 — GPT-6.2 Astra · 5" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828889038671872-19cdf09a3fb0.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828889038671872-19cdf09a3fb0.jpg" alt="模型標籤混合的二十個體素場景 — GPT-6.2 Astra · 6" width="360"></a></td></tr></tbody></table>
+
+<table><thead><tr><th>GPT-6.2 Sol · 7</th><th>GPT-6.2 Sol · 8</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888921300992-2f0d06286796.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888921300992-2f0d06286796.jpg" alt="模型標籤混合的二十個體素場景 — GPT-6.2 Sol · 7" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888979951616-2711dacc6f53.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888979951616-2711dacc6f53.jpg" alt="模型標籤混合的二十個體素場景 — GPT-6.2 Sol · 8" width="360"></a></td></tr></tbody></table>
+
+<table><thead><tr><th>未標模型 · 9</th><th>GPT-6.2 Astra · 10</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888854183936-cfcf29f1cd1e.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888854183936-cfcf29f1cd1e.jpg" alt="模型標籤混合的二十個體素場景 — 未標模型 · 9" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888841613315-005e1ca7b001.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888841613315-005e1ca7b001.jpg" alt="模型標籤混合的二十個體素場景 — GPT-6.2 Astra · 10" width="360"></a></td></tr></tbody></table>
+
+<table><thead><tr><th>GPT-6.2 Astra · 11</th><th>GPT-6.2 Astra · 12</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888824819713-ad90bbab448e.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888824819713-ad90bbab448e.jpg" alt="模型標籤混合的二十個體素場景 — GPT-6.2 Astra · 11" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888824782848-ff7cbce8062b.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888824782848-ff7cbce8062b.jpg" alt="模型標籤混合的二十個體素場景 — GPT-6.2 Astra · 12" width="360"></a></td></tr></tbody></table>
+
+<table><thead><tr><th>GPT-6.2 Astra · 13</th><th>GPT-6.2 Astra · 14</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888984211457-144a7c95c370.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888984211457-144a7c95c370.jpg" alt="模型標籤混合的二十個體素場景 — GPT-6.2 Astra · 13" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888904544256-5bf3a1bb3461.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888904544256-5bf3a1bb3461.jpg" alt="模型標籤混合的二十個體素場景 — GPT-6.2 Astra · 14" width="360"></a></td></tr></tbody></table>
+
+<table><thead><tr><th>GPT-6.2 Astra · 15</th><th>GPT-6.2 Astra · 16</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888988434432-198f3d20da1a.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888988434432-198f3d20da1a.jpg" alt="模型標籤混合的二十個體素場景 — GPT-6.2 Astra · 15" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888824832000-029ca87ce81b.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888824832000-029ca87ce81b.jpg" alt="模型標籤混合的二十個體素場景 — GPT-6.2 Astra · 16" width="360"></a></td></tr></tbody></table>
+
+<table><thead><tr><th>GPT-6.2 Astra · 17</th><th>GPT-6.2 Astra · 18</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888816443392-5c25a5a25b16.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888816443392-5c25a5a25b16.jpg" alt="模型標籤混合的二十個體素場景 — GPT-6.2 Astra · 17" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888845832192-fdb202977df8.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888845832192-fdb202977df8.jpg" alt="模型標籤混合的二十個體素場景 — GPT-6.2 Astra · 18" width="360"></a></td></tr></tbody></table>
+
+<table><thead><tr><th>GPT-6.2 Astra · 19</th><th>GPT-6.2 Astra · 20</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888837365760-20c0d461ae97.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888837365760-20c0d461ae97.jpg" alt="模型標籤混合的二十個體素場景 — GPT-6.2 Astra · 19" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888833183744-85b661c42342.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888833183744-85b661c42342.jpg" alt="模型標籤混合的二十個體素場景 — GPT-6.2 Astra · 20" width="360"></a></td></tr></tbody></table>
+
+Type: Demo | Date: 2026-11-17
+
+---
+
+<a id="case-50"></a>
+### 案例 50: [在潛艇遊戲中探索亞特蘭提斯](https://x.com/higgsfield_ai/status/2122827586162340173) (作者 [@higgsfield_ai](https://x.com/higgsfield_ai))
+
+**依影片中的模型標籤比較水下導航場景。**
+
+Higgsfield 展示歸屬於 GPT-6.2 Astra 與 Fable 5.2 的分割畫面遊戲比較。潛艇在亞特蘭提斯風格的水下環境穿行，畫面包含遺跡與遊戲介面元素。發布者稱作品使用 Higgsfield 製作。影片支持場景呈現的視覺比較，但未記錄同等預算基準或全部中間過程。
+
+[![在潛艇遊戲中探索亞特蘭提斯](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122827515605729280-poster-e6514f6c3a4c.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122827515605729280-d2affd96bc04.mp4)
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-51"></a>
+### 案例 51: [海浪中航行的海盜船動畫](https://x.com/Da7_Tech/status/2122826218764439645) (作者 [@Da7_Tech](https://x.com/Da7_Tech))
+
+**在精簡場景中檢查水面、船帆與光線運動的配合。**
+
+Da7_Tech 分享附 GPT-6.2 Astra 標籤的海盜船動畫。影片呈現細節豐富的帆船、低垂的太陽與流動海水，並保留創作者浮水印。這是具體的場景動畫範例；來源未公開完整提示詞、技術堆疊或生成紀錄。
+
+[![海浪中航行的海盜船動畫](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122825729356300288-poster-9db563e047ae.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122825729356300288-be4d1a358b81.mp4)
+
+Type: Demo | Date: 2026-11-17
+
+---
+
+<a id="case-52"></a>
+### 案例 52: [基準榜單旁的 Wojak 三維輸出](https://x.com/lukaspet/status/2122823744691515729) (作者 [@lukaspet](https://x.com/lukaspet))
+
+**將實際算圖成果與發布者的排名說法一起檢查。**
+
+Lukas Peters 分享的 Wojak-Bench 3D 圖表同時包含排行榜與可見的 Astra 角色輸出。貼文稱基準尚未飽和，並特別指出模型仍難以處理 Bike Brainlet Wojak。應透過畫面檢查這項失敗邊界，而非將第一名的說法當成所有創作要求都已解決的證據。
+
+[![基準榜單旁的 Wojak 三維輸出](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122822417311735808-a203ec6ae451.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122822417311735808-a203ec6ae451.jpg)
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-53"></a>
+### 案例 53: [在紐約上方化為機甲的 Yonkers](https://x.com/simonw/status/2122822310428279136) (作者 [@simonw](https://x.com/simonw))
+
+**比較兩個模型如何理解同一項以地圖為基礎的動畫要求。**
+
+Simon Willison 分享附標籤的 Astra 與 Sol 結果：依 Three.js 要求，Yonkers 站起化為機甲，利用 OpenStreetMap 資料在曼哈頓、皇后區與布魯克林周圍移動。並列影片呈現不同的機器人及地圖處理方式。連結文章提供脈絡；單靠影片無法證明地理準確性或碰撞行為。
+
+[閱讀比較文章](https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/).
+
+[![在紐約上方化為機甲的 Yonkers](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122822265545125888-poster-4427e81cb48a.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122822265545125888-d31b1b651b7e.mp4)
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-54"></a>
+### 案例 54: [PacBench 的單頁小精靈復刻](https://news.ycombinator.com/item?id=50537602) (作者 [@thefourthchime](https://news.ycombinator.com/user?id=thefourthchime))
+
+**查看單次提示生成的遊戲時，同時檢查玩法規則與介面選擇。**
+
+PacBench 作者連結一款 GPT-6.2 Astra 小精靈復刻，公開請求與實際使用的模型 ID、high 推理強度、執行中繼資料及評分說明。遊戲包含迷宮、計分板、幽靈名單與鍵盤控制。作者給出 92 分，並指出頁面配置及橘色幽靈延遲出場等限制。評分與費用屬於基準作者的測量；讀者可透過線上遊戲與執行紀錄自行檢查。
+
+[開啟遊戲與執行紀錄](https://jonclegg.github.io/pacman-bakeoff/#gpt-6.2-astra).
+
+[![PacBench 的單頁小精靈復刻](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50537602-0-8ff45937d98b.png)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50537602-0-8ff45937d98b.png)
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-55"></a>
+### 案例 55: [附關卡編輯器的 AX Ball 打磚塊遊戲](https://news.ycombinator.com/item?id=50537589) (作者 [@goyozi](https://news.ycombinator.com/user?id=goyozi))
+
+**透過熟悉的街機玩法，一起檢查遊戲畫面、關卡工具與配套介面。**
+
+Goyozi 稱自己製作 DX Ball 風格遊戲來比較模型輸出，並將 AX Ball 標示為 Astra 6.2 的作品。公開頁面提供十二關戰役、關卡選擇器、編輯器、本機最高分與道具說明，以及彩色打磚塊畫面。創作者另有 Sol、Fable 與 Opus 作品連結。本案例保留 Astra 作品與作者歸屬；貼文未提供受控評分協定或完整生成紀錄。
+
+[試玩 AX Ball](https://goyozi.github.io/ax-ball/).
+
+[![附關卡編輯器的 AX Ball 打磚塊遊戲](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50537589-0-9fef713b9d7d.png)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50537589-0-9fef713b9d7d.png)
+
+Type: Demo | Date: 2026-11-17
+
+---
+
+<a id="case-56"></a>
+### 案例 56: [五檔推理強度下的鵜鶘 SVG](https://gist.github.com/simonw/fe836e13c90c00233c9e9e499a941805) (作者 [@simonw](https://github.com/simonw))
+
+**比較五檔推理設定對同一小型插畫要求的解讀。**
+
+Simon Willison 公開生成騎自行車鵜鶘 SVG 的提示詞，以及 GPT-6.2 Astra 在 low、medium、high、xhigh 與 max 推理強度下的原始回應。五幅插畫在構圖、自行車幾何與角色處理上各有不同。此處完整保留五種 Astra 輸出，而非只挑最喜愛的一幅。可開啟原始 SVG 檢查踏板位置與圖層關係；這只是視覺比較，無法證明品質隨強度穩定上升。
+
+[閱讀創作者討論](https://news.ycombinator.com/item?id=50535742).
+
+<table><thead><tr><th>GPT-6.2 Astra · low</th><th>GPT-6.2 Astra · medium</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50535742-0-259423021937.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50535742-0-259423021937.png" alt="五檔推理強度下的鵜鶘 SVG — GPT-6.2 Astra · low" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50535742-1-f731156a4a29.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50535742-1-f731156a4a29.png" alt="五檔推理強度下的鵜鶘 SVG — GPT-6.2 Astra · medium" width="360"></a></td></tr></tbody></table>
+
+<table><thead><tr><th>GPT-6.2 Astra · high</th><th>GPT-6.2 Astra · xhigh</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50535742-2-00a13aae0af9.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50535742-2-00a13aae0af9.png" alt="五檔推理強度下的鵜鶘 SVG — GPT-6.2 Astra · high" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50535742-3-e5fd8548f7e8.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50535742-3-e5fd8548f7e8.png" alt="五檔推理強度下的鵜鶘 SVG — GPT-6.2 Astra · xhigh" width="360"></a></td></tr></tbody></table>
+
+<table><thead><tr><th>GPT-6.2 Astra · max</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50535742-4-cb12b7f6a6f5.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50535742-4-cb12b7f6a6f5.png" alt="五檔推理強度下的鵜鶘 SVG — GPT-6.2 Astra · max" width="360"></a></td></tr></tbody></table>
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-57"></a>
+### 案例 57: [倉鼠打桌球的 SVG 比較](https://aibenchy.com/compare/openai-gpt-6-2-astra-max/openai-gpt-6-2-sol-max#showcases) (作者 [@XCSme](https://news.ycombinator.com/user?id=XCSme))
+
+**以一條明確公開的提示詞比較細緻的 SVG 插畫呈現。**
+
+AI BENCHY 將 GPT-6.2 Astra max 與 GPT-6.2 Sol max 並列，以相同提示詞繪製打桌球的倉鼠。Astra 畫面採用細緻場館、有紋理的毛髮與近距離球桌視角；Sol 則使用較簡單的角色與更正面的構圖。兩個 SVG 及其標籤皆完整保留。網站的耗時與費用標籤屬於各自執行，無法據此得出通用效能排名。
+
+[閱讀創作者討論](https://news.ycombinator.com/item?id=50537787).
+
+<table><thead><tr><th>GPT-6.2 Astra · max</th><th>GPT-6.2 Sol · max</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50537787-0-f41a80e93a2a.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50537787-0-f41a80e93a2a.png" alt="倉鼠打桌球的 SVG 比較 — GPT-6.2 Astra · max" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50537787-1-b9f000af0420.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50537787-1-b9f000af0420.png" alt="倉鼠打桌球的 SVG 比較 — GPT-6.2 Sol · max" width="360"></a></td></tr></tbody></table>
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-58"></a>
+### 案例 58: [五檔推理設定下的互動拉麵場景](https://news.ycombinator.com/item?id=50536390) (作者 [@stbenjam](https://github.com/stbenjam))
+
+**比較同一無外部相依場景要求的五種實作，觀察細節與氛圍。**
+
+Stephen Benjamin 的 Ramen Bench 要求生成單一 HTML 檔案，內嵌 CSS 與 JavaScript、不使用外部素材，呈現熱氣蒸騰的純素拉麵、自然動態與滑鼠互動。五個公開的 GPT-6.2 Astra 作品透過 Harbor，在 Codex 以 low、medium、high、xhigh 與 max 強度執行。執行清單連結 HTML 成果與紀錄，並區分牌價估算費用和訂閱收費。預覽保留全部五種場景；請開啟原作檢查要求中的動態及互動。
+
+[查看 Ramen Bench 及其共同提示詞](https://bitbin.de/ramen-bench/).
+
+<table><thead><tr><th>GPT-6.2 Astra · low</th><th>GPT-6.2 Astra · medium</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50536390-0-ffd319d1fe13.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50536390-0-ffd319d1fe13.png" alt="五檔推理設定下的互動拉麵場景 — GPT-6.2 Astra · low" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50536390-1-37f6f8bf3e0d.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50536390-1-37f6f8bf3e0d.png" alt="五檔推理設定下的互動拉麵場景 — GPT-6.2 Astra · medium" width="360"></a></td></tr></tbody></table>
+
+<table><thead><tr><th>GPT-6.2 Astra · high</th><th>GPT-6.2 Astra · xhigh</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50536390-2-31d0ce07fb69.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50536390-2-31d0ce07fb69.png" alt="五檔推理設定下的互動拉麵場景 — GPT-6.2 Astra · high" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50536390-3-194cd147469c.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50536390-3-194cd147469c.png" alt="五檔推理設定下的互動拉麵場景 — GPT-6.2 Astra · xhigh" width="360"></a></td></tr></tbody></table>
+
+<table><thead><tr><th>GPT-6.2 Astra · max</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50536390-4-3af87882fdad.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50536390-4-3af87882fdad.png" alt="五檔推理設定下的互動拉麵場景 — GPT-6.2 Astra · max" width="360"></a></td></tr></tbody></table>
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-59"></a>
+### 案例 59: [Meridian Sound Racing 瀏覽器賽車](https://meridian-futuristic-race.openai.chatgpt.site/) (作者 [@OpenAI](https://openai.com/))
+
+**在官方互動式三維展示中檢查選車與駕駛控制。**
+
+OpenAI 的 GPT-6.2 發布文章將 Meridian Sound Racing 介紹為由 GPT-6.2 Astra 建構、賽道穿越城市的可玩未來風賽車。線上頁面先呈現選車畫面，包含四個製造商、短程衝刺與 Grand Prix 賽事，以及鍵盤駕駛和加速控制。本預覽記錄已公開的瀏覽器作品，不將發布文章中的廣泛能力主張視為獨立測得的結果。
+
+[閱讀官方展示背景](https://openai.com/index/introducing-gpt-6-2-astra-sol/).
+
+[閱讀社群討論](https://news.ycombinator.com/item?id=50535959).
+
+[![Meridian Sound Racing 瀏覽器賽車](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50535959-0-8abecabad1c5.png)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50535959-0-8abecabad1c5.png)
+
+Type: Demo | Date: 2026-11-17
+
+---
+
 <a id="related-repositories"></a>
 ## Related Repositories
 
@@ -617,6 +991,6 @@ Type: Demo | Date: 2026-11-09
 <a id="acknowledge"></a>
 ## 🙏 致謝
 
-[@SadAlbert10](https://x.com/SadAlbert10), [@leo114119](https://x.com/leo114119), [@FiniYang](https://x.com/FiniYang), [@notjazii](https://x.com/notjazii), [@GulaGala001](https://x.com/GulaGala001), [@noclipepe](https://x.com/noclipepe), [@marcthecreatorr](https://x.com/marcthecreatorr), [@nelia](https://linux.do/u/nelia), [@AI_Screening](https://x.com/AI_Screening), [@hakmgpt](https://x.com/hakmgpt), [@FixlationAI](https://x.com/FixlationAI), [@YFeng2022](https://x.com/YFeng2022), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@mirochill](https://x.com/mirochill), [@N1n3VASthR33H](https://x.com/N1n3VASthR33H), [@YouArtStudio](https://x.com/YouArtStudio), [@sgdd666](https://x.com/sgdd666), [@Mashiro_0619](https://x.com/Mashiro_0619), [@NFT_Chen](https://x.com/NFT_Chen), [@j4kcdq](https://x.com/j4kcdq), [@twno1indiaa3](https://x.com/twno1indiaa3), [ferret (问心)](https://linux.do/u/ferret), [@chetaslua](https://x.com/chetaslua), [@Smlay_ero](https://x.com/Smlay_ero), [@Octoberry](https://x.com/Octoberry)
+[@SadAlbert10](https://x.com/SadAlbert10), [@leo114119](https://x.com/leo114119), [@FiniYang](https://x.com/FiniYang), [@notjazii](https://x.com/notjazii), [@GulaGala001](https://x.com/GulaGala001), [@noclipepe](https://x.com/noclipepe), [@marcthecreatorr](https://x.com/marcthecreatorr), [@nelia](https://linux.do/u/nelia), [@AI_Screening](https://x.com/AI_Screening), [@hakmgpt](https://x.com/hakmgpt), [@FixlationAI](https://x.com/FixlationAI), [@YFeng2022](https://x.com/YFeng2022), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@mirochill](https://x.com/mirochill), [@N1n3VASthR33H](https://x.com/N1n3VASthR33H), [@YouArtStudio](https://x.com/YouArtStudio), [@ATFANSEN](https://x.com/ATFANSEN), [@Mashiro_0619](https://x.com/Mashiro_0619), [@NFT_Chen](https://x.com/NFT_Chen), [@j4kcdq](https://x.com/j4kcdq), [@twno1indiaa3](https://x.com/twno1indiaa3), [@luckeyfaraday](https://x.com/luckeyfaraday), [@skalskip92](https://x.com/skalskip92), [@intheworldofai](https://x.com/intheworldofai), [@withplayground](https://x.com/withplayground), [@ZryMiller](https://x.com/ZryMiller), [@Angaisb_](https://x.com/Angaisb_), [@ChrisGPT](https://x.com/ChrisGPT), [@Densitylucky](https://x.com/Densitylucky), [@ShadeLurk](https://x.com/ShadeLurk), [@magnific](https://x.com/magnific), [@PhysAIAnalysis](https://x.com/PhysAIAnalysis), [@Masimo_Blue](https://x.com/Masimo_Blue), [@voxelbench](https://x.com/voxelbench), [@higgsfield_ai](https://x.com/higgsfield_ai), [@Da7_Tech](https://x.com/Da7_Tech), [@lukaspet](https://x.com/lukaspet), [@simonw](https://x.com/simonw), [@thefourthchime](https://news.ycombinator.com/user?id=thefourthchime), [@goyozi](https://news.ycombinator.com/user?id=goyozi), [@simonw](https://github.com/simonw), [@XCSme](https://news.ycombinator.com/user?id=XCSme), [@stbenjam](https://github.com/stbenjam), [@OpenAI](https://openai.com/), [ferret (问心)](https://linux.do/u/ferret), [@chetaslua](https://x.com/chetaslua), [@Smlay_ero](https://x.com/Smlay_ero), [@Octoberry](https://x.com/Octoberry)
 
 感謝這些示範背後的創作者與分享者。第三方媒體保留其原有權利。如需更正署名或申請移除，請提交 issue 並附上相關來源連結。

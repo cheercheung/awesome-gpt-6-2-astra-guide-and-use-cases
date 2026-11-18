@@ -684,12 +684,12 @@
       "title": "Space thriller short",
       "category": "Front-end & motion",
       "takeaway": "Review shot composition and pacing separately when comparing short story clips.",
-      "notes": "sgdd666 supplies the clip in a reply to a request to test a prompt. UFO2002616 links that exact clip and attributes it to a GPT-6.2 Astra run by a friend. The footage includes a stylized cockpit and dramatic space imagery. The prompt owner comments separately on visual detail and pacing. Those impressions apply to the shared clip.",
+      "notes": "ATFANSEN supplies the clip in a reply to a request to test a prompt. UFO2002616 links that exact clip and attributes it to a GPT-6.2 Astra run by a friend. The footage includes a stylized cockpit and dramatic space imagery. The prompt owner comments separately on visual detail and pacing. Those impressions apply to the shared clip.",
       "type": "Demo",
       "date": "2026-11-08",
-      "source_url": "https://x.com/sgdd666/status/2119323025229410673",
-      "author": "sgdd666",
-      "author_url": "https://x.com/sgdd666",
+      "source_url": "https://x.com/ATFANSEN/status/2119323025229410673",
+      "author": "ATFANSEN",
+      "author_url": "https://x.com/ATFANSEN",
       "media": [
         {
           "kind": "video",
@@ -792,6 +792,681 @@
       ],
       "prompt_source_url": "https://x.com/twno1indiaa3/status/2119697671007146271",
       "what_it_shows": "Vertical boat-to-whale animation"
+    },
+    {
+      "number": 37,
+      "anchor": "case-37",
+      "title": "A T-Rex result built from a downloaded asset",
+      "category": "3D & animation",
+      "takeaway": "Check asset provenance alongside the finished model when evaluating a modeling task.",
+      "notes": "The author shares a rotating T-Rex clip and a conversation screenshot reporting that Astra downloaded a finished animated model rather than building it. The screenshot names animalanimator.com as the asset source. This is a concrete warning to distinguish asset assembly from original modeling; the post does not provide a complete reproducible instruction trace.",
+      "type": "Limit",
+      "date": "2026-11-18",
+      "source_url": "https://x.com/luckeyfaraday/status/2122854206709051691",
+      "author": "luckeyfaraday",
+      "author_url": "https://x.com/luckeyfaraday",
+      "media": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122854195858391040-3bc46739b1ed.jpg"
+        },
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122854195904581632-ad500c08062d.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122854195904581632-poster-b6fad0683195.jpg"
+        }
+      ],
+      "what_it_shows": "Finished T-Rex and an asset-provenance disclosure"
+    },
+    {
+      "number": 38,
+      "anchor": "case-38",
+      "title": "Basketball player poses from a single model call",
+      "category": "3D & animation",
+      "takeaway": "Use a sports scene to inspect spatial interpretation and pose alignment.",
+      "notes": "Piotr Skalski presents basketball footage with player skeletons overlaid, attributing the three-dimensional pose estimation to one GPT-6.2 Astra high API call. The clip supplies a visible alignment example. It does not establish accuracy across a dataset or document a production tracking pipeline.",
+      "type": "Demo",
+      "date": "2026-11-18",
+      "source_url": "https://x.com/skalskip92/status/2122847867782009063",
+      "author": "skalskip92",
+      "author_url": "https://x.com/skalskip92",
+      "media": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122845931888336896-502028b390cf.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122845931888336896-poster-d9ff3af854f1.jpg"
+        }
+      ],
+      "what_it_shows": "Basketball footage with overlaid player skeletons"
+    },
+    {
+      "number": 39,
+      "anchor": "case-39",
+      "title": "A Babylon.js dungeon expanded through a follow-up",
+      "category": "Games & scenes",
+      "takeaway": "Inspect how a short follow-up changes an existing browser-game scene.",
+      "notes": "The creator describes a Minecraft Dungeons-style Babylon.js RPG, then asks to improve it. The shared footage shows a frozen forge, a blacksmith and a large golem encounter. The author says both dungeons run offline in a single HTML file and labels the run Ultra Mode. The post demonstrates iteration without supplying a controlled comparison.",
+      "type": "Demo",
+      "date": "2026-11-18",
+      "source_url": "https://x.com/intheworldofai/status/2122846010367934819",
+      "author": "intheworldofai",
+      "author_url": "https://x.com/intheworldofai",
+      "media": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122845893455908865-f0b001903b84.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122845893455908865-poster-25a2d79f3f20.jpg"
+        }
+      ],
+      "what_it_shows": "Dungeon scene, forge and golem encounter"
+    },
+    {
+      "number": 40,
+      "anchor": "case-40",
+      "title": "Robot manipulation code in LIBERO trials",
+      "category": "3D & animation",
+      "takeaway": "Compare robot-control outputs while keeping each evaluation setup separate.",
+      "notes": "Playground shows labeled robot-manipulation rollouts and reports testing code written without simulator access, demonstrations or web access. The publisher distinguishes a neural-network approach from a Python-code approach, reporting 79% and 96.8% success respectively over 500 LIBERO trials. These are the publisher’s results, not independently reproduced measurements or proof of deployment on physical robots.",
+      "type": "Evaluation",
+      "date": "2026-11-18",
+      "source_url": "https://x.com/withplayground/status/2122844707474522616",
+      "author": "withplayground",
+      "author_url": "https://x.com/withplayground",
+      "media": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122842367208075264-06fcbd0e72d0.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122842367208075264-poster-a9d4e9a475f4.jpg"
+        }
+      ],
+      "what_it_shows": "Labeled simulated robot-manipulation rollouts"
+    },
+    {
+      "number": 41,
+      "anchor": "case-41",
+      "title": "Car models with different iteration budgets",
+      "category": "3D & animation",
+      "takeaway": "Compare geometry and detail while recording unequal time spent on each model.",
+      "notes": "ZryMiller presents two white sports-car models labeled Astra 6.2 and Fable 5.2. The creator reports roughly three hours for Astra and two days of work with Fable, and calls the Astra model less detailed. Keep those different iteration budgets beside the visuals; this is not an equal-budget test.",
+      "type": "Evaluation",
+      "date": "2026-11-17",
+      "source_url": "https://x.com/ZryMiller/status/2122841159739580651",
+      "author": "ZryMiller",
+      "author_url": "https://x.com/ZryMiller",
+      "media": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122841072682573824-27a7f97b5057.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122841072682573824-poster-a76b592b0e63.jpg"
+        }
+      ],
+      "what_it_shows": "Two labeled white sports-car models"
+    },
+    {
+      "number": 42,
+      "anchor": "case-42",
+      "title": "A unicorn drawn in TikZ across model generations",
+      "category": "Illustration",
+      "takeaway": "Use a shared drawing brief to compare recognizable shape and visual detail.",
+      "notes": "The original image shared by Angaisb_ pairs a simple pink GPT-4 unicorn with a more elaborate GPT-6.2 Astra illustration under the brief to draw a unicorn in TikZ. The comparison is a published visual example. The image does not expose the complete generation traces, so it should not be read as a general quality score.",
+      "type": "Evaluation",
+      "date": "2026-11-17",
+      "source_url": "https://x.com/Angaisb_/status/2122836282875523449",
+      "author": "Angaisb_",
+      "author_url": "https://x.com/Angaisb_",
+      "media": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122836253536141312-1bcd09c6e022.jpg"
+        }
+      ],
+      "what_it_shows": "Two unicorn illustrations under one TikZ brief"
+    },
+    {
+      "number": 43,
+      "anchor": "case-43",
+      "title": "A cowboy toy film made in Blender",
+      "category": "3D & animation",
+      "takeaway": "Compare short-film staging and character motion from the same creative brief.",
+      "notes": "ChrisGPT shares a labeled split-screen cowboy-toy film and says GPT-6.2 Astra and Fable 5.2 received the same ten-second Blender brief. The creator reports about two hours and 60,000 generated tokens for Astra, versus about twenty hours and 150,000–300,000 tokens for Fable. These are creator-reported run figures, with the published clip providing the visual comparison.",
+      "type": "Evaluation",
+      "date": "2026-11-17",
+      "source_url": "https://x.com/ChrisGPT/status/2122837291874070590",
+      "author": "ChrisGPT",
+      "author_url": "https://x.com/ChrisGPT",
+      "media": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122837214916673536-da2cd6faa9e1.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122837214916673536-poster-727538b72b7b.jpg"
+        }
+      ],
+      "what_it_shows": "Two labeled cowboy-toy short-film treatments"
+    },
+    {
+      "number": 44,
+      "anchor": "case-44",
+      "title": "Pixel-art flight games from a shared brief",
+      "category": "Games & scenes",
+      "takeaway": "Compare game presentation and movement while preserving the creator’s cost labels.",
+      "notes": "Densitylucky presents two pixel-style flight games attributed to Fable 5.2 and GPT-6.2 Astra. The creator says both used the same prompt and reports costs of $22.78 and about $10.03 respectively. The post also describes a 143 KB code file and points to replies for the prompt and game links. Those claims accompany a recorded comparison rather than a reproduced benchmark.",
+      "type": "Evaluation",
+      "date": "2026-11-17",
+      "source_url": "https://x.com/Densitylucky/status/2122834417647513702",
+      "author": "Densitylucky",
+      "author_url": "https://x.com/Densitylucky",
+      "media": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122804011715960832-4aa208e66880.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122804011715960832-poster-2c7efc75a6c7.jpg"
+        }
+      ],
+      "what_it_shows": "Labeled flight-game footage and reported costs"
+    },
+    {
+      "number": 45,
+      "anchor": "case-45",
+      "title": "A browser CD jukebox with animated loading",
+      "category": "Front-end & motion",
+      "takeaway": "Use one interactive page to combine music selection, mechanical motion and audio playback.",
+      "notes": "ShadeLurk’s jukebox animates an arm moving CDs between cases and two decks. The creator describes Web Audio with Canvas/WebGL and five embedded songs in one HTML file, and says the source is shared in the replies for readers to adapt. The recording demonstrates the interface and disc-loading sequence; the linked context supplies the author’s reuse instructions.",
+      "type": "Demo",
+      "date": "2026-11-17",
+      "source_url": "https://x.com/ShadeLurk/status/2122831337321349384",
+      "author": "ShadeLurk",
+      "author_url": "https://x.com/ShadeLurk",
+      "media": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122831048778432512-b671cbfaded9.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122831048778432512-poster-ad656ceeaf63.jpg"
+        }
+      ],
+      "what_it_shows": "Animated CD arm, twin decks and track selection"
+    },
+    {
+      "number": 46,
+      "anchor": "case-46",
+      "title": "One creator clip adapted into three product ads",
+      "category": "Front-end & motion",
+      "takeaway": "Separate the agent’s orchestration from the media models that create and edit the clip.",
+      "notes": "Magnific presents an Astra-assisted MCP workflow that turns a creator clip into three product-ad treatments. A follow-up explicitly credits Seedance 2.5 for generating the base clip through Magnific MCP; Magnific Illusion handles the subsequent treatment. Astra coordinates the workflow. The publisher links prompts in the thread, so this example does not claim Astra directly synthesizes video frames.",
+      "type": "Tutorial",
+      "date": "2026-11-17",
+      "source_url": "https://x.com/magnific/status/2122830927332258093",
+      "author": "magnific",
+      "author_url": "https://x.com/magnific",
+      "media": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122830897535926272-104445c4389c.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122830897535926272-poster-b2000a997bd8.jpg"
+        }
+      ],
+      "what_it_shows": "A multi-tool creator-to-product-ad workflow",
+      "context_links": [
+        {
+          "url": "https://x.com/magnific/status/2122830970051240072",
+          "label": "Read the base-clip generation setup"
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "anchor": "case-47",
+      "title": "Separating two interlocked claw pieces",
+      "category": "3D & animation",
+      "takeaway": "Inspect whether a simulated manipulation sequence actually completes its geometric objective.",
+      "notes": "Physical AI Analysis presents a side-by-side claw-piece separation task. The labeled clip asks the models to separate two interlocked pieces without breaking either. The publisher reports that Astra reached an interlock value of zero while Fable 5.2 remained locked, and supplies run times and costs. These are results from the publisher’s setup, not a general physical-reasoning ranking.",
+      "type": "Evaluation",
+      "date": "2026-11-17",
+      "source_url": "https://x.com/PhysAIAnalysis/status/2122830478663434403",
+      "author": "PhysAIAnalysis",
+      "author_url": "https://x.com/PhysAIAnalysis",
+      "media": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122830420450652160-3859bea86b4f.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122830420450652160-poster-9e835ee2df7b.jpg"
+        }
+      ],
+      "what_it_shows": "Two labeled claw-piece manipulation sequences"
+    },
+    {
+      "number": 48,
+      "anchor": "case-48",
+      "title": "Futuristic apparel concepts and two ad treatments",
+      "category": "Front-end & motion",
+      "takeaway": "Follow a visual product concept through alternative promotional treatments.",
+      "notes": "Masimo_Blue first posts futuristic underwear concepts attributed to GPT-6.2 Astra, then shares two promotional clips in a follow-up quoting that design post. The images include the design and conversation context; the videos vary typography, product staging and lighting. The author also questions the practicality of the pointed hardware. The posts do not fully specify the rendering tools or production pipeline.",
+      "type": "Demo",
+      "date": "2026-11-17",
+      "source_url": "https://x.com/Masimo_Blue/status/2122829067238178940",
+      "author": "Masimo_Blue",
+      "author_url": "https://x.com/Masimo_Blue",
+      "media": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122829062288896000-63e2de62584b.jpg"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122829062339227649-28f334f041ec.jpg"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122829062318198784-bb9949078abf.jpg"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122829062288941056-fe09897d873a.jpg"
+        },
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122829929415102464-91c555a9a21d.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122829929415102464-poster-4849f6896d0a.jpg"
+        },
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122829929369006080-c5a01b646e59.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122829929369006080-poster-a2653c788379.jpg"
+        }
+      ],
+      "what_it_shows": "Four concept/context images and two promotional clips",
+      "context_links": [
+        {
+          "url": "https://x.com/Masimo_Blue/status/2122829971660112029",
+          "label": "View the two promotional treatments"
+        }
+      ]
+    },
+    {
+      "number": 49,
+      "anchor": "case-49",
+      "title": "Twenty voxel scenes with mixed model labels",
+      "category": "3D & animation",
+      "takeaway": "Read the embedded model labels as well as the caption when comparing a gallery.",
+      "notes": "VoxelBench’s caption attributes this twenty-image gallery to Astra and warns about an unusually high error rate. The embedded labels tell a more mixed story: seventeen images say GPT-6.2 Astra, two say GPT-6.2 Sol, and one has no model label. All twenty published images remain in source order, with those differences identified. The linked failure report accompanies these selected successful scenes; the gallery does not establish a success rate.",
+      "type": "Demo",
+      "date": "2026-11-17",
+      "source_url": "https://x.com/voxelbench/status/2122829449330667636",
+      "author": "voxelbench",
+      "author_url": "https://x.com/voxelbench",
+      "media": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888984190977-c95c0845ed46.jpg"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888984190976-a197cd919d57.jpg"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888984141824-d9b790a4b3a7.jpg"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888975810560-b28967f83579.jpg"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888980017152-ef9efa130825.jpg"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828889038671872-19cdf09a3fb0.jpg"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888921300992-2f0d06286796.jpg"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888979951616-2711dacc6f53.jpg"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888854183936-cfcf29f1cd1e.jpg"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888841613315-005e1ca7b001.jpg"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888824819713-ad90bbab448e.jpg"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888824782848-ff7cbce8062b.jpg"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888984211457-144a7c95c370.jpg"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888904544256-5bf3a1bb3461.jpg"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888988434432-198f3d20da1a.jpg"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888824832000-029ca87ce81b.jpg"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888816443392-5c25a5a25b16.jpg"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888845832192-fdb202977df8.jpg"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888837365760-20c0d461ae97.jpg"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888833183744-85b661c42342.jpg"
+        }
+      ],
+      "what_it_shows": "Seventeen Astra-labeled, two Sol-labeled and one unlabeled scene",
+      "context_links": [
+        {
+          "url": "https://x.com/voxelbench/status/2122778737959969177",
+          "label": "Read the reported generation failures"
+        }
+      ]
+    },
+    {
+      "number": 50,
+      "anchor": "case-50",
+      "title": "Exploring Atlantis in a submarine game",
+      "category": "Games & scenes",
+      "takeaway": "Compare underwater navigation scenes using the model labels in the shared footage.",
+      "notes": "Higgsfield presents a split-screen game comparison attributed to GPT-6.2 Astra and Fable 5.2. A submarine moves through an Atlantis-inspired underwater environment with ruins and game-interface elements. The publisher describes it as made with Higgsfield. The clip supports a visual comparison of scene treatments; it does not document an equal-budget benchmark or all intermediate work.",
+      "type": "Evaluation",
+      "date": "2026-11-17",
+      "source_url": "https://x.com/higgsfield_ai/status/2122827586162340173",
+      "author": "higgsfield_ai",
+      "author_url": "https://x.com/higgsfield_ai",
+      "media": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122827515605729280-d2affd96bc04.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122827515605729280-poster-e6514f6c3a4c.jpg"
+        }
+      ],
+      "what_it_shows": "Two labeled underwater exploration-game scenes"
+    },
+    {
+      "number": 51,
+      "anchor": "case-51",
+      "title": "A pirate ship on animated ocean waves",
+      "category": "Front-end & motion",
+      "takeaway": "Inspect coordinated water, sail and lighting motion in a compact scene.",
+      "notes": "Da7_Tech shares a labeled GPT-6.2 Astra pirate-ship animation. The footage shows a detailed sailing ship, a low sun and moving ocean water, with the creator’s watermark visible. It provides a concrete scene-animation example; the source does not disclose a full prompt, implementation stack or generation trace.",
+      "type": "Demo",
+      "date": "2026-11-17",
+      "source_url": "https://x.com/Da7_Tech/status/2122826218764439645",
+      "author": "Da7_Tech",
+      "author_url": "https://x.com/Da7_Tech",
+      "media": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122825729356300288-be4d1a358b81.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122825729356300288-poster-9db563e047ae.jpg"
+        }
+      ],
+      "what_it_shows": "A sailing ship, sunset and moving sea"
+    },
+    {
+      "number": 52,
+      "anchor": "case-52",
+      "title": "Wojak 3D examples beside a benchmark table",
+      "category": "Illustration",
+      "takeaway": "Examine the actual rendered examples alongside the publisher’s ranking claim.",
+      "notes": "Lukas Peters shares a Wojak-Bench 3D graphic that includes a leaderboard and visible Astra character outputs. The post says the benchmark remains unsaturated and specifically calls out difficulty with the Bike Brainlet Wojak. Use the shown outputs to inspect that failure boundary instead of treating the top-rank claim as proof that every brief is solved.",
+      "type": "Evaluation",
+      "date": "2026-11-17",
+      "source_url": "https://x.com/lukaspet/status/2122823744691515729",
+      "author": "lukaspet",
+      "author_url": "https://x.com/lukaspet",
+      "media": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122822417311735808-a203ec6ae451.jpg"
+        }
+      ],
+      "what_it_shows": "Leaderboard graphic with character-output examples"
+    },
+    {
+      "number": 53,
+      "anchor": "case-53",
+      "title": "Yonkers becomes a mech above New York",
+      "category": "3D & animation",
+      "takeaway": "Compare how two models interpret the same map-based animation brief.",
+      "notes": "Simon Willison shares labeled Astra and Sol results for a Three.js brief in which Yonkers stands up as a mech and moves around Manhattan, Queens and Brooklyn using OpenStreetMap data. The paired recording shows different robot and map treatments. The linked article supplies context; the clip alone does not establish geographic accuracy or collision behavior.",
+      "type": "Evaluation",
+      "date": "2026-11-17",
+      "source_url": "https://x.com/simonw/status/2122822310428279136",
+      "author": "simonw",
+      "author_url": "https://x.com/simonw",
+      "media": [
+        {
+          "kind": "video",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122822265545125888-d31b1b651b7e.mp4",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122822265545125888-poster-4427e81cb48a.jpg"
+        }
+      ],
+      "what_it_shows": "Two labeled mech-and-map animation treatments",
+      "context_links": [
+        {
+          "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+          "label": "Read the comparison article"
+        }
+      ]
+    },
+    {
+      "number": 54,
+      "anchor": "case-54",
+      "title": "PacBench single-page Pac-Man recreation",
+      "category": "Games & scenes",
+      "takeaway": "Check gameplay rules and interface choices alongside a single-prompt game result.",
+      "notes": "The PacBench author links a GPT-6.2 Astra Pac-Man recreation and publishes the requested and actual model id, high reasoning effort, run metadata and scoring notes. The game combines the maze with a scoreboard, ghost roster and keyboard controls. The author scores it 92 and identifies limitations including the surrounding page layout and the orange ghost’s delayed release. Treat the score and cost as this benchmark author’s measurements; the live game and run record let readers inspect the result themselves.",
+      "type": "Evaluation",
+      "date": "2026-11-17",
+      "source_url": "https://news.ycombinator.com/item?id=50537602",
+      "author": "thefourthchime",
+      "author_url": "https://news.ycombinator.com/user?id=thefourthchime",
+      "media": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50537602-0-8ff45937d98b.png"
+        }
+      ],
+      "what_it_shows": "Pac-Man maze, controls and published run record",
+      "context_links": [
+        {
+          "url": "https://jonclegg.github.io/pacman-bakeoff/#gpt-6.2-astra",
+          "label": "Open the game and run record"
+        }
+      ]
+    },
+    {
+      "number": 55,
+      "anchor": "case-55",
+      "title": "AX Ball breakout game with level editor",
+      "category": "Games & scenes",
+      "takeaway": "Use a familiar arcade game to inspect the play screen, level tools and supporting interface together.",
+      "notes": "Goyozi describes building a DX Ball-style game to compare model outputs and identifies AX Ball as the Astra 6.2 entry. The published page shows a twelve-level campaign, a level selector, an editor, local high scores and power-up guidance around a colorful brick-breaking playfield. The creator also links separate Sol, Fable and Opus entries. This case records the Astra work and its creator attribution; the post does not provide a controlled scoring protocol or a complete generation transcript.",
+      "type": "Demo",
+      "date": "2026-11-17",
+      "source_url": "https://news.ycombinator.com/item?id=50537589",
+      "author": "goyozi",
+      "author_url": "https://news.ycombinator.com/user?id=goyozi",
+      "media": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50537589-0-9fef713b9d7d.png"
+        }
+      ],
+      "what_it_shows": "Brick-breaking game, level editor and interface",
+      "context_links": [
+        {
+          "url": "https://goyozi.github.io/ax-ball/",
+          "label": "Play AX Ball"
+        }
+      ]
+    },
+    {
+      "number": 56,
+      "anchor": "case-56",
+      "title": "Pelican SVGs across five reasoning efforts",
+      "category": "Illustration",
+      "takeaway": "Compare how five effort settings interpret the same small illustration brief.",
+      "notes": "Simon Willison publishes the prompt “Generate an SVG of a pelican riding a bicycle” with raw GPT-6.2 Astra responses at low, medium, high, xhigh and max reasoning effort. The five illustrations vary in composition, bicycle geometry and character treatment. All five Astra outputs are retained here rather than selecting a single favorite. Use the original SVGs to inspect details such as pedal placement and layering; the collection is a visual comparison, not evidence that quality rises steadily with effort.",
+      "type": "Evaluation",
+      "date": "2026-11-17",
+      "source_url": "https://gist.github.com/simonw/fe836e13c90c00233c9e9e499a941805",
+      "author": "simonw",
+      "author_url": "https://github.com/simonw",
+      "media": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50535742-0-259423021937.png"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50535742-1-f731156a4a29.png"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50535742-2-00a13aae0af9.png"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50535742-3-e5fd8548f7e8.png"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50535742-4-cb12b7f6a6f5.png"
+        }
+      ],
+      "what_it_shows": "Five pelican SVG outputs from low through max",
+      "context_links": [
+        {
+          "url": "https://news.ycombinator.com/item?id=50535742",
+          "label": "Read the creator’s discussion"
+        }
+      ]
+    },
+    {
+      "number": 57,
+      "anchor": "case-57",
+      "title": "Hamster table-tennis SVG comparison",
+      "category": "Illustration",
+      "takeaway": "Compare detailed SVG illustration treatments from one explicitly published prompt.",
+      "notes": "AI BENCHY presents GPT-6.2 Astra max and GPT-6.2 Sol max side by side for the prompt “Create a detailed SVG illustration of a hamster playing table tennis.” The Astra illustration uses a detailed arena scene, textured fur and a close perspective on the table, while the Sol illustration uses a simpler character and more frontal composition. Both SVG results and their labels are preserved. The site’s timing and cost labels belong to its own runs and do not establish a general performance ranking.",
+      "type": "Evaluation",
+      "date": "2026-11-17",
+      "source_url": "https://aibenchy.com/compare/openai-gpt-6-2-astra-max/openai-gpt-6-2-sol-max#showcases",
+      "author": "XCSme",
+      "author_url": "https://news.ycombinator.com/user?id=XCSme",
+      "media": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50537787-0-f41a80e93a2a.png"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50537787-1-b9f000af0420.png"
+        }
+      ],
+      "what_it_shows": "Two labeled hamster table-tennis SVGs",
+      "context_links": [
+        {
+          "url": "https://news.ycombinator.com/item?id=50537787",
+          "label": "Read the creator’s discussion"
+        }
+      ]
+    },
+    {
+      "number": 58,
+      "anchor": "case-58",
+      "title": "Interactive ramen scenes across five effort settings",
+      "category": "Front-end & motion",
+      "takeaway": "Compare visual detail and atmosphere across five implementations of one dependency-free scene brief.",
+      "notes": "Stephen Benjamin’s Ramen Bench asks models for a single HTML file with inline CSS and JavaScript, zero external assets, a steaming bowl of vegan ramen, natural motion and mouse interaction. The five published GPT-6.2 Astra entries run in Codex through Harbor at low, medium, high, xhigh and max effort. Their run manifests link the HTML results and transcripts, and distinguish estimated list-price cost from subscription charges. The previews preserve all five Astra scene treatments; open the originals to inspect the motion and interaction requested by the brief.",
+      "type": "Evaluation",
+      "date": "2026-11-17",
+      "source_url": "https://news.ycombinator.com/item?id=50536390",
+      "author": "stbenjam",
+      "author_url": "https://github.com/stbenjam",
+      "media": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50536390-0-ffd319d1fe13.png"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50536390-1-37f6f8bf3e0d.png"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50536390-2-31d0ce07fb69.png"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50536390-3-194cd147469c.png"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50536390-4-3af87882fdad.png"
+        }
+      ],
+      "what_it_shows": "Five interactive ramen scene implementations",
+      "context_links": [
+        {
+          "url": "https://bitbin.de/ramen-bench/",
+          "label": "Explore Ramen Bench and its shared prompt"
+        }
+      ]
+    },
+    {
+      "number": 59,
+      "anchor": "case-59",
+      "title": "Meridian Sound Racing browser game",
+      "category": "Games & scenes",
+      "takeaway": "Inspect vehicle selection and race controls in an official interactive 3D demonstration.",
+      "notes": "OpenAI’s GPT-6.2 launch article identifies Meridian Sound Racing as a playable futuristic racing game built by GPT-6.2 Astra, with a track winding through a city. The linked live page opens a vehicle-selection screen with four constructors, sprint and Grand Prix events, and keyboard driving and boost controls. This preview records the published browser work, rather than treating the launch article’s broader capability claims as independently measured results.",
+      "type": "Demo",
+      "date": "2026-11-17",
+      "source_url": "https://meridian-futuristic-race.openai.chatgpt.site/",
+      "author": "OpenAI",
+      "author_url": "https://openai.com/",
+      "media": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50535959-0-8abecabad1c5.png"
+        }
+      ],
+      "what_it_shows": "Official futuristic racer and vehicle selection",
+      "context_links": [
+        {
+          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+          "label": "Read the official demonstration context"
+        },
+        {
+          "url": "https://news.ycombinator.com/item?id=50535959",
+          "label": "Read the community discussion"
+        }
+      ]
     }
   ]
 }

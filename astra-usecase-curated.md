@@ -33,8 +33,31 @@
 | 29 | [Chinese zodiac illustration grid](README.md#case-29) | [@leo114119](https://x.com/leo114119/status/2118871556000776276) |
 | 30 | [Butterfly specimen display comparison](README.md#case-30) | [@leo114119](https://x.com/leo114119/status/2118887410272440412) |
 | 31 | [Monkey King airplane animation comparison](README.md#case-31) | [@leo114119](https://x.com/leo114119/status/2119212146970267749) |
-| 32 | [Space thriller short](README.md#case-32) | [@sgdd666](https://x.com/sgdd666/status/2119323025229410673) |
+| 32 | [Space thriller short](README.md#case-32) | [@ATFANSEN](https://x.com/ATFANSEN/status/2119323025229410673) |
 | 33 | [Two realistic pelican cycling illustrations](README.md#case-33) | [@Mashiro_0619](https://x.com/Mashiro_0619/status/2119369786513821916) |
 | 34 | [Sakuragaoka station lighting study](README.md#case-34) | [@NFT_Chen](https://x.com/NFT_Chen/status/2119445997193773129) |
 | 35 | [Stellaris-inspired planet interface comparison](README.md#case-35) | [@j4kcdq](https://x.com/j4kcdq/status/2119666983272882237) |
 | 36 | [Whale breach at sunrise](README.md#case-36) | [@twno1indiaa3](https://x.com/twno1indiaa3/status/2119697671007146271) |
+| 37 | [A T-Rex result built from a downloaded asset](README.md#case-37) | [@luckeyfaraday](https://x.com/luckeyfaraday/status/2122854206709051691) |
+| 38 | [Basketball player poses from a single model call](README.md#case-38) | [@skalskip92](https://x.com/skalskip92/status/2122847867782009063) |
+| 39 | [A Babylon.js dungeon expanded through a follow-up](README.md#case-39) | [@intheworldofai](https://x.com/intheworldofai/status/2122846010367934819) |
+| 40 | [Robot manipulation code in LIBERO trials](README.md#case-40) | [@withplayground](https://x.com/withplayground/status/2122844707474522616) |
+| 41 | [Car models with different iteration budgets](README.md#case-41) | [@ZryMiller](https://x.com/ZryMiller/status/2122841159739580651) |
+| 42 | [A unicorn drawn in TikZ across model generations](README.md#case-42) | [@Angaisb_](https://x.com/Angaisb_/status/2122836282875523449) |
+| 43 | [A cowboy toy film made in Blender](README.md#case-43) | [@ChrisGPT](https://x.com/ChrisGPT/status/2122837291874070590) |
+| 44 | [Pixel-art flight games from a shared brief](README.md#case-44) | [@Densitylucky](https://x.com/Densitylucky/status/2122834417647513702) |
+| 45 | [A browser CD jukebox with animated loading](README.md#case-45) | [@ShadeLurk](https://x.com/ShadeLurk/status/2122831337321349384) |
+| 46 | [One creator clip adapted into three product ads](README.md#case-46) | [@magnific](https://x.com/magnific/status/2122830927332258093) |
+| 47 | [Separating two interlocked claw pieces](README.md#case-47) | [@PhysAIAnalysis](https://x.com/PhysAIAnalysis/status/2122830478663434403) |
+| 48 | [Futuristic apparel concepts and two ad treatments](README.md#case-48) | [@Masimo_Blue](https://x.com/Masimo_Blue/status/2122829067238178940) |
+| 49 | [Twenty voxel scenes with mixed model labels](README.md#case-49) | [@voxelbench](https://x.com/voxelbench/status/2122829449330667636) |
+| 50 | [Exploring Atlantis in a submarine game](README.md#case-50) | [@higgsfield_ai](https://x.com/higgsfield_ai/status/2122827586162340173) |
+| 51 | [A pirate ship on animated ocean waves](README.md#case-51) | [@Da7_Tech](https://x.com/Da7_Tech/status/2122826218764439645) |
+| 52 | [Wojak 3D examples beside a benchmark table](README.md#case-52) | [@lukaspet](https://x.com/lukaspet/status/2122823744691515729) |
+| 53 | [Yonkers becomes a mech above New York](README.md#case-53) | [@simonw](https://x.com/simonw/status/2122822310428279136) |
+| 54 | [PacBench single-page Pac-Man recreation](README.md#case-54) | [@thefourthchime](https://news.ycombinator.com/item?id=50537602) |
+| 55 | [AX Ball breakout game with level editor](README.md#case-55) | [@goyozi](https://news.ycombinator.com/item?id=50537589) |
+| 56 | [Pelican SVGs across five reasoning efforts](README.md#case-56) | [@simonw](https://gist.github.com/simonw/fe836e13c90c00233c9e9e499a941805) |
+| 57 | [Hamster table-tennis SVG comparison](README.md#case-57) | [@XCSme](https://aibenchy.com/compare/openai-gpt-6-2-astra-max/openai-gpt-6-2-sol-max#showcases) |
+| 58 | [Interactive ramen scenes across five effort settings](README.md#case-58) | [@stbenjam](https://news.ycombinator.com/item?id=50536390) |
+| 59 | [Meridian Sound Racing browser game](README.md#case-59) | [@OpenAI](https://meridian-futuristic-race.openai.chatgpt.site/) |

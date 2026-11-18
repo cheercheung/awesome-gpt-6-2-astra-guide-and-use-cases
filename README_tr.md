@@ -30,7 +30,7 @@
 <a id="overview"></a>
 ## 📊 Genel Bakış
 
-36 örnek · 44 demo görseli · 4 görev grubu. İncelenen derlemede ölçütleri karşılayan tüm demolar dahil edilmiştir; aynı çalışmanın yeniden paylaşımları birlikte gruplandırılmıştır. Tam istemlerin bulunması zorunlu değildir.
+59 örnek · 101 demo görseli · 4 görev grubu. İncelenen derlemede ölçütleri karşılayan tüm demolar dahil edilmiştir; aynı çalışmanın yeniden paylaşımları birlikte gruplandırılmıştır. Tam istemlerin bulunması zorunlu değildir.
 
 > [!NOTE]
 > Model etiketleri, süreler ve karşılaştırma gözlemleri, bağlantısı verilen üreticilerin açıklamalarına dayanır.
@@ -85,6 +85,29 @@
 | [34. Sakuragaoka istasyonunda ışık çalışması](#case-34) | Ön yüz ve hareket | Farklı ışıklandırmalarla gösterilen bir istasyon sahnesi | Demo |
 | [35. Stellaris’ten esinlenen gezegen arayüzlerinin karşılaştırması](#case-35) | Oyunlar ve sahneler | Halkalı gezegen arayüzlerinin iki kaydı | Değerlendirme |
 | [36. Gün doğumunda sudan sıçrayan balina](#case-36) | Ön yüz ve hareket | Tekneden balina sıçrayışına uzanan dikey animasyon | Demo |
+| [37. İndirilen hazır varlıkla oluşturulan bir T-Rex](#case-37) | 3B ve animasyon | Bitmiş T-Rex ve varlığın kaynağına ilişkin açıklama | Sınırlama |
+| [38. Tek model çağrısıyla basketbolcuların pozları](#case-38) | 3B ve animasyon | Oyuncu iskeletleri bindirilmiş basketbol görüntüleri | Demo |
+| [39. Bir ek istekle genişletilen Babylon.js zindanı](#case-39) | Oyunlar ve sahneler | Zindan sahnesi, demirhane ve golem karşılaşması | Demo |
+| [40. LIBERO denemelerinde robot manipülasyon kodu](#case-40) | 3B ve animasyon | Etiketli simüle robot manipülasyon yürütümleri | Değerlendirme |
+| [41. Farklı yineleme bütçeleriyle otomobil modelleri](#case-41) | 3B ve animasyon | Etiketli iki beyaz spor otomobil modeli | Değerlendirme |
+| [42. Model nesilleri arasında TikZ tekboynuz çizimi](#case-42) | İllüstrasyon | Aynı TikZ isteğine dayanan iki tekboynuz çizimi | Değerlendirme |
+| [43. Blender’da yapılmış oyuncak kovboy filmi](#case-43) | 3B ve animasyon | Etiketli iki oyuncak kovboy kısa film yorumu | Değerlendirme |
+| [44. Ortak istekten piksel tarzı uçuş oyunları](#case-44) | Oyunlar ve sahneler | Etiketli uçuş oyunu görüntüleri ve bildirilen maliyetler | Değerlendirme |
+| [45. Animasyonlu yüklemeli tarayıcı CD müzik kutusu](#case-45) | Ön yüz ve hareket | Animasyonlu CD kolu, iki oynatıcı ve parça seçimi | Demo |
+| [46. Bir içerik videosundan üç ürün reklamı](#case-46) | Ön yüz ve hareket | Birden fazla araçla videodan ürün reklamına iş akışı | Rehber |
+| [47. Birbirine kenetli iki pençe parçasını ayırma](#case-47) | 3B ve animasyon | Etiketli iki pençe parçası manipülasyon dizisi | Değerlendirme |
+| [48. Fütüristik giysi tasarımları ve iki reklam yorumu](#case-48) | Ön yüz ve hareket | Dört fikir/bağlam görseli ve iki tanıtım videosu | Demo |
+| [49. Karışık model etiketleriyle yirmi voksel sahnesi](#case-49) | 3B ve animasyon | On yedi Astra etiketli, iki Sol etiketli ve bir etiketsiz sahne | Demo |
+| [50. Denizaltı oyununda Atlantis’i keşfetmek](#case-50) | Oyunlar ve sahneler | Etiketli iki su altı keşif oyunu sahnesi | Değerlendirme |
+| [51. Animasyonlu okyanus dalgalarında korsan gemisi](#case-51) | Ön yüz ve hareket | Yelkenli, gün batımı ve hareketli deniz | Demo |
+| [52. Kıyaslama tablosu yanında Wojak 3D örnekleri](#case-52) | İllüstrasyon | Karakter çıktısı örnekleriyle sıralama görseli | Değerlendirme |
+| [53. Yonkers New York üzerinde bir mecha dönüşüyor](#case-53) | 3B ve animasyon | Etiketli iki mech ve harita animasyonu yorumu | Değerlendirme |
+| [54. PacBench’te tek sayfalık Pac-Man yeniden yapımı](#case-54) | Oyunlar ve sahneler | Pac-Man labirenti, kontroller ve yayımlanan çalışma kaydı | Değerlendirme |
+| [55. Bölüm düzenleyicili AX Ball oyunu](#case-55) | Oyunlar ve sahneler | Tuğla kırma oyunu, bölüm düzenleyici ve arayüz | Demo |
+| [56. Beş akıl yürütme düzeyinde pelikan SVG’leri](#case-56) | İllüstrasyon | Low ile max arasında beş pelikan SVG çıktısı | Değerlendirme |
+| [57. Masa tenisi oynayan hamsterların SVG karşılaştırması](#case-57) | İllüstrasyon | Etiketli iki masa tenisi oynayan hamster SVG’si | Değerlendirme |
+| [58. Beş efor ayarında etkileşimli ramen sahneleri](#case-58) | Ön yüz ve hareket | Etkileşimli ramen sahnesinin beş uygulaması | Değerlendirme |
+| [59. Tarayıcıda Meridian Sound Racing](#case-59) | Oyunlar ve sahneler | Resmî fütüristik yarış oyunu ve araç seçimi | Demo |
 
 [Genel Bakış](#overview) · [Hızlı Başlangıç](#quick-start) · [İlgili Depolar](#related-repositories) · [Teşekkür](#acknowledge)
 
@@ -536,11 +559,11 @@ Type: Evaluation | Date: 2026-11-08
 ---
 
 <a id="case-32"></a>
-### Örnek 32: [Kısa bir uzay gerilimi](https://x.com/sgdd666/status/2119323025229410673) (yazan [@sgdd666](https://x.com/sgdd666))
+### Örnek 32: [Kısa bir uzay gerilimi](https://x.com/ATFANSEN/status/2119323025229410673) (yazan [@ATFANSEN](https://x.com/ATFANSEN))
 
 **Kısa hikâye videolarını karşılaştırırken planların kompozisyonunu ve tempoyu ayrı ayrı değerlendirin.**
 
-sgdd666, bir istemi test etme talebine yanıt olarak klibi paylaşıyor. UFO2002616 tam olarak bu klibe bağlantı veriyor ve klibin bir arkadaşının GPT-6.2 Astra çalıştırmasından geldiğini belirtiyor. Görüntülerde stilize bir kokpit ve dramatik uzay sahneleri var. İstemin sahibi görsel ayrıntılar ve tempo hakkında ayrı ayrı yorum yapıyor. Bu izlenimler paylaşılan kliple ilgili.
+ATFANSEN, bir istemi test etme talebine yanıt olarak klibi paylaşıyor. UFO2002616 tam olarak bu klibe bağlantı veriyor ve klibin bir arkadaşının GPT-6.2 Astra çalıştırmasından geldiğini belirtiyor. Görüntülerde stilize bir kokpit ve dramatik uzay sahneleri var. İstemin sahibi görsel ayrıntılar ve tempo hakkında ayrı ayrı yorum yapıyor. Bu izlenimler paylaşılan kliple ilgili.
 
 [İstem sahibinin atfını okuyun](https://x.com/UFO2002616/status/2119344880115740709).
 
@@ -606,6 +629,357 @@ Type: Demo | Date: 2026-11-09
 
 ---
 
+<a id="case-37"></a>
+### Örnek 37: [İndirilen hazır varlıkla oluşturulan bir T-Rex](https://x.com/luckeyfaraday/status/2122854206709051691) (yazan [@luckeyfaraday](https://x.com/luckeyfaraday))
+
+**Modelleme görevini değerlendirirken bitmiş modelin yanında kullanılan varlıkların kaynağını da kontrol edin.**
+
+Yazar, dönen bir T-Rex videosuyla birlikte Astra’nın modeli oluşturmak yerine hazır bir animasyonlu model indirdiğini bildiren konuşma ekran görüntüsünü paylaşıyor. Ekran görüntüsü kaynak olarak animalanimator.com adresini gösteriyor. Örnek, hazır varlıkları birleştirmeyle özgün modelleme arasındaki ayrımı somutlaştırıyor; paylaşımda eksiksiz ve yeniden üretilebilir bir talimat kaydı bulunmuyor.
+
+<table><thead><tr><th>Görsel 1</th><th>Görsel 2</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122854195858391040-3bc46739b1ed.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122854195858391040-3bc46739b1ed.jpg" alt="İndirilen hazır varlıkla oluşturulan bir T-Rex — Görsel 1" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122854195904581632-ad500c08062d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122854195904581632-poster-b6fad0683195.jpg" alt="İndirilen hazır varlıkla oluşturulan bir T-Rex — Görsel 2" width="360"></a></td></tr></tbody></table>
+
+Type: Limit | Date: 2026-11-18
+
+---
+
+<a id="case-38"></a>
+### Örnek 38: [Tek model çağrısıyla basketbolcuların pozları](https://x.com/skalskip92/status/2122847867782009063) (yazan [@skalskip92](https://x.com/skalskip92))
+
+**Uzamsal yorumlama ve poz hizalamasını incelemek için bir spor sahnesi kullanın.**
+
+Piotr Skalski, oyuncuların üzerine iskeletlerin bindirildiği basketbol görüntüleri sunuyor ve üç boyutlu poz tahminini high düzeyinde tek bir GPT-6.2 Astra API çağrısına bağlıyor. Video, görünür bir hizalama örneği sağlıyor. Bir veri kümesindeki doğruluğu ortaya koymuyor ve üretimde kullanılan bir takip hattını belgelemiyor.
+
+[![Tek model çağrısıyla basketbolcuların pozları](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122845931888336896-poster-d9ff3af854f1.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122845931888336896-502028b390cf.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-39"></a>
+### Örnek 39: [Bir ek istekle genişletilen Babylon.js zindanı](https://x.com/intheworldofai/status/2122846010367934819) (yazan [@intheworldofai](https://x.com/intheworldofai))
+
+**Kısa bir ek isteğin mevcut tarayıcı oyunu sahnesini nasıl değiştirdiğini inceleyin.**
+
+Üretici, Minecraft Dungeons tarzında bir Babylon.js RPG’sini anlatıyor, ardından iyileştirilmesini istiyor. Paylaşılan görüntülerde donmuş bir demirhane, demirci ve büyük bir golem karşılaşması var. Yazar, iki zindanın da tek HTML dosyasında çevrimdışı çalıştığını söylüyor ve çalışmayı Ultra Mode olarak etiketliyor. Paylaşım yinelemeyi gösteriyor; kontrollü bir karşılaştırma sunmuyor.
+
+[![Bir ek istekle genişletilen Babylon.js zindanı](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122845893455908865-poster-25a2d79f3f20.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122845893455908865-f0b001903b84.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-40"></a>
+### Örnek 40: [LIBERO denemelerinde robot manipülasyon kodu](https://x.com/withplayground/status/2122844707474522616) (yazan [@withplayground](https://x.com/withplayground))
+
+**Her değerlendirme düzenini ayrı tutarak robot kontrol çıktılarını karşılaştırın.**
+
+Playground etiketli robot manipülasyon yürütümleri gösteriyor; simülatör erişimi, gösterimler veya web erişimi olmadan yazılan kodu test ettiğini bildiriyor. Yayıncı, sinir ağı yaklaşımıyla Python kodu yaklaşımını ayırıyor ve 500 LIBERO denemesinde sırasıyla 79% ve 96.8% başarı bildiriyor. Bunlar yayıncının sonuçlarıdır; bağımsız olarak yeniden üretilmiş ölçümler ya da fiziksel robotlarda kullanıma ilişkin kanıt değildir.
+
+[![LIBERO denemelerinde robot manipülasyon kodu](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122842367208075264-poster-a9d4e9a475f4.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122842367208075264-06fcbd0e72d0.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-41"></a>
+### Örnek 41: [Farklı yineleme bütçeleriyle otomobil modelleri](https://x.com/ZryMiller/status/2122841159739580651) (yazan [@ZryMiller](https://x.com/ZryMiller))
+
+**Geometri ve ayrıntıları karşılaştırırken modellere ayrılan eşit olmayan süreleri kaydedin.**
+
+ZryMiller, Astra 6.2 ve Fable 5.2 etiketli iki beyaz spor otomobil modeli sunuyor. Üretici Astra için yaklaşık üç saat, Fable ile çalışma için iki gün bildiriyor ve Astra modelini daha az ayrıntılı buluyor. Bu farklı yineleme bütçelerini görsellerle birlikte değerlendirin; bu, eşit bütçeli bir test değildir.
+
+[![Farklı yineleme bütçeleriyle otomobil modelleri](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122841072682573824-poster-a76b592b0e63.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122841072682573824-27a7f97b5057.mp4)
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-42"></a>
+### Örnek 42: [Model nesilleri arasında TikZ tekboynuz çizimi](https://x.com/Angaisb_/status/2122836282875523449) (yazan [@Angaisb_](https://x.com/Angaisb_))
+
+**Tanınabilir biçim ve görsel ayrıntıyı karşılaştırmak için ortak bir çizim isteği kullanın.**
+
+Angaisb_ tarafından paylaşılan özgün görsel, TikZ’de tekboynuz çizme isteği altında GPT-4’ün basit pembe tekboynuzuyla GPT-6.2 Astra’nın daha ayrıntılı çizimini yan yana getiriyor. Bu, yayımlanmış bir görsel karşılaştırma örneğidir. Görsel, tüm üretim kayıtlarını göstermediğinden genel bir kalite puanı olarak yorumlanmamalıdır.
+
+[![Model nesilleri arasında TikZ tekboynuz çizimi](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122836253536141312-1bcd09c6e022.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122836253536141312-1bcd09c6e022.jpg)
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-43"></a>
+### Örnek 43: [Blender’da yapılmış oyuncak kovboy filmi](https://x.com/ChrisGPT/status/2122837291874070590) (yazan [@ChrisGPT](https://x.com/ChrisGPT))
+
+**Aynı yaratıcı istekten çıkan kısa film sahnelemesini ve karakter hareketini karşılaştırın.**
+
+ChrisGPT, etiketli bölünmüş ekran oyuncak kovboy filmi paylaşıyor ve GPT-6.2 Astra ile Fable 5.2’ye aynı on saniyelik Blender isteğinin verildiğini söylüyor. Üretici, Astra için yaklaşık iki saat ve 60,000 üretilmiş token; Fable için yaklaşık yirmi saat ve 150,000–300,000 token bildiriyor. Bunlar üreticinin bildirdiği çalışma değerleridir; yayımlanmış video görsel karşılaştırmayı sağlar.
+
+[![Blender’da yapılmış oyuncak kovboy filmi](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122837214916673536-poster-727538b72b7b.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122837214916673536-da2cd6faa9e1.mp4)
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-44"></a>
+### Örnek 44: [Ortak istekten piksel tarzı uçuş oyunları](https://x.com/Densitylucky/status/2122834417647513702) (yazan [@Densitylucky](https://x.com/Densitylucky))
+
+**Üreticinin maliyet etiketlerini koruyarak oyunun sunumunu ve hareketini karşılaştırın.**
+
+Densitylucky, Fable 5.2 ve GPT-6.2 Astra’ya atfedilen iki piksel tarzı uçuş oyunu sunuyor. Üretici aynı istemin kullanıldığını söylüyor; sırasıyla $22.78 ve yaklaşık $10.03 maliyet bildiriyor. Paylaşım ayrıca 143 KB bir kod dosyasından söz ediyor ve istem ile oyun bağlantıları için yanıtlara yönlendiriyor. Bu iddialar kaydedilmiş bir karşılaştırmaya eşlik ediyor; yeniden üretilmiş bir kıyaslama değildir.
+
+[![Ortak istekten piksel tarzı uçuş oyunları](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122804011715960832-poster-2c7efc75a6c7.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122804011715960832-4aa208e66880.mp4)
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-45"></a>
+### Örnek 45: [Animasyonlu yüklemeli tarayıcı CD müzik kutusu](https://x.com/ShadeLurk/status/2122831337321349384) (yazan [@ShadeLurk](https://x.com/ShadeLurk))
+
+**Müzik seçimini, mekanik hareketi ve ses çalmayı tek etkileşimli sayfada birleştirin.**
+
+ShadeLurk’ün müzik kutusu, CD’leri kutularıyla iki oynatıcı arasında taşıyan bir kolu canlandırıyor. Üretici tek HTML dosyasında Web Audio, Canvas/WebGL ve gömülü beş şarkı kullandığını, uyarlama için kaynak kodunu yanıtlarda paylaştığını söylüyor. Kayıt arayüzü ve disk yükleme sırasını gösteriyor; bağlantılı bağlamda yazarın yeniden kullanım talimatları bulunuyor.
+
+[![Animasyonlu yüklemeli tarayıcı CD müzik kutusu](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122831048778432512-poster-ad656ceeaf63.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122831048778432512-b671cbfaded9.mp4)
+
+Type: Demo | Date: 2026-11-17
+
+---
+
+<a id="case-46"></a>
+### Örnek 46: [Bir içerik videosundan üç ürün reklamı](https://x.com/magnific/status/2122830927332258093) (yazan [@magnific](https://x.com/magnific))
+
+**Ajanın koordinasyonunu videoyu üreten ve düzenleyen medya modellerinden ayırın.**
+
+Magnific, bir içerik üreticisinin videosunu üç ürün reklamı yorumuna dönüştüren Astra destekli MCP iş akışını sunuyor. Bir devam yanıtı, temel videonun Magnific MCP üzerinden Seedance 2.5 ile üretildiğini açıkça belirtiyor; sonraki dönüşümü Magnific Illusion yapıyor. Astra iş akışını koordine ediyor. Yayıncı istemleri konu dizisinde bağlantılıyor; örnek, Astra’nın video karelerini doğrudan sentezlediğini iddia etmiyor.
+
+[Temel videonun üretim düzenini okuyun](https://x.com/magnific/status/2122830970051240072).
+
+[![Bir içerik videosundan üç ürün reklamı](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122830897535926272-poster-b2000a997bd8.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122830897535926272-104445c4389c.mp4)
+
+Type: Tutorial | Date: 2026-11-17
+
+---
+
+<a id="case-47"></a>
+### Örnek 47: [Birbirine kenetli iki pençe parçasını ayırma](https://x.com/PhysAIAnalysis/status/2122830478663434403) (yazan [@PhysAIAnalysis](https://x.com/PhysAIAnalysis))
+
+**Simüle manipülasyon dizisinin geometrik hedefini gerçekten tamamlayıp tamamlamadığını inceleyin.**
+
+Physical AI Analysis, pençe parçalarını ayırma görevini yan yana sunuyor. Etiketli video, birbirine kenetli iki parçanın kırılmadan ayrılmasını istiyor. Yayıncı, Astra’nın kenetlenme değerini sıfıra indirdiğini, Fable 5.2’nin ise kenetli kaldığını bildiriyor; süre ve maliyetleri de veriyor. Bunlar yayıncının düzenine ait sonuçlardır, genel bir fiziksel akıl yürütme sıralaması değildir.
+
+[![Birbirine kenetli iki pençe parçasını ayırma](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122830420450652160-poster-9e835ee2df7b.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122830420450652160-3859bea86b4f.mp4)
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-48"></a>
+### Örnek 48: [Fütüristik giysi tasarımları ve iki reklam yorumu](https://x.com/Masimo_Blue/status/2122829067238178940) (yazan [@Masimo_Blue](https://x.com/Masimo_Blue))
+
+**Görsel ürün fikrinin farklı tanıtım yorumlarına dönüşümünü izleyin.**
+
+Masimo_Blue önce GPT-6.2 Astra’ya atfedilen fütüristik iç çamaşırı fikirlerini, ardından tasarım paylaşımını alıntılayan iki tanıtım videosunu paylaşıyor. Görseller tasarımı ve konuşma bağlamını içeriyor; videolar tipografi, ürün sahnelemesi ve ışıkta farklılaşıyor. Yazar, sivri metal parçaların kullanışlılığını da sorguluyor. Paylaşımlar, işleme araçlarını veya üretim hattını eksiksiz belirtmiyor.
+
+[İki tanıtım yorumunu görüntüleyin](https://x.com/Masimo_Blue/status/2122829971660112029).
+
+<table><thead><tr><th>Görsel 1</th><th>Görsel 2</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122829062288896000-63e2de62584b.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122829062288896000-63e2de62584b.jpg" alt="Fütüristik giysi tasarımları ve iki reklam yorumu — Görsel 1" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122829062339227649-28f334f041ec.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122829062339227649-28f334f041ec.jpg" alt="Fütüristik giysi tasarımları ve iki reklam yorumu — Görsel 2" width="360"></a></td></tr></tbody></table>
+
+<table><thead><tr><th>Görsel 3</th><th>Görsel 4</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122829062318198784-bb9949078abf.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122829062318198784-bb9949078abf.jpg" alt="Fütüristik giysi tasarımları ve iki reklam yorumu — Görsel 3" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122829062288941056-fe09897d873a.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122829062288941056-fe09897d873a.jpg" alt="Fütüristik giysi tasarımları ve iki reklam yorumu — Görsel 4" width="360"></a></td></tr></tbody></table>
+
+<table><thead><tr><th>Görsel 5</th><th>Görsel 6</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122829929415102464-91c555a9a21d.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122829929415102464-poster-4849f6896d0a.jpg" alt="Fütüristik giysi tasarımları ve iki reklam yorumu — Görsel 5" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122829929369006080-c5a01b646e59.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122829929369006080-poster-a2653c788379.jpg" alt="Fütüristik giysi tasarımları ve iki reklam yorumu — Görsel 6" width="360"></a></td></tr></tbody></table>
+
+Type: Demo | Date: 2026-11-17
+
+---
+
+<a id="case-49"></a>
+### Örnek 49: [Karışık model etiketleriyle yirmi voksel sahnesi](https://x.com/voxelbench/status/2122829449330667636) (yazan [@voxelbench](https://x.com/voxelbench))
+
+**Bir galeriyi karşılaştırırken paylaşım metninin yanında görsellerdeki model etiketlerini de okuyun.**
+
+VoxelBench’in paylaşım metni, yirmi görsellik bu galeriyi Astra’ya atfediyor ve alışılmadık derecede yüksek hata oranını vurguluyor. Görsellere gömülü etiketler ise daha karışık bir tablo gösteriyor: on yedi görsel GPT-6.2 Astra, iki görsel GPT-6.2 Sol diyor ve birinde model etiketi bulunmuyor. Yayımlanan yirmi görselin tümü, bu farklar belirtilerek özgün sıralarında korunuyor. Bağlantılı hata raporu, seçilmiş bu başarılı sahnelere eşlik ediyor; galeri bir başarı oranı ortaya koymuyor.
+
+[Bildirilen üretim hatalarını okuyun](https://x.com/voxelbench/status/2122778737959969177).
+
+<table><thead><tr><th>GPT-6.2 Astra · 1</th><th>GPT-6.2 Astra · 2</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888984190977-c95c0845ed46.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888984190977-c95c0845ed46.jpg" alt="Karışık model etiketleriyle yirmi voksel sahnesi — GPT-6.2 Astra · 1" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888984190976-a197cd919d57.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888984190976-a197cd919d57.jpg" alt="Karışık model etiketleriyle yirmi voksel sahnesi — GPT-6.2 Astra · 2" width="360"></a></td></tr></tbody></table>
+
+<table><thead><tr><th>GPT-6.2 Astra · 3</th><th>GPT-6.2 Astra · 4</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888984141824-d9b790a4b3a7.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888984141824-d9b790a4b3a7.jpg" alt="Karışık model etiketleriyle yirmi voksel sahnesi — GPT-6.2 Astra · 3" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888975810560-b28967f83579.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888975810560-b28967f83579.jpg" alt="Karışık model etiketleriyle yirmi voksel sahnesi — GPT-6.2 Astra · 4" width="360"></a></td></tr></tbody></table>
+
+<table><thead><tr><th>GPT-6.2 Astra · 5</th><th>GPT-6.2 Astra · 6</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888980017152-ef9efa130825.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888980017152-ef9efa130825.jpg" alt="Karışık model etiketleriyle yirmi voksel sahnesi — GPT-6.2 Astra · 5" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828889038671872-19cdf09a3fb0.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828889038671872-19cdf09a3fb0.jpg" alt="Karışık model etiketleriyle yirmi voksel sahnesi — GPT-6.2 Astra · 6" width="360"></a></td></tr></tbody></table>
+
+<table><thead><tr><th>GPT-6.2 Sol · 7</th><th>GPT-6.2 Sol · 8</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888921300992-2f0d06286796.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888921300992-2f0d06286796.jpg" alt="Karışık model etiketleriyle yirmi voksel sahnesi — GPT-6.2 Sol · 7" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888979951616-2711dacc6f53.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888979951616-2711dacc6f53.jpg" alt="Karışık model etiketleriyle yirmi voksel sahnesi — GPT-6.2 Sol · 8" width="360"></a></td></tr></tbody></table>
+
+<table><thead><tr><th>Etiketsiz · 9</th><th>GPT-6.2 Astra · 10</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888854183936-cfcf29f1cd1e.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888854183936-cfcf29f1cd1e.jpg" alt="Karışık model etiketleriyle yirmi voksel sahnesi — Etiketsiz · 9" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888841613315-005e1ca7b001.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888841613315-005e1ca7b001.jpg" alt="Karışık model etiketleriyle yirmi voksel sahnesi — GPT-6.2 Astra · 10" width="360"></a></td></tr></tbody></table>
+
+<table><thead><tr><th>GPT-6.2 Astra · 11</th><th>GPT-6.2 Astra · 12</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888824819713-ad90bbab448e.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888824819713-ad90bbab448e.jpg" alt="Karışık model etiketleriyle yirmi voksel sahnesi — GPT-6.2 Astra · 11" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888824782848-ff7cbce8062b.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888824782848-ff7cbce8062b.jpg" alt="Karışık model etiketleriyle yirmi voksel sahnesi — GPT-6.2 Astra · 12" width="360"></a></td></tr></tbody></table>
+
+<table><thead><tr><th>GPT-6.2 Astra · 13</th><th>GPT-6.2 Astra · 14</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888984211457-144a7c95c370.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888984211457-144a7c95c370.jpg" alt="Karışık model etiketleriyle yirmi voksel sahnesi — GPT-6.2 Astra · 13" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888904544256-5bf3a1bb3461.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888904544256-5bf3a1bb3461.jpg" alt="Karışık model etiketleriyle yirmi voksel sahnesi — GPT-6.2 Astra · 14" width="360"></a></td></tr></tbody></table>
+
+<table><thead><tr><th>GPT-6.2 Astra · 15</th><th>GPT-6.2 Astra · 16</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888988434432-198f3d20da1a.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888988434432-198f3d20da1a.jpg" alt="Karışık model etiketleriyle yirmi voksel sahnesi — GPT-6.2 Astra · 15" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888824832000-029ca87ce81b.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888824832000-029ca87ce81b.jpg" alt="Karışık model etiketleriyle yirmi voksel sahnesi — GPT-6.2 Astra · 16" width="360"></a></td></tr></tbody></table>
+
+<table><thead><tr><th>GPT-6.2 Astra · 17</th><th>GPT-6.2 Astra · 18</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888816443392-5c25a5a25b16.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888816443392-5c25a5a25b16.jpg" alt="Karışık model etiketleriyle yirmi voksel sahnesi — GPT-6.2 Astra · 17" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888845832192-fdb202977df8.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888845832192-fdb202977df8.jpg" alt="Karışık model etiketleriyle yirmi voksel sahnesi — GPT-6.2 Astra · 18" width="360"></a></td></tr></tbody></table>
+
+<table><thead><tr><th>GPT-6.2 Astra · 19</th><th>GPT-6.2 Astra · 20</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888837365760-20c0d461ae97.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888837365760-20c0d461ae97.jpg" alt="Karışık model etiketleriyle yirmi voksel sahnesi — GPT-6.2 Astra · 19" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888833183744-85b661c42342.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122828888833183744-85b661c42342.jpg" alt="Karışık model etiketleriyle yirmi voksel sahnesi — GPT-6.2 Astra · 20" width="360"></a></td></tr></tbody></table>
+
+Type: Demo | Date: 2026-11-17
+
+---
+
+<a id="case-50"></a>
+### Örnek 50: [Denizaltı oyununda Atlantis’i keşfetmek](https://x.com/higgsfield_ai/status/2122827586162340173) (yazan [@higgsfield_ai](https://x.com/higgsfield_ai))
+
+**Paylaşılan videodaki model etiketleriyle su altı navigasyon sahnelerini karşılaştırın.**
+
+Higgsfield, GPT-6.2 Astra ve Fable 5.2’ye atfedilen bölünmüş ekran oyun karşılaştırması sunuyor. Denizaltı, kalıntılar ve oyun arayüzü öğeleri içeren Atlantis esinli bir su altı ortamında ilerliyor. Yayıncı, oyunun Higgsfield ile yapıldığını belirtiyor. Video, sahne yorumlarının görsel karşılaştırmasını destekliyor; eşit bütçeli kıyaslamayı veya tüm ara çalışmaları belgelemiyor.
+
+[![Denizaltı oyununda Atlantis’i keşfetmek](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122827515605729280-poster-e6514f6c3a4c.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122827515605729280-d2affd96bc04.mp4)
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-51"></a>
+### Örnek 51: [Animasyonlu okyanus dalgalarında korsan gemisi](https://x.com/Da7_Tech/status/2122826218764439645) (yazan [@Da7_Tech](https://x.com/Da7_Tech))
+
+**Kompakt bir sahnede su, yelken ve ışık hareketinin uyumunu inceleyin.**
+
+Da7_Tech, GPT-6.2 Astra etiketli bir korsan gemisi animasyonu paylaşıyor. Görüntüler ayrıntılı bir yelkenli, alçak güneş ve hareketli deniz suyunu, üreticinin görünür filigranıyla gösteriyor. Somut bir sahne animasyonu örneği sağlıyor; kaynak tam istemi, uygulama teknolojilerini veya üretim kaydını açıklamıyor.
+
+[![Animasyonlu okyanus dalgalarında korsan gemisi](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122825729356300288-poster-9db563e047ae.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122825729356300288-be4d1a358b81.mp4)
+
+Type: Demo | Date: 2026-11-17
+
+---
+
+<a id="case-52"></a>
+### Örnek 52: [Kıyaslama tablosu yanında Wojak 3D örnekleri](https://x.com/lukaspet/status/2122823744691515729) (yazan [@lukaspet](https://x.com/lukaspet))
+
+**Gerçek işlenmiş örnekleri yayıncının sıralama iddiasıyla birlikte inceleyin.**
+
+Lukas Peters, sıralama tablosu ve görünür Astra karakter çıktıları içeren Wojak-Bench 3D görseli paylaşıyor. Paylaşım, kıyaslamanın henüz doygunluğa ulaşmadığını söylüyor ve özellikle Bike Brainlet Wojak ile yaşanan zorluğu belirtiyor. İlk sıra iddiasını her isteğin çözüldüğüne kanıt saymak yerine gösterilen çıktılarla bu başarısızlık sınırını inceleyin.
+
+[![Kıyaslama tablosu yanında Wojak 3D örnekleri](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122822417311735808-a203ec6ae451.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122822417311735808-a203ec6ae451.jpg)
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-53"></a>
+### Örnek 53: [Yonkers New York üzerinde bir mecha dönüşüyor](https://x.com/simonw/status/2122822310428279136) (yazan [@simonw](https://x.com/simonw))
+
+**İki modelin aynı harita tabanlı animasyon isteğini nasıl yorumladığını karşılaştırın.**
+
+Simon Willison, Yonkers’ın bir mech olarak ayağa kalkıp OpenStreetMap verileriyle Manhattan, Queens ve Brooklyn çevresinde hareket ettiği Three.js isteğine ait Astra ve Sol sonuçlarını etiketli biçimde paylaşıyor. Birleşik kayıt farklı robot ve harita yorumları gösteriyor. Bağlantılı makale bağlam sağlıyor; tek başına video coğrafi doğruluğu veya çarpışma davranışını ortaya koymuyor.
+
+[Karşılaştırma makalesini okuyun](https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/).
+
+[![Yonkers New York üzerinde bir mecha dönüşüyor](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122822265545125888-poster-4427e81cb48a.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2122822265545125888-d31b1b651b7e.mp4)
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-54"></a>
+### Örnek 54: [PacBench’te tek sayfalık Pac-Man yeniden yapımı](https://news.ycombinator.com/item?id=50537602) (yazan [@thefourthchime](https://news.ycombinator.com/user?id=thefourthchime))
+
+**Tek istemle üretilen oyunla birlikte kuralları ve arayüz tercihlerini de kontrol edin.**
+
+PacBench yazarı GPT-6.2 Astra Pac-Man yeniden yapımını bağlantılıyor; istenen ve gerçek model kimliğini, high düzeyini, çalışma metaverilerini ve puanlama notlarını yayımlıyor. Oyun labirent, skor, hayalet listesi ve klavye kontrolünü birleştiriyor. Yazar 92 puan veriyor; çevre sayfa düzeni ve turuncu hayaletin gecikmeli çıkışını sınırlamalar arasında belirtiyor. Puan ve maliyet yazarın ölçümleridir; canlı oyun ve kayıt sonucu inceleme olanağı sağlar.
+
+[Oyunu ve çalışma kaydını açın](https://jonclegg.github.io/pacman-bakeoff/#gpt-6.2-astra).
+
+[![PacBench’te tek sayfalık Pac-Man yeniden yapımı](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50537602-0-8ff45937d98b.png)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50537602-0-8ff45937d98b.png)
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-55"></a>
+### Örnek 55: [Bölüm düzenleyicili AX Ball oyunu](https://news.ycombinator.com/item?id=50537589) (yazan [@goyozi](https://news.ycombinator.com/user?id=goyozi))
+
+**Tanıdık bir arcade oyunuyla oyun ekranını, bölüm araçlarını ve destekleyici arayüzü birlikte inceleyin.**
+
+Goyozi, model çıktılarını karşılaştırmak için DX Ball tarzı bir oyun geliştirdiğini anlatıyor ve AX Ball’u Astra 6.2 sürümü olarak tanımlıyor. Yayımlanan sayfada renkli tuğla kırma alanı çevresinde on iki bölümlük senaryo, bölüm seçici, düzenleyici, yerel rekorlar ve güçlendirme rehberi bulunuyor. Üretici Sol, Fable ve Opus sürümlerini de bağlantılıyor. Bu örnek Astra çalışmasını ve üretici atfını kaydediyor; kontrollü puanlama protokolü veya eksiksiz üretim dökümü sunmuyor.
+
+[AX Ball oynayın](https://goyozi.github.io/ax-ball/).
+
+[![Bölüm düzenleyicili AX Ball oyunu](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50537589-0-9fef713b9d7d.png)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50537589-0-9fef713b9d7d.png)
+
+Type: Demo | Date: 2026-11-17
+
+---
+
+<a id="case-56"></a>
+### Örnek 56: [Beş akıl yürütme düzeyinde pelikan SVG’leri](https://gist.github.com/simonw/fe836e13c90c00233c9e9e499a941805) (yazan [@simonw](https://github.com/simonw))
+
+**Beş efor ayarının aynı küçük çizim isteğini nasıl yorumladığını karşılaştırın.**
+
+Simon Willison “Generate an SVG of a pelican riding a bicycle” istemini, GPT-6.2 Astra’nın low, medium, high, xhigh ve max düzeylerindeki ham yanıtlarıyla yayımlıyor. Beş çizim kompozisyon, bisiklet geometrisi ve karakter yorumunda farklılaşıyor. Tek bir favori seçmek yerine beşinin tümü korunuyor. Pedal konumu ve katmanları özgün SVG’lerde inceleyin; bu görsel karşılaştırma kalitenin eforla sürekli arttığına kanıt değildir.
+
+[Üreticinin tartışmasını okuyun](https://news.ycombinator.com/item?id=50535742).
+
+<table><thead><tr><th>GPT-6.2 Astra · low</th><th>GPT-6.2 Astra · medium</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50535742-0-259423021937.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50535742-0-259423021937.png" alt="Beş akıl yürütme düzeyinde pelikan SVG’leri — GPT-6.2 Astra · low" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50535742-1-f731156a4a29.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50535742-1-f731156a4a29.png" alt="Beş akıl yürütme düzeyinde pelikan SVG’leri — GPT-6.2 Astra · medium" width="360"></a></td></tr></tbody></table>
+
+<table><thead><tr><th>GPT-6.2 Astra · high</th><th>GPT-6.2 Astra · xhigh</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50535742-2-00a13aae0af9.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50535742-2-00a13aae0af9.png" alt="Beş akıl yürütme düzeyinde pelikan SVG’leri — GPT-6.2 Astra · high" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50535742-3-e5fd8548f7e8.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50535742-3-e5fd8548f7e8.png" alt="Beş akıl yürütme düzeyinde pelikan SVG’leri — GPT-6.2 Astra · xhigh" width="360"></a></td></tr></tbody></table>
+
+<table><thead><tr><th>GPT-6.2 Astra · max</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50535742-4-cb12b7f6a6f5.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50535742-4-cb12b7f6a6f5.png" alt="Beş akıl yürütme düzeyinde pelikan SVG’leri — GPT-6.2 Astra · max" width="360"></a></td></tr></tbody></table>
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-57"></a>
+### Örnek 57: [Masa tenisi oynayan hamsterların SVG karşılaştırması](https://aibenchy.com/compare/openai-gpt-6-2-astra-max/openai-gpt-6-2-sol-max#showcases) (yazan [@XCSme](https://news.ycombinator.com/user?id=XCSme))
+
+**Açıkça yayımlanmış tek istemden çıkan ayrıntılı SVG çizimlerini karşılaştırın.**
+
+AI BENCHY, “Create a detailed SVG illustration of a hamster playing table tennis.” istemi için GPT-6.2 Astra max ve GPT-6.2 Sol max sonuçlarını yan yana sunuyor. Astra çizimi ayrıntılı arena, dokulu kürk ve masaya yakın bakış kullanırken Sol daha basit karakter ve önden kompozisyon kullanıyor. Her iki SVG ve etiketleri korunuyor. Sitenin süre ve maliyetleri kendi çalışmalarına aittir; genel bir performans sıralaması oluşturmaz.
+
+[Üreticinin tartışmasını okuyun](https://news.ycombinator.com/item?id=50537787).
+
+<table><thead><tr><th>GPT-6.2 Astra · max</th><th>GPT-6.2 Sol · max</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50537787-0-f41a80e93a2a.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50537787-0-f41a80e93a2a.png" alt="Masa tenisi oynayan hamsterların SVG karşılaştırması — GPT-6.2 Astra · max" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50537787-1-b9f000af0420.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50537787-1-b9f000af0420.png" alt="Masa tenisi oynayan hamsterların SVG karşılaştırması — GPT-6.2 Sol · max" width="360"></a></td></tr></tbody></table>
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-58"></a>
+### Örnek 58: [Beş efor ayarında etkileşimli ramen sahneleri](https://news.ycombinator.com/item?id=50536390) (yazan [@stbenjam](https://github.com/stbenjam))
+
+**Bağımlılıksız tek sahne isteğinin beş uygulamasında görsel ayrıntıyı ve atmosferi karşılaştırın.**
+
+Stephen Benjamin’in Ramen Bench’i, satır içi CSS ve JavaScript içeren tek HTML dosyası, sıfır dış varlık, buharı tüten vegan ramen, doğal hareket ve fare etkileşimi istiyor. Yayımlanan beş GPT-6.2 Astra sürümü Codex’te Harbor üzerinden low, medium, high, xhigh ve max düzeylerinde çalışıyor. Çalışma manifestleri HTML ve dökümlere bağlantı veriyor; tahmini liste fiyatı maliyetini abonelik ücretinden ayırıyor. Önizlemeler beş sahneyi de koruyor; hareket ve etkileşimi incelemek için özgün sayfaları açın.
+
+[Ramen Bench’i ve ortak istemini keşfedin](https://bitbin.de/ramen-bench/).
+
+<table><thead><tr><th>GPT-6.2 Astra · low</th><th>GPT-6.2 Astra · medium</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50536390-0-ffd319d1fe13.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50536390-0-ffd319d1fe13.png" alt="Beş efor ayarında etkileşimli ramen sahneleri — GPT-6.2 Astra · low" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50536390-1-37f6f8bf3e0d.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50536390-1-37f6f8bf3e0d.png" alt="Beş efor ayarında etkileşimli ramen sahneleri — GPT-6.2 Astra · medium" width="360"></a></td></tr></tbody></table>
+
+<table><thead><tr><th>GPT-6.2 Astra · high</th><th>GPT-6.2 Astra · xhigh</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50536390-2-31d0ce07fb69.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50536390-2-31d0ce07fb69.png" alt="Beş efor ayarında etkileşimli ramen sahneleri — GPT-6.2 Astra · high" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50536390-3-194cd147469c.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50536390-3-194cd147469c.png" alt="Beş efor ayarında etkileşimli ramen sahneleri — GPT-6.2 Astra · xhigh" width="360"></a></td></tr></tbody></table>
+
+<table><thead><tr><th>GPT-6.2 Astra · max</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50536390-4-3af87882fdad.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50536390-4-3af87882fdad.png" alt="Beş efor ayarında etkileşimli ramen sahneleri — GPT-6.2 Astra · max" width="360"></a></td></tr></tbody></table>
+
+Type: Evaluation | Date: 2026-11-17
+
+---
+
+<a id="case-59"></a>
+### Örnek 59: [Tarayıcıda Meridian Sound Racing](https://meridian-futuristic-race.openai.chatgpt.site/) (yazan [@OpenAI](https://openai.com/))
+
+**Resmî etkileşimli 3B demoda araç seçimini ve yarış kontrollerini inceleyin.**
+
+OpenAI’nin GPT-6.2 tanıtım makalesi, Meridian Sound Racing’i GPT-6.2 Astra tarafından yapılmış, şehir içinde dolanan pistli oynanabilir fütüristik yarış oyunu olarak tanımlıyor. Bağlantılı canlı sayfa dört üreticili araç seçimini, sprint ve Grand Prix etkinliklerini, klavye sürüşü ve hızlanma kontrollerini açıyor. Önizleme yayımlanmış tarayıcı çalışmasını kaydediyor; tanıtımın daha geniş yetenek iddialarını bağımsız ölçülmüş sonuçlar olarak kabul etmiyor.
+
+[Resmî demonun bağlamını okuyun](https://openai.com/index/introducing-gpt-6-2-astra-sol/).
+
+[Topluluk tartışmasını okuyun](https://news.ycombinator.com/item?id=50535959).
+
+[![Tarayıcıda Meridian Sound Racing](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50535959-0-8abecabad1c5.png)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50535959-0-8abecabad1c5.png)
+
+Type: Demo | Date: 2026-11-17
+
+---
+
 <a id="related-repositories"></a>
 ## Related Repositories
 
@@ -617,6 +991,6 @@ Type: Demo | Date: 2026-11-09
 <a id="acknowledge"></a>
 ## 🙏 Teşekkür
 
-[@SadAlbert10](https://x.com/SadAlbert10), [@leo114119](https://x.com/leo114119), [@FiniYang](https://x.com/FiniYang), [@notjazii](https://x.com/notjazii), [@GulaGala001](https://x.com/GulaGala001), [@noclipepe](https://x.com/noclipepe), [@marcthecreatorr](https://x.com/marcthecreatorr), [@nelia](https://linux.do/u/nelia), [@AI_Screening](https://x.com/AI_Screening), [@hakmgpt](https://x.com/hakmgpt), [@FixlationAI](https://x.com/FixlationAI), [@YFeng2022](https://x.com/YFeng2022), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@mirochill](https://x.com/mirochill), [@N1n3VASthR33H](https://x.com/N1n3VASthR33H), [@YouArtStudio](https://x.com/YouArtStudio), [@sgdd666](https://x.com/sgdd666), [@Mashiro_0619](https://x.com/Mashiro_0619), [@NFT_Chen](https://x.com/NFT_Chen), [@j4kcdq](https://x.com/j4kcdq), [@twno1indiaa3](https://x.com/twno1indiaa3), [ferret (问心)](https://linux.do/u/ferret), [@chetaslua](https://x.com/chetaslua), [@Smlay_ero](https://x.com/Smlay_ero), [@Octoberry](https://x.com/Octoberry)
+[@SadAlbert10](https://x.com/SadAlbert10), [@leo114119](https://x.com/leo114119), [@FiniYang](https://x.com/FiniYang), [@notjazii](https://x.com/notjazii), [@GulaGala001](https://x.com/GulaGala001), [@noclipepe](https://x.com/noclipepe), [@marcthecreatorr](https://x.com/marcthecreatorr), [@nelia](https://linux.do/u/nelia), [@AI_Screening](https://x.com/AI_Screening), [@hakmgpt](https://x.com/hakmgpt), [@FixlationAI](https://x.com/FixlationAI), [@YFeng2022](https://x.com/YFeng2022), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@mirochill](https://x.com/mirochill), [@N1n3VASthR33H](https://x.com/N1n3VASthR33H), [@YouArtStudio](https://x.com/YouArtStudio), [@ATFANSEN](https://x.com/ATFANSEN), [@Mashiro_0619](https://x.com/Mashiro_0619), [@NFT_Chen](https://x.com/NFT_Chen), [@j4kcdq](https://x.com/j4kcdq), [@twno1indiaa3](https://x.com/twno1indiaa3), [@luckeyfaraday](https://x.com/luckeyfaraday), [@skalskip92](https://x.com/skalskip92), [@intheworldofai](https://x.com/intheworldofai), [@withplayground](https://x.com/withplayground), [@ZryMiller](https://x.com/ZryMiller), [@Angaisb_](https://x.com/Angaisb_), [@ChrisGPT](https://x.com/ChrisGPT), [@Densitylucky](https://x.com/Densitylucky), [@ShadeLurk](https://x.com/ShadeLurk), [@magnific](https://x.com/magnific), [@PhysAIAnalysis](https://x.com/PhysAIAnalysis), [@Masimo_Blue](https://x.com/Masimo_Blue), [@voxelbench](https://x.com/voxelbench), [@higgsfield_ai](https://x.com/higgsfield_ai), [@Da7_Tech](https://x.com/Da7_Tech), [@lukaspet](https://x.com/lukaspet), [@simonw](https://x.com/simonw), [@thefourthchime](https://news.ycombinator.com/user?id=thefourthchime), [@goyozi](https://news.ycombinator.com/user?id=goyozi), [@simonw](https://github.com/simonw), [@XCSme](https://news.ycombinator.com/user?id=XCSme), [@stbenjam](https://github.com/stbenjam), [@OpenAI](https://openai.com/), [ferret (问心)](https://linux.do/u/ferret), [@chetaslua](https://x.com/chetaslua), [@Smlay_ero](https://x.com/Smlay_ero), [@Octoberry](https://x.com/Octoberry)
 
 Bu demoları hazırlayan ve paylaşan herkese teşekkürler. Üçüncü taraf medyası özgün haklarını korur. Atıf düzeltmesi veya kaldırma talebi için ilgili kaynak bağlantısını içeren bir issue açın.
