@@ -5,7 +5,7 @@
 <a href="https://evolink.ai/gpt-6-2-astra?utm_source=github&utm_medium=banner&utm_campaign=gpt-6-2-astra-usecases&utm_content=readme_banner"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/banner-d7e110b5529b.png" alt="GPT-6.2 Astra — Demonstrações e casos de uso" width="760"></a>
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
-[![Explorar EvoLink](https://img.shields.io/badge/Explore-EvoLink-111111)](https://evolink.ai/gpt-6-2-astra?utm_source=github&utm_medium=readme&utm_campaign=gpt-6-2-astra-usecases&utm_content=landing_overview)
+[![Explorar EvoLink](https://img.shields.io/badge/Explore-EvoLink-111111)](https://evolink.ai/gpt-6-2-astra?utm_source=github&utm_medium=badge&utm_campaign=gpt-6-2-astra-usecases&utm_content=model_try)
 
 [![English](https://img.shields.io/badge/English-2563eb)](README.md)
 [![Español](https://img.shields.io/badge/Espa%C3%B1ol-2563eb)](README_es.md)
@@ -42,7 +42,7 @@ Uma coleção de demonstrações e casos de uso do GPT-6.2 Astra da comunidade d
 2. Clique em uma prévia para assistir à demonstração e abra o título do caso para consultar o contexto original.
 3. Siga as instruções públicas quando disponíveis ou adapte a ideia a uma tarefa sua.
 
-[Explorar EvoLink](https://evolink.ai/gpt-6-2-astra?utm_source=github&utm_medium=readme&utm_campaign=gpt-6-2-astra-usecases&utm_content=landing_overview)
+[Explorar EvoLink](https://evolink.ai/gpt-6-2-astra?utm_source=github&utm_medium=quickstart&utm_campaign=gpt-6-2-astra-usecases&utm_content=browser_try)
 
 <a id="menu"></a>
 ## 📑 Índice
