@@ -30,7 +30,7 @@ A collection of GPT-6.2 Astra demos and use cases from the creator community.
 <a id="overview"></a>
 ## 📊 Overview
 
-59 cases · 101 demo visuals · 4 task families. All qualifying demonstrations in the reviewed collection are included; reposts of the same work are grouped together. Complete prompts are optional.
+74 cases · 116 demo visuals · 4 task families. All qualifying demonstrations in the reviewed collection are included; reposts of the same work are grouped together. Complete prompts are optional.
 
 > [!NOTE]
 > Model labels, timings and comparison observations follow the linked creators.
@@ -49,6 +49,21 @@ A collection of GPT-6.2 Astra demos and use cases from the creator community.
 
 | Case | Category | What it shows | Type |
 |---|---|---|---|
+| [60. Frontier Observatory timeline dashboard](#case-60) | Front-end & motion | Lab-output chart, filters and archive navigation | Demo |
+| [61. Drawing cherry blossoms side by side](#case-61) | Front-end & motion | A collaborative JavaScript art comparison | Evaluation |
+| [62. Alpine helicopter game in one HTML file](#case-62) | Games & scenes | An Alpine flight with three camera views | Demo |
+| [63. Four models animate interlocking gears](#case-63) | 3D & animation | Four labeled gear mechanisms | Evaluation |
+| [64. Four landing pages for a New York pizzeria](#case-64) | Front-end & motion | Four treatments for one fictional pizzeria | Evaluation |
+| [65. Two architectural framing studies](#case-65) | 3D & animation | Astra and Fable framing renderings | Evaluation |
+| [66. Yosemite Firefall rendered with code](#case-66) | Front-end & motion | A waterfall changes color against a cliff | Demo |
+| [67. A sequenced song in a piano-roll editor](#case-67) | Front-end & motion | A model-made song and its arrangement | Demo |
+| [68. Distortion waves in a smart-home dashboard](#case-68) | Front-end & motion | A dashboard with a reference-driven effect | Demo |
+| [69. A Game Boy town theme and score video](#case-69) | Front-end & motion | Pixel-art footage alongside a musical score | Demo |
+| [70. A macOS molecular conformer viewer](#case-70) | 3D & animation | Interactive molecular conformers and app controls | Demo |
+| [71. A blinking idle animation in Godot](#case-71) | 3D & animation | A character idles and blinks in an engine scene | Demo |
+| [72. Interactive sailing ships in Three.js](#case-72) | 3D & animation | Two labeled Three.js sailing ships | Evaluation |
+| [73. Astra and Fable play one chess game](#case-73) | Games & scenes | A recorded chess match with two model labels | Evaluation |
+| [74. A voxel castle game with a day-night cycle](#case-74) | Games & scenes | A voxel world with castle and flight mode | Demo |
 | [37. A T-Rex result built from a downloaded asset](#case-37) | 3D & animation | Finished T-Rex and an asset-provenance disclosure | Limit |
 | [38. Basketball player poses from a single model call](#case-38) | 3D & animation | Basketball footage with overlaid player skeletons | Demo |
 | [39. A Babylon.js dungeon expanded through a follow-up](#case-39) | Games & scenes | Dungeon scene, forge and golem encounter | Demo |
@@ -112,6 +127,203 @@ A collection of GPT-6.2 Astra demos and use cases from the creator community.
 [Overview](#overview) · [Quick Start](#quick-start) · [Related Repositories](#related-repositories) · [Acknowledge](#acknowledge)
 
 ## 🎬 Community Demos
+
+<a id="case-60"></a>
+### Case 60: [Frontier Observatory timeline dashboard](https://news.ycombinator.com/item?id=50553966) (by [@mnhcorp](https://news.ycombinator.com/user?id=mnhcorp))
+
+**Turn a research-monitoring brief into a compact interactive dashboard.**
+
+mnhcorp shares Frontier Observatory, a site for browsing frontier-lab releases and research over time. The creator credits GPT-6.2 Astra High and describes refining an initial public brief. The live interface combines a period selector, a time-series chart, latest-by-lab summaries, filters and archive navigation. This is an inspectable front-end result; its indexed events and forecasts remain the project’s own data and estimates, not an independently verified measure of the labs’ output.
+
+[Explore the published dashboard](https://frontier-lab-observatory.lucentcarrot1.chatgpt.site/).
+
+[![Frontier Observatory timeline dashboard](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50553966-1-d66115401633.png)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50553966-1-d66115401633.png)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-61"></a>
+### Case 61: [Drawing cherry blossoms side by side](https://x.com/nicochristie/status/2123185990923874325) (by [@nicochristie](https://x.com/nicochristie))
+
+**Compare how two models build up the same scene stroke by stroke.**
+
+Nico Christie shows two cherry-blossom scenes in Draw with Me, labeled Claude Fable 5.2 and GPT-6.2 Astra. The recording illustrates different compositions and drawing sequences in a shared interface. It is one example from the creator, without a controlled art-quality score.
+
+[![Drawing cherry blossoms side by side](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123185045305470976-poster-83a549c6f6b2.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123185045305470976-29f433f6e329.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-62"></a>
+### Case 62: [Alpine helicopter game in one HTML file](https://x.com/vib3coded/status/2123173597661233427) (by [@vib3coded](https://x.com/vib3coded))
+
+**Check flight controls and camera switching in a compact browser game.**
+
+The creator shows a pixel-art helicopter flying through an Alpine valley and reports three camera views in a single HTML file. The reported 16 minutes and $6.55 describe this run.
+
+[![Alpine helicopter game in one HTML file](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123172517741297664-poster-046b00d42596.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123172517741297664-b3caa0da4462.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-63"></a>
+### Case 63: [Four models animate interlocking gears](https://x.com/SPAC89/status/2123171830739632189) (by [@SPAC89](https://x.com/SPAC89))
+
+**Compare the visible gear arrangements and motion before drawing conclusions about cost.**
+
+The creator shows Gemini 4 Neon, Gemini 4 Carbon, GPT-6.2 Astra Max and GPT-6.2 Sol Max in one recording. The four mechanisms use different gear arrangements and detailing. The recording supports a visual comparison under the creator’s setup.
+
+[![Four models animate interlocking gears](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123170788958171137-poster-04fb18026784.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123170788958171137-9d51b6b659ef.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-64"></a>
+### Case 64: [Four landing pages for a New York pizzeria](https://x.com/eliadele/status/2123162596790718674) (by [@eliadele](https://x.com/eliadele))
+
+**Give each model the same short brief and compare the interactions it chooses to build.**
+
+OutputBench shows four takes on a fictional New York pizzeria from one one-sentence brief. The Astra version uses a marquee and a monochrome city look. The creator reports $4.09 for this run. Published costs and designs describe the recorded test.
+
+[![Four landing pages for a New York pizzeria](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123162533758644224-poster-1c36c5408ded.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123162533758644224-b170fcab8a5c.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-65"></a>
+### Case 65: [Two architectural framing studies](https://x.com/ivanainai/status/2123160875611623711) (by [@ivanainai](https://x.com/ivanainai))
+
+**Inspect which structural details are visible in the paired outputs.**
+
+The source shows two labeled views of architectural framing, attributed to Fable 5.2 and Astra 6.2. The accompanying price figures refer to Artificial Analysis figures. The post does not report the time or cost of creating these renderings.
+
+[![Two architectural framing studies](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123160210030075904-poster-b8b2e5471d19.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123160210030075904-caff03a482bd.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-66"></a>
+### Case 66: [Yosemite Firefall rendered with code](https://x.com/LexnLin/status/2123156510339465525) (by [@LexnLin](https://x.com/LexnLin))
+
+**Study how lighting and a moving waterfall can convey a short scene.**
+
+LexnLin posts an animated Firefall scene showing a waterfall against a cliff and attributes the code to GPT-6.2 Astra. The clip provides a visual result. The author does not give the full brief or implementation details.
+
+[![Yosemite Firefall rendered with code](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123148879977668610-poster-8a08a19bec22.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123148879977668610-cd895c4e9c6d.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-67"></a>
+### Case 67: [A sequenced song in a piano-roll editor](https://x.com/aisearchio/status/2123150416448020698) (by [@aisearchio](https://x.com/aisearchio))
+
+**Review the sound alongside the notes and track arrangement visible in the recording.**
+
+AI Search shares a song attributed to GPT-6.2 Astra. The video shows a multitrack arrangement and piano-roll notes while the song plays. The source does not specify which parts of the production workflow the model performed.
+
+[![A sequenced song in a piano-roll editor](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123150294356037633-poster-cf8c8ef0b5bb.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123150294356037633-4ec077feba6d.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-68"></a>
+### Case 68: [Distortion waves in a smart-home dashboard](https://x.com/JamesC_Alpha/status/2123143524530913734) (by [@JamesC_Alpha](https://x.com/JamesC_Alpha))
+
+**Inspect whether a reference-driven animation fits the surrounding controls.**
+
+JamesC_Alpha shares a dashboard animation with wave-like distortion and links it to a reference-driven workflow with GPT-6.2 Astra. The clip shows the visual effect in context. The post points readers to a related skill in the comments.
+
+[![Distortion waves in a smart-home dashboard](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123143475440787456-poster-ac0962416665.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123143475440787456-4f4d8d77e057.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-69"></a>
+### Case 69: [A Game Boy town theme and score video](https://x.com/aug5thmusic/status/2123140487368642799) (by [@aug5thmusic](https://x.com/aug5thmusic))
+
+**Pair a chiptune brief with a visual score so listeners can inspect the musical parts.**
+
+The author shares a GPT-6.2 Astra xhigh example with a LilyPond composition brief and a separate video brief. The recording pairs a pixel-art town with sheet music. The brief calls for two interweaving melodic instruments and Game Boy audio constraints.
+
+[![A Game Boy town theme and score video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123139516274003968-poster-3bbdd7bc1684.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123139516274003968-42a255d65cf2.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-70"></a>
+### Case 70: [A macOS molecular conformer viewer](https://x.com/DeryaTR_/status/2123140175807304163) (by [@DeryaTR_](https://x.com/DeryaTR_))
+
+**Check that a scientific viewer combines import, rotation and readable controls.**
+
+Derya shares a macOS chemistry app made with GPT-6.2 Astra and demonstrates displaying and rotating molecular conformers. The author credits Higgsfield for narration. The footage shows the interface without establishing analytical accuracy.
+
+[![A macOS molecular conformer viewer](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123139873272221696-poster-21eac403c7be.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123139873272221696-807df9200d14.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-71"></a>
+### Case 71: [A blinking idle animation in Godot](https://x.com/soya_da_yoot/status/2123137245607555293) (by [@soya_da_yoot](https://x.com/soya_da_yoot))
+
+**Preview subtle idle motion after importing a character into a game engine.**
+
+The creator credits GPT-6.2 Astra with making an idle animation and moving the character into a Godot project. The clip shows a stylized figure standing in a simple scene with small motions, including the blink described by the author.
+
+[![A blinking idle animation in Godot](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123137010122584065-poster-bf795035d5f4.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123137010122584065-aee4ec5a5942.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-72"></a>
+### Case 72: [Interactive sailing ships in Three.js](https://x.com/marcthecreatorr/status/2123135975308038590) (by [@marcthecreatorr](https://x.com/marcthecreatorr))
+
+**Compare hulls, sails and lighting under the same modeling brief.**
+
+The creator shares Astra and Opus 5.5 ships and reports giving both the same Three.js brief without follow-up prompts or manual fixes. The runs used different tools and took different amounts of time. The footage supports a visual comparison of the two ships.
+
+[![Interactive sailing ships in Three.js](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123135680050085888-poster-1c911dd3358a.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123135680050085888-bf9ca4eab721.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-73"></a>
+### Case 73: [Astra and Fable play one chess game](https://x.com/Leapofcode/status/2123078382628000098) (by [@Leapofcode](https://x.com/Leapofcode))
+
+**Inspect the moves and outcome of a single match before generalizing.**
+
+Leapofcode shares a chess game between GPT-6.2 Astra and Claude Fable 5.2. The creator reports an Astra win after 71 moves. One game is insufficient to establish a playing-strength ranking.
+
+[![Astra and Fable play one chess game](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123078116801499137-poster-0398233cfd9d.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123078116801499137-17b78c7589bb.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-74"></a>
+### Case 74: [A voxel castle game with a day-night cycle](https://x.com/marcthecreatorr/status/2123058963197362606) (by [@marcthecreatorr](https://x.com/marcthecreatorr))
+
+**Compare the game’s environmental features with the controls shown in the clip.**
+
+The creator shows a voxel sandbox built with GPT-6.2 Astra xhigh, with castles, lanterns, a waterwheel, a day-night cycle and flight mode. The creator reports a 78-minute run and about $5.69 in estimated API cost.
+
+[![A voxel castle game with a day-night cycle](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123058287004229632-poster-b2280028bcab.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123058287004229632-5601d374166e.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
 
 <a id="case-37"></a>
 ### Case 37: [A T-Rex result built from a downloaded asset](https://x.com/luckeyfaraday/status/2122854206709051691) (by [@luckeyfaraday](https://x.com/luckeyfaraday))
@@ -991,6 +1203,6 @@ Type: Demo | Date: 2026-11-09
 <a id="acknowledge"></a>
 ## 🙏 Acknowledge
 
-[@SadAlbert10](https://x.com/SadAlbert10), [@leo114119](https://x.com/leo114119), [@FiniYang](https://x.com/FiniYang), [@notjazii](https://x.com/notjazii), [@GulaGala001](https://x.com/GulaGala001), [@noclipepe](https://x.com/noclipepe), [@marcthecreatorr](https://x.com/marcthecreatorr), [@nelia](https://linux.do/u/nelia), [@AI_Screening](https://x.com/AI_Screening), [@hakmgpt](https://x.com/hakmgpt), [@FixlationAI](https://x.com/FixlationAI), [@YFeng2022](https://x.com/YFeng2022), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@mirochill](https://x.com/mirochill), [@N1n3VASthR33H](https://x.com/N1n3VASthR33H), [@YouArtStudio](https://x.com/YouArtStudio), [@ATFANSEN](https://x.com/ATFANSEN), [@Mashiro_0619](https://x.com/Mashiro_0619), [@NFT_Chen](https://x.com/NFT_Chen), [@j4kcdq](https://x.com/j4kcdq), [@twno1indiaa3](https://x.com/twno1indiaa3), [@luckeyfaraday](https://x.com/luckeyfaraday), [@skalskip92](https://x.com/skalskip92), [@intheworldofai](https://x.com/intheworldofai), [@withplayground](https://x.com/withplayground), [@ZryMiller](https://x.com/ZryMiller), [@Angaisb_](https://x.com/Angaisb_), [@ChrisGPT](https://x.com/ChrisGPT), [@Densitylucky](https://x.com/Densitylucky), [@ShadeLurk](https://x.com/ShadeLurk), [@magnific](https://x.com/magnific), [@PhysAIAnalysis](https://x.com/PhysAIAnalysis), [@Masimo_Blue](https://x.com/Masimo_Blue), [@voxelbench](https://x.com/voxelbench), [@higgsfield_ai](https://x.com/higgsfield_ai), [@Da7_Tech](https://x.com/Da7_Tech), [@lukaspet](https://x.com/lukaspet), [@simonw](https://x.com/simonw), [@thefourthchime](https://news.ycombinator.com/user?id=thefourthchime), [@goyozi](https://news.ycombinator.com/user?id=goyozi), [@simonw](https://github.com/simonw), [@XCSme](https://news.ycombinator.com/user?id=XCSme), [@stbenjam](https://github.com/stbenjam), [@OpenAI](https://openai.com/), [ferret (问心)](https://linux.do/u/ferret), [@chetaslua](https://x.com/chetaslua), [@Smlay_ero](https://x.com/Smlay_ero), [@Octoberry](https://x.com/Octoberry)
+[@SadAlbert10](https://x.com/SadAlbert10), [@leo114119](https://x.com/leo114119), [@FiniYang](https://x.com/FiniYang), [@notjazii](https://x.com/notjazii), [@GulaGala001](https://x.com/GulaGala001), [@noclipepe](https://x.com/noclipepe), [@marcthecreatorr](https://x.com/marcthecreatorr), [@nelia](https://linux.do/u/nelia), [@AI_Screening](https://x.com/AI_Screening), [@hakmgpt](https://x.com/hakmgpt), [@FixlationAI](https://x.com/FixlationAI), [@YFeng2022](https://x.com/YFeng2022), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@mirochill](https://x.com/mirochill), [@N1n3VASthR33H](https://x.com/N1n3VASthR33H), [@YouArtStudio](https://x.com/YouArtStudio), [@ATFANSEN](https://x.com/ATFANSEN), [@Mashiro_0619](https://x.com/Mashiro_0619), [@NFT_Chen](https://x.com/NFT_Chen), [@j4kcdq](https://x.com/j4kcdq), [@twno1indiaa3](https://x.com/twno1indiaa3), [@luckeyfaraday](https://x.com/luckeyfaraday), [@skalskip92](https://x.com/skalskip92), [@intheworldofai](https://x.com/intheworldofai), [@withplayground](https://x.com/withplayground), [@ZryMiller](https://x.com/ZryMiller), [@Angaisb_](https://x.com/Angaisb_), [@ChrisGPT](https://x.com/ChrisGPT), [@Densitylucky](https://x.com/Densitylucky), [@ShadeLurk](https://x.com/ShadeLurk), [@magnific](https://x.com/magnific), [@PhysAIAnalysis](https://x.com/PhysAIAnalysis), [@Masimo_Blue](https://x.com/Masimo_Blue), [@voxelbench](https://x.com/voxelbench), [@higgsfield_ai](https://x.com/higgsfield_ai), [@Da7_Tech](https://x.com/Da7_Tech), [@lukaspet](https://x.com/lukaspet), [@simonw](https://x.com/simonw), [@thefourthchime](https://news.ycombinator.com/user?id=thefourthchime), [@goyozi](https://news.ycombinator.com/user?id=goyozi), [@simonw](https://github.com/simonw), [@XCSme](https://news.ycombinator.com/user?id=XCSme), [@stbenjam](https://github.com/stbenjam), [@OpenAI](https://openai.com/), [@mnhcorp](https://news.ycombinator.com/user?id=mnhcorp), [@nicochristie](https://x.com/nicochristie), [@vib3coded](https://x.com/vib3coded), [@SPAC89](https://x.com/SPAC89), [@eliadele](https://x.com/eliadele), [@ivanainai](https://x.com/ivanainai), [@LexnLin](https://x.com/LexnLin), [@aisearchio](https://x.com/aisearchio), [@JamesC_Alpha](https://x.com/JamesC_Alpha), [@aug5thmusic](https://x.com/aug5thmusic), [@DeryaTR_](https://x.com/DeryaTR_), [@soya_da_yoot](https://x.com/soya_da_yoot), [@Leapofcode](https://x.com/Leapofcode), [ferret (问心)](https://linux.do/u/ferret), [@chetaslua](https://x.com/chetaslua), [@Smlay_ero](https://x.com/Smlay_ero), [@Octoberry](https://x.com/Octoberry)
 
 Thanks to the creators and sharers behind these demonstrations. Third-party media retains its original rights. For an attribution correction or removal request, open an issue with the relevant source link.

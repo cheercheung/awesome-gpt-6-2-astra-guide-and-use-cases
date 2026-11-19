@@ -30,7 +30,7 @@
 <a id="overview"></a>
 ## 📊 Genel Bakış
 
-59 örnek · 101 demo görseli · 4 görev grubu. İncelenen derlemede ölçütleri karşılayan tüm demolar dahil edilmiştir; aynı çalışmanın yeniden paylaşımları birlikte gruplandırılmıştır. Tam istemlerin bulunması zorunlu değildir.
+74 örnek · 116 demo görseli · 4 görev grubu. İncelenen derlemede ölçütleri karşılayan tüm demolar dahil edilmiştir; aynı çalışmanın yeniden paylaşımları birlikte gruplandırılmıştır. Tam istemlerin bulunması zorunlu değildir.
 
 > [!NOTE]
 > Model etiketleri, süreler ve karşılaştırma gözlemleri, bağlantısı verilen üreticilerin açıklamalarına dayanır.
@@ -49,6 +49,21 @@
 
 | Örnek | Kategori | Gösterilenler | Tür |
 |---|---|---|---|
+| [60. Frontier Observatory zaman çizelgesi paneli](#case-60) | Ön yüz ve hareket | Laboratuvar çıktısı grafiği, filtreler ve arşiv gezinmesi | Demo |
+| [61. Kiraz çiçeklerini yan yana çizmek](#case-61) | Ön yüz ve hareket | JavaScript ile ortaklaşa sanat karşılaştırması | Değerlendirme |
+| [62. Tek HTML dosyasında Alp helikopter oyunu](#case-62) | Oyunlar ve sahneler | Üç kamera görünümüyle Alp uçuşu | Demo |
+| [63. Dört model birbirine geçen dişlileri canlandırıyor](#case-63) | 3B ve animasyon | Etiketli dört dişli mekanizması | Değerlendirme |
+| [64. New York pizzacısı için dört açılış sayfası](#case-64) | Ön yüz ve hareket | Hayalî bir pizzacının dört yorumu | Değerlendirme |
+| [65. İki mimari taşıyıcı sistem çalışması](#case-65) | 3B ve animasyon | Astra ve Fable taşıyıcı sistem görüntüleri | Değerlendirme |
+| [66. Kodla işlenen Yosemite Firefall sahnesi](#case-66) | Ön yüz ve hareket | Uçurum önünde renk değiştiren şelale | Demo |
+| [67. Piyano rulosu editöründe sıralanmış bir şarkı](#case-67) | Ön yüz ve hareket | Modele atfedilen şarkı ve düzenlemesi | Demo |
+| [68. Akıllı ev panelinde bozulma dalgaları](#case-68) | Ön yüz ve hareket | Referansa dayalı efekt içeren panel | Demo |
+| [69. Game Boy kasaba teması ve nota videosu](#case-69) | Ön yüz ve hareket | Müzik notalarının yanında piksel tarzı görüntüler | Demo |
+| [70. macOS için moleküler konformer görüntüleyici](#case-70) | 3B ve animasyon | Etkileşimli moleküler konformerler ve uygulama kontrolleri | Demo |
+| [71. Godot’ta göz kırpan bekleme animasyonu](#case-71) | 3B ve animasyon | Motor sahnesinde bekleyen ve göz kırpan karakter | Demo |
+| [72. Three.js içinde etkileşimli yelkenliler](#case-72) | 3B ve animasyon | Etiketli iki Three.js yelkenlisi | Değerlendirme |
+| [73. Astra ve Fable arasında tek satranç oyunu](#case-73) | Oyunlar ve sahneler | İki model etiketli kaydedilmiş satranç maçı | Değerlendirme |
+| [74. Gece-gündüz döngülü voksel kale oyunu](#case-74) | Oyunlar ve sahneler | Kale ve uçuş modu içeren voksel dünyası | Demo |
 | [37. İndirilen hazır varlıkla oluşturulan bir T-Rex](#case-37) | 3B ve animasyon | Bitmiş T-Rex ve varlığın kaynağına ilişkin açıklama | Sınırlama |
 | [38. Tek model çağrısıyla basketbolcuların pozları](#case-38) | 3B ve animasyon | Oyuncu iskeletleri bindirilmiş basketbol görüntüleri | Demo |
 | [39. Bir ek istekle genişletilen Babylon.js zindanı](#case-39) | Oyunlar ve sahneler | Zindan sahnesi, demirhane ve golem karşılaşması | Demo |
@@ -112,6 +127,203 @@
 [Genel Bakış](#overview) · [Hızlı Başlangıç](#quick-start) · [İlgili Depolar](#related-repositories) · [Teşekkür](#acknowledge)
 
 ## 🎬 Topluluk Demoları
+
+<a id="case-60"></a>
+### Örnek 60: [Frontier Observatory zaman çizelgesi paneli](https://news.ycombinator.com/item?id=50553966) (yazan [@mnhcorp](https://news.ycombinator.com/user?id=mnhcorp))
+
+**Araştırma izleme isteğini kompakt ve etkileşimli bir panele dönüştürün.**
+
+mnhcorp, öncü laboratuvarların duyurularını ve araştırmalarını zaman içinde gezmek için Frontier Observatory sitesini paylaşıyor. Üretici çalışmayı GPT-6.2 Astra High’a atfediyor ve başlangıçtaki açık isteği geliştirdiğini anlatıyor. Canlı arayüz dönem seçici, zaman serisi grafiği, laboratuvar başına son gelişmeler, filtreler ve arşiv gezinmesini birleştiriyor. Bu, incelenebilir bir ön yüz çıktısıdır; dizinlenen olaylar ve öngörüler projenin kendi verileri ve tahminleridir, laboratuvar çıktılarının bağımsız doğrulanmış ölçümü değildir.
+
+[Yayımlanmış paneli keşfedin](https://frontier-lab-observatory.lucentcarrot1.chatgpt.site/).
+
+[![Frontier Observatory zaman çizelgesi paneli](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50553966-1-d66115401633.png)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50553966-1-d66115401633.png)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-61"></a>
+### Örnek 61: [Kiraz çiçeklerini yan yana çizmek](https://x.com/nicochristie/status/2123185990923874325) (yazan [@nicochristie](https://x.com/nicochristie))
+
+**İki modelin aynı sahneyi çizgi çizgi nasıl oluşturduğunu karşılaştırın.**
+
+Nico Christie, Draw with Me içinde Claude Fable 5.2 ve GPT-6.2 Astra etiketli iki kiraz çiçeği sahnesi gösteriyor. Kayıt, ortak arayüzde farklı kompozisyonları ve çizim sıralarını sergiliyor. Üreticinin tek bir örneğidir; kontrollü sanatsal kalite puanı içermez.
+
+[![Kiraz çiçeklerini yan yana çizmek](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123185045305470976-poster-83a549c6f6b2.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123185045305470976-29f433f6e329.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-62"></a>
+### Örnek 62: [Tek HTML dosyasında Alp helikopter oyunu](https://x.com/vib3coded/status/2123173597661233427) (yazan [@vib3coded](https://x.com/vib3coded))
+
+**Kompakt bir tarayıcı oyununda uçuş kontrollerini ve kamera geçişlerini kontrol edin.**
+
+Üretici, Alp vadisinde uçan piksel tarzı bir helikopter gösteriyor ve tek HTML dosyasında üç kamera görünümü bulunduğunu bildiriyor. Belirtilen 16 dakika ve $6.55 bu çalışmaya aittir.
+
+[![Tek HTML dosyasında Alp helikopter oyunu](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123172517741297664-poster-046b00d42596.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123172517741297664-b3caa0da4462.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-63"></a>
+### Örnek 63: [Dört model birbirine geçen dişlileri canlandırıyor](https://x.com/SPAC89/status/2123171830739632189) (yazan [@SPAC89](https://x.com/SPAC89))
+
+**Maliyet hakkında sonuca varmadan önce görünen dişli düzenlerini ve hareketi karşılaştırın.**
+
+Üretici tek kayıtta Gemini 4 Neon, Gemini 4 Carbon, GPT-6.2 Astra Max ve GPT-6.2 Sol Max gösteriyor. Dört mekanizmanın dişli düzenleri ve ayrıntıları farklı. Kayıt, üreticinin düzeninde görsel karşılaştırma yapmaya olanak tanıyor.
+
+[![Dört model birbirine geçen dişlileri canlandırıyor](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123170788958171137-poster-04fb18026784.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123170788958171137-9d51b6b659ef.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-64"></a>
+### Örnek 64: [New York pizzacısı için dört açılış sayfası](https://x.com/eliadele/status/2123162596790718674) (yazan [@eliadele](https://x.com/eliadele))
+
+**Her modele aynı kısa isteği verip oluşturmayı seçtiği etkileşimleri karşılaştırın.**
+
+OutputBench, tek cümlelik istekten hayalî bir New York pizzacısının dört yorumunu gösteriyor. Astra sürümü kayan yazı ve tek renkli şehir görünümü kullanıyor. Üretici bu çalışma için $4.09 bildiriyor. Yayımlanan maliyetler ve tasarımlar kaydedilen testi anlatıyor.
+
+[![New York pizzacısı için dört açılış sayfası](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123162533758644224-poster-1c36c5408ded.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123162533758644224-b170fcab8a5c.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-65"></a>
+### Örnek 65: [İki mimari taşıyıcı sistem çalışması](https://x.com/ivanainai/status/2123160875611623711) (yazan [@ivanainai](https://x.com/ivanainai))
+
+**Eşleştirilmiş çıktılarda hangi yapısal ayrıntıların göründüğünü inceleyin.**
+
+Kaynak, Fable 5.2 ve Astra 6.2’ye atfedilen etiketli iki mimari taşıyıcı sistem görünümü gösteriyor. Yanındaki fiyatlar Artificial Analysis verilerine dayanıyor. Paylaşım bu görüntüleri oluşturmanın süresini veya maliyetini bildirmiyor.
+
+[![İki mimari taşıyıcı sistem çalışması](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123160210030075904-poster-b8b2e5471d19.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123160210030075904-caff03a482bd.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-66"></a>
+### Örnek 66: [Kodla işlenen Yosemite Firefall sahnesi](https://x.com/LexnLin/status/2123156510339465525) (yazan [@LexnLin](https://x.com/LexnLin))
+
+**Işık ve hareketli şelalenin kısa bir sahneyi nasıl aktarabildiğini inceleyin.**
+
+LexnLin, uçurum önünde şelale gösteren animasyonlu Firefall sahnesini paylaşıyor ve kodu GPT-6.2 Astra’ya atfediyor. Video görsel bir sonuç sağlıyor. Yazar tam isteği veya uygulama ayrıntılarını vermiyor.
+
+[![Kodla işlenen Yosemite Firefall sahnesi](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123148879977668610-poster-8a08a19bec22.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123148879977668610-cd895c4e9c6d.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-67"></a>
+### Örnek 67: [Piyano rulosu editöründe sıralanmış bir şarkı](https://x.com/aisearchio/status/2123150416448020698) (yazan [@aisearchio](https://x.com/aisearchio))
+
+**Sesi, kayıtta görünen notalar ve parça düzeniyle birlikte değerlendirin.**
+
+AI Search, GPT-6.2 Astra’ya atfedilen bir şarkı paylaşıyor. Videoda şarkı çalarken çok kanallı düzenleme ve piyano rulosu notaları görülüyor. Kaynak, üretim sürecinin hangi kısımlarını modelin yaptığını belirtmiyor.
+
+[![Piyano rulosu editöründe sıralanmış bir şarkı](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123150294356037633-poster-cf8c8ef0b5bb.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123150294356037633-4ec077feba6d.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-68"></a>
+### Örnek 68: [Akıllı ev panelinde bozulma dalgaları](https://x.com/JamesC_Alpha/status/2123143524530913734) (yazan [@JamesC_Alpha](https://x.com/JamesC_Alpha))
+
+**Referansla yönlendirilen animasyonun çevresindeki kontrollere uyup uymadığını inceleyin.**
+
+JamesC_Alpha, dalga biçimli bozulma içeren bir panel animasyonu paylaşıyor ve bunu GPT-6.2 Astra ile referansa dayalı iş akışına bağlıyor. Video görsel efekti bağlam içinde gösteriyor. Paylaşım, ilgili skill için yorumlara yönlendiriyor.
+
+[![Akıllı ev panelinde bozulma dalgaları](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123143475440787456-poster-ac0962416665.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123143475440787456-4f4d8d77e057.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-69"></a>
+### Örnek 69: [Game Boy kasaba teması ve nota videosu](https://x.com/aug5thmusic/status/2123140487368642799) (yazan [@aug5thmusic](https://x.com/aug5thmusic))
+
+**Müzikal parçaları incelemek için chiptune isteğini görsel bir partisyonla birleştirin.**
+
+Yazar, LilyPond beste isteği ve ayrı video isteği içeren bir GPT-6.2 Astra xhigh örneği paylaşıyor. Kayıt, piksel tarzı kasabayı notalarla birleştiriyor. İstek, iç içe geçen iki melodik enstrüman ve Game Boy ses kısıtlarını gerektiriyor.
+
+[![Game Boy kasaba teması ve nota videosu](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123139516274003968-poster-3bbdd7bc1684.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123139516274003968-42a255d65cf2.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-70"></a>
+### Örnek 70: [macOS için moleküler konformer görüntüleyici](https://x.com/DeryaTR_/status/2123140175807304163) (yazan [@DeryaTR_](https://x.com/DeryaTR_))
+
+**Bilimsel görüntüleyicinin içe aktarma, döndürme ve okunaklı kontrolleri birleştirdiğini kontrol edin.**
+
+Derya, GPT-6.2 Astra ile yapılmış macOS kimya uygulamasını paylaşıyor; moleküler konformerleri göstermeyi ve döndürmeyi sergiliyor. Yazar anlatım için Higgsfield’ı kaynak gösteriyor. Kayıt arayüzü gösterse de analitik doğruluğu ortaya koymuyor.
+
+[![macOS için moleküler konformer görüntüleyici](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123139873272221696-poster-21eac403c7be.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123139873272221696-807df9200d14.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-71"></a>
+### Örnek 71: [Godot’ta göz kırpan bekleme animasyonu](https://x.com/soya_da_yoot/status/2123137245607555293) (yazan [@soya_da_yoot](https://x.com/soya_da_yoot))
+
+**Karakteri oyun motoruna aktardıktan sonra ince bekleme hareketlerini önizleyin.**
+
+Üretici, bekleme animasyonunu ve karakterin Godot projesine aktarılmasını GPT-6.2 Astra’ya atfediyor. Videoda sade bir sahnede duran stilize figürün, yazarın belirttiği göz kırpma da dahil küçük hareketleri görülüyor.
+
+[![Godot’ta göz kırpan bekleme animasyonu](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123137010122584065-poster-bf795035d5f4.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123137010122584065-aee4ec5a5942.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-72"></a>
+### Örnek 72: [Three.js içinde etkileşimli yelkenliler](https://x.com/marcthecreatorr/status/2123135975308038590) (yazan [@marcthecreatorr](https://x.com/marcthecreatorr))
+
+**Aynı modelleme isteği altında gövdeleri, yelkenleri ve ışığı karşılaştırın.**
+
+Üretici, Astra ve Opus 5.5 gemilerini paylaşıyor; ikisine de ek istem veya elle düzeltme olmadan aynı Three.js isteğini verdiğini bildiriyor. Çalışmalar farklı araçlar kullandı ve farklı süreler aldı. Görüntüler iki geminin görsel karşılaştırmasını destekliyor.
+
+[![Three.js içinde etkileşimli yelkenliler](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123135680050085888-poster-1c911dd3358a.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123135680050085888-bf9ca4eab721.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-73"></a>
+### Örnek 73: [Astra ve Fable arasında tek satranç oyunu](https://x.com/Leapofcode/status/2123078382628000098) (yazan [@Leapofcode](https://x.com/Leapofcode))
+
+**Genelleme yapmadan önce tek maçın hamlelerini ve sonucunu inceleyin.**
+
+Leapofcode, GPT-6.2 Astra ile Claude Fable 5.2 arasındaki satranç oyununu paylaşıyor. Üretici, Astra’nın 71 hamle sonunda kazandığını bildiriyor. Tek oyun, oyun gücü sıralaması oluşturmak için yeterli değildir.
+
+[![Astra ve Fable arasında tek satranç oyunu](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123078116801499137-poster-0398233cfd9d.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123078116801499137-17b78c7589bb.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-74"></a>
+### Örnek 74: [Gece-gündüz döngülü voksel kale oyunu](https://x.com/marcthecreatorr/status/2123058963197362606) (yazan [@marcthecreatorr](https://x.com/marcthecreatorr))
+
+**Oyunun çevresel özelliklerini videoda görünen kontrollerle karşılaştırın.**
+
+Üretici, GPT-6.2 Astra xhigh ile yapılmış; kaleler, fenerler, su çarkı, gece-gündüz döngüsü ve uçuş modu içeren bir voksel sandbox gösteriyor. 78 dakikalık çalışma ve yaklaşık $5.69 tahmini API maliyeti bildiriyor.
+
+[![Gece-gündüz döngülü voksel kale oyunu](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123058287004229632-poster-b2280028bcab.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123058287004229632-5601d374166e.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
 
 <a id="case-37"></a>
 ### Örnek 37: [İndirilen hazır varlıkla oluşturulan bir T-Rex](https://x.com/luckeyfaraday/status/2122854206709051691) (yazan [@luckeyfaraday](https://x.com/luckeyfaraday))
@@ -991,6 +1203,6 @@ Type: Demo | Date: 2026-11-09
 <a id="acknowledge"></a>
 ## 🙏 Teşekkür
 
-[@SadAlbert10](https://x.com/SadAlbert10), [@leo114119](https://x.com/leo114119), [@FiniYang](https://x.com/FiniYang), [@notjazii](https://x.com/notjazii), [@GulaGala001](https://x.com/GulaGala001), [@noclipepe](https://x.com/noclipepe), [@marcthecreatorr](https://x.com/marcthecreatorr), [@nelia](https://linux.do/u/nelia), [@AI_Screening](https://x.com/AI_Screening), [@hakmgpt](https://x.com/hakmgpt), [@FixlationAI](https://x.com/FixlationAI), [@YFeng2022](https://x.com/YFeng2022), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@mirochill](https://x.com/mirochill), [@N1n3VASthR33H](https://x.com/N1n3VASthR33H), [@YouArtStudio](https://x.com/YouArtStudio), [@ATFANSEN](https://x.com/ATFANSEN), [@Mashiro_0619](https://x.com/Mashiro_0619), [@NFT_Chen](https://x.com/NFT_Chen), [@j4kcdq](https://x.com/j4kcdq), [@twno1indiaa3](https://x.com/twno1indiaa3), [@luckeyfaraday](https://x.com/luckeyfaraday), [@skalskip92](https://x.com/skalskip92), [@intheworldofai](https://x.com/intheworldofai), [@withplayground](https://x.com/withplayground), [@ZryMiller](https://x.com/ZryMiller), [@Angaisb_](https://x.com/Angaisb_), [@ChrisGPT](https://x.com/ChrisGPT), [@Densitylucky](https://x.com/Densitylucky), [@ShadeLurk](https://x.com/ShadeLurk), [@magnific](https://x.com/magnific), [@PhysAIAnalysis](https://x.com/PhysAIAnalysis), [@Masimo_Blue](https://x.com/Masimo_Blue), [@voxelbench](https://x.com/voxelbench), [@higgsfield_ai](https://x.com/higgsfield_ai), [@Da7_Tech](https://x.com/Da7_Tech), [@lukaspet](https://x.com/lukaspet), [@simonw](https://x.com/simonw), [@thefourthchime](https://news.ycombinator.com/user?id=thefourthchime), [@goyozi](https://news.ycombinator.com/user?id=goyozi), [@simonw](https://github.com/simonw), [@XCSme](https://news.ycombinator.com/user?id=XCSme), [@stbenjam](https://github.com/stbenjam), [@OpenAI](https://openai.com/), [ferret (问心)](https://linux.do/u/ferret), [@chetaslua](https://x.com/chetaslua), [@Smlay_ero](https://x.com/Smlay_ero), [@Octoberry](https://x.com/Octoberry)
+[@SadAlbert10](https://x.com/SadAlbert10), [@leo114119](https://x.com/leo114119), [@FiniYang](https://x.com/FiniYang), [@notjazii](https://x.com/notjazii), [@GulaGala001](https://x.com/GulaGala001), [@noclipepe](https://x.com/noclipepe), [@marcthecreatorr](https://x.com/marcthecreatorr), [@nelia](https://linux.do/u/nelia), [@AI_Screening](https://x.com/AI_Screening), [@hakmgpt](https://x.com/hakmgpt), [@FixlationAI](https://x.com/FixlationAI), [@YFeng2022](https://x.com/YFeng2022), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@mirochill](https://x.com/mirochill), [@N1n3VASthR33H](https://x.com/N1n3VASthR33H), [@YouArtStudio](https://x.com/YouArtStudio), [@ATFANSEN](https://x.com/ATFANSEN), [@Mashiro_0619](https://x.com/Mashiro_0619), [@NFT_Chen](https://x.com/NFT_Chen), [@j4kcdq](https://x.com/j4kcdq), [@twno1indiaa3](https://x.com/twno1indiaa3), [@luckeyfaraday](https://x.com/luckeyfaraday), [@skalskip92](https://x.com/skalskip92), [@intheworldofai](https://x.com/intheworldofai), [@withplayground](https://x.com/withplayground), [@ZryMiller](https://x.com/ZryMiller), [@Angaisb_](https://x.com/Angaisb_), [@ChrisGPT](https://x.com/ChrisGPT), [@Densitylucky](https://x.com/Densitylucky), [@ShadeLurk](https://x.com/ShadeLurk), [@magnific](https://x.com/magnific), [@PhysAIAnalysis](https://x.com/PhysAIAnalysis), [@Masimo_Blue](https://x.com/Masimo_Blue), [@voxelbench](https://x.com/voxelbench), [@higgsfield_ai](https://x.com/higgsfield_ai), [@Da7_Tech](https://x.com/Da7_Tech), [@lukaspet](https://x.com/lukaspet), [@simonw](https://x.com/simonw), [@thefourthchime](https://news.ycombinator.com/user?id=thefourthchime), [@goyozi](https://news.ycombinator.com/user?id=goyozi), [@simonw](https://github.com/simonw), [@XCSme](https://news.ycombinator.com/user?id=XCSme), [@stbenjam](https://github.com/stbenjam), [@OpenAI](https://openai.com/), [@mnhcorp](https://news.ycombinator.com/user?id=mnhcorp), [@nicochristie](https://x.com/nicochristie), [@vib3coded](https://x.com/vib3coded), [@SPAC89](https://x.com/SPAC89), [@eliadele](https://x.com/eliadele), [@ivanainai](https://x.com/ivanainai), [@LexnLin](https://x.com/LexnLin), [@aisearchio](https://x.com/aisearchio), [@JamesC_Alpha](https://x.com/JamesC_Alpha), [@aug5thmusic](https://x.com/aug5thmusic), [@DeryaTR_](https://x.com/DeryaTR_), [@soya_da_yoot](https://x.com/soya_da_yoot), [@Leapofcode](https://x.com/Leapofcode), [ferret (问心)](https://linux.do/u/ferret), [@chetaslua](https://x.com/chetaslua), [@Smlay_ero](https://x.com/Smlay_ero), [@Octoberry](https://x.com/Octoberry)
 
 Bu demoları hazırlayan ve paylaşan herkese teşekkürler. Üçüncü taraf medyası özgün haklarını korur. Atıf düzeltmesi veya kaldırma talebi için ilgili kaynak bağlantısını içeren bir issue açın.

@@ -30,7 +30,7 @@ Une collection de démonstrations et de cas d’usage de GPT-6.2 Astra issus de 
 <a id="overview"></a>
 ## 📊 Vue d’ensemble
 
-59 cas · 101 visuels de démonstration · 4 familles de tâches. Toutes les démonstrations de la collection examinée qui répondent aux critères sont incluses ; les republications d’un même travail sont regroupées. Les prompts complets sont facultatifs.
+74 cas · 116 visuels de démonstration · 4 familles de tâches. Toutes les démonstrations de la collection examinée qui répondent aux critères sont incluses ; les republications d’un même travail sont regroupées. Les prompts complets sont facultatifs.
 
 > [!NOTE]
 > Les noms des modèles, les durées et les observations comparatives reprennent les indications des créateurs cités dans les liens.
@@ -49,6 +49,21 @@ Une collection de démonstrations et de cas d’usage de GPT-6.2 Astra issus de 
 
 | Cas | Catégorie | Ce qui est montré | Type |
 |---|---|---|---|
+| [60. Tableau de bord chronologique Frontier Observatory](#case-60) | Interfaces web et mouvement | Graphique de production des laboratoires, filtres et archives | Démonstration |
+| [61. Dessiner des cerisiers en fleurs côte à côte](#case-61) | Interfaces web et mouvement | Comparaison d’art collaboratif en JavaScript | Évaluation |
+| [62. Un jeu d’hélicoptère alpin dans un HTML](#case-62) | Jeux et scènes | Vol alpin avec trois vues de caméra | Démonstration |
+| [63. Quatre modèles animent des engrenages imbriqués](#case-63) | 3D et animation | Quatre mécanismes d’engrenages étiquetés | Évaluation |
+| [64. Quatre pages pour une pizzeria new-yorkaise](#case-64) | Interfaces web et mouvement | Quatre versions d’une pizzeria fictive | Évaluation |
+| [65. Deux études d’ossature architecturale](#case-65) | 3D et animation | Rendus d’ossature par Astra et Fable | Évaluation |
+| [66. Le Firefall de Yosemite rendu par du code](#case-66) | Interfaces web et mouvement | Une cascade change de couleur contre une falaise | Démonstration |
+| [67. Une chanson séquencée dans un éditeur piano roll](#case-67) | Interfaces web et mouvement | Une chanson attribuée au modèle et son arrangement | Démonstration |
+| [68. Ondes de distorsion dans un tableau de bord domotique](#case-68) | Interfaces web et mouvement | Un tableau de bord avec un effet guidé par référence | Démonstration |
+| [69. Thème de ville Game Boy et vidéo de partition](#case-69) | Interfaces web et mouvement | Vidéo en pixel art à côté d’une partition | Démonstration |
+| [70. Un visualiseur de conformères moléculaires pour macOS](#case-70) | 3D et animation | Conformères moléculaires interactifs et commandes de l’application | Démonstration |
+| [71. Une animation d’attente avec clignement dans Godot](#case-71) | 3D et animation | Un personnage attend et cligne des yeux dans le moteur | Démonstration |
+| [72. Voiliers interactifs en Three.js](#case-72) | 3D et animation | Deux voiliers Three.js étiquetés | Évaluation |
+| [73. Une partie d’échecs entre Astra et Fable](#case-73) | Jeux et scènes | Une partie enregistrée avec deux étiquettes de modèle | Évaluation |
+| [74. Un château voxel avec cycle jour-nuit](#case-74) | Jeux et scènes | Un monde voxel avec château et mode de vol | Démonstration |
 | [37. Un T-Rex assemblé à partir d’une ressource téléchargée](#case-37) | 3D et animation | T-Rex terminé et indication de provenance de la ressource | Limite |
 | [38. Poses de basketteurs avec un seul appel](#case-38) | 3D et animation | Basket avec squelettes superposés aux joueurs | Démonstration |
 | [39. Un donjon Babylon.js enrichi par une demande supplémentaire](#case-39) | Jeux et scènes | Donjon, forge et rencontre avec un golem | Démonstration |
@@ -112,6 +127,203 @@ Une collection de démonstrations et de cas d’usage de GPT-6.2 Astra issus de 
 [Vue d’ensemble](#overview) · [Démarrage rapide](#quick-start) · [Dépôts associés](#related-repositories) · [Remerciements](#acknowledge)
 
 ## 🎬 Démonstrations de la communauté
+
+<a id="case-60"></a>
+### Cas 60: [Tableau de bord chronologique Frontier Observatory](https://news.ycombinator.com/item?id=50553966) (par [@mnhcorp](https://news.ycombinator.com/user?id=mnhcorp))
+
+**Transformez une consigne de veille scientifique en tableau de bord interactif compact.**
+
+mnhcorp partage Frontier Observatory, un site permettant de parcourir dans le temps les publications et recherches de laboratoires de pointe. Le créateur attribue le travail à GPT-6.2 Astra High et décrit l’affinement d’une consigne publique initiale. L’interface réunit sélecteur de période, graphique temporel, résumés des nouveautés par laboratoire, filtres et navigation des archives. C’est un résultat d’interface consultable ; les événements indexés et prévisions restent les données et estimations du projet, pas une mesure vérifiée indépendamment de la production des laboratoires.
+
+[Explorer le tableau de bord publié](https://frontier-lab-observatory.lucentcarrot1.chatgpt.site/).
+
+[![Tableau de bord chronologique Frontier Observatory](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50553966-1-d66115401633.png)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50553966-1-d66115401633.png)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-61"></a>
+### Cas 61: [Dessiner des cerisiers en fleurs côte à côte](https://x.com/nicochristie/status/2123185990923874325) (par [@nicochristie](https://x.com/nicochristie))
+
+**Comparez la construction d’une même scène par deux modèles, trait après trait.**
+
+Nico Christie montre deux scènes de cerisiers en fleurs dans Draw with Me, étiquetées Claude Fable 5.2 et GPT-6.2 Astra. L’enregistrement illustre des compositions et séquences de dessin différentes dans une interface commune. Il s’agit d’un exemple du créateur, sans note contrôlée de qualité artistique.
+
+[![Dessiner des cerisiers en fleurs côte à côte](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123185045305470976-poster-83a549c6f6b2.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123185045305470976-29f433f6e329.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-62"></a>
+### Cas 62: [Un jeu d’hélicoptère alpin dans un HTML](https://x.com/vib3coded/status/2123173597661233427) (par [@vib3coded](https://x.com/vib3coded))
+
+**Vérifiez les commandes de vol et le changement de caméra dans un jeu de navigateur compact.**
+
+Le créateur montre un hélicoptère en pixel art survolant une vallée alpine et annonce trois vues de caméra dans un seul HTML. Les 16 minutes et $6.55 indiqués concernent cette exécution.
+
+[![Un jeu d’hélicoptère alpin dans un HTML](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123172517741297664-poster-046b00d42596.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123172517741297664-b3caa0da4462.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-63"></a>
+### Cas 63: [Quatre modèles animent des engrenages imbriqués](https://x.com/SPAC89/status/2123171830739632189) (par [@SPAC89](https://x.com/SPAC89))
+
+**Comparez disposition et mouvement visibles des engrenages avant de conclure sur les coûts.**
+
+Le créateur montre Gemini 4 Neon, Gemini 4 Carbon, GPT-6.2 Astra Max et GPT-6.2 Sol Max dans un même enregistrement. Les quatre mécanismes utilisent des dispositions et détails d’engrenages différents. L’enregistrement permet une comparaison visuelle dans les conditions du créateur.
+
+[![Quatre modèles animent des engrenages imbriqués](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123170788958171137-poster-04fb18026784.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123170788958171137-9d51b6b659ef.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-64"></a>
+### Cas 64: [Quatre pages pour une pizzeria new-yorkaise](https://x.com/eliadele/status/2123162596790718674) (par [@eliadele](https://x.com/eliadele))
+
+**Donnez à chaque modèle la même courte consigne et comparez les interactions qu’il choisit de créer.**
+
+OutputBench montre quatre versions d’une pizzeria fictive de New York à partir d’une consigne d’une phrase. La version Astra utilise un bandeau défilant et une esthétique urbaine monochrome. Le créateur annonce $4.09 pour cette exécution. Les coûts et designs publiés décrivent le test enregistré.
+
+[![Quatre pages pour une pizzeria new-yorkaise](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123162533758644224-poster-1c36c5408ded.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123162533758644224-b170fcab8a5c.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-65"></a>
+### Cas 65: [Deux études d’ossature architecturale](https://x.com/ivanainai/status/2123160875611623711) (par [@ivanainai](https://x.com/ivanainai))
+
+**Examinez les détails structurels visibles dans les deux résultats.**
+
+La source montre deux vues étiquetées d’ossatures architecturales, attribuées à Fable 5.2 et Astra 6.2. Les prix associés renvoient aux chiffres d’Artificial Analysis. La publication n’indique ni le temps ni le coût de création de ces rendus.
+
+[![Deux études d’ossature architecturale](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123160210030075904-poster-b8b2e5471d19.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123160210030075904-caff03a482bd.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-66"></a>
+### Cas 66: [Le Firefall de Yosemite rendu par du code](https://x.com/LexnLin/status/2123156510339465525) (par [@LexnLin](https://x.com/LexnLin))
+
+**Étudiez comment lumière et chute d’eau animée peuvent exprimer une scène courte.**
+
+LexnLin publie une scène Firefall animée montrant une cascade contre une falaise et attribue le code à GPT-6.2 Astra. Le clip fournit un résultat visuel. L’auteur ne donne ni consigne complète ni détails d’implémentation.
+
+[![Le Firefall de Yosemite rendu par du code](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123148879977668610-poster-8a08a19bec22.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123148879977668610-cd895c4e9c6d.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-67"></a>
+### Cas 67: [Une chanson séquencée dans un éditeur piano roll](https://x.com/aisearchio/status/2123150416448020698) (par [@aisearchio](https://x.com/aisearchio))
+
+**Écoutez le son avec les notes et l’organisation des pistes visibles dans l’enregistrement.**
+
+AI Search partage une chanson attribuée à GPT-6.2 Astra. La vidéo montre un arrangement multipiste et des notes de piano roll pendant la lecture. La source ne précise pas quelles étapes de production ont été effectuées par le modèle.
+
+[![Une chanson séquencée dans un éditeur piano roll](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123150294356037633-poster-cf8c8ef0b5bb.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123150294356037633-4ec077feba6d.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-68"></a>
+### Cas 68: [Ondes de distorsion dans un tableau de bord domotique](https://x.com/JamesC_Alpha/status/2123143524530913734) (par [@JamesC_Alpha](https://x.com/JamesC_Alpha))
+
+**Examinez si une animation guidée par référence s’intègre aux commandes voisines.**
+
+JamesC_Alpha partage une animation de tableau de bord avec une distorsion ondulatoire et la relie à un processus guidé par références avec GPT-6.2 Astra. Le clip montre l’effet visuel en contexte. La publication renvoie à une skill associée dans les commentaires.
+
+[![Ondes de distorsion dans un tableau de bord domotique](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123143475440787456-poster-ac0962416665.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123143475440787456-4f4d8d77e057.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-69"></a>
+### Cas 69: [Thème de ville Game Boy et vidéo de partition](https://x.com/aug5thmusic/status/2123140487368642799) (par [@aug5thmusic](https://x.com/aug5thmusic))
+
+**Associez une consigne chiptune à une partition visuelle pour examiner les parties musicales.**
+
+L’auteur partage un exemple GPT-6.2 Astra xhigh avec une consigne de composition LilyPond et une consigne vidéo distincte. L’enregistrement associe une ville en pixel art à une partition. La consigne demande deux instruments mélodiques entrelacés et les contraintes audio de la Game Boy.
+
+[![Thème de ville Game Boy et vidéo de partition](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123139516274003968-poster-3bbdd7bc1684.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123139516274003968-42a255d65cf2.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-70"></a>
+### Cas 70: [Un visualiseur de conformères moléculaires pour macOS](https://x.com/DeryaTR_/status/2123140175807304163) (par [@DeryaTR_](https://x.com/DeryaTR_))
+
+**Vérifiez qu’un visualiseur scientifique associe importation, rotation et commandes lisibles.**
+
+Derya partage une application de chimie macOS réalisée avec GPT-6.2 Astra et montre l’affichage et la rotation de conformères moléculaires. L’auteur attribue la narration à Higgsfield. La vidéo présente l’interface sans établir sa précision analytique.
+
+[![Un visualiseur de conformères moléculaires pour macOS](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123139873272221696-poster-21eac403c7be.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123139873272221696-807df9200d14.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-71"></a>
+### Cas 71: [Une animation d’attente avec clignement dans Godot](https://x.com/soya_da_yoot/status/2123137245607555293) (par [@soya_da_yoot](https://x.com/soya_da_yoot))
+
+**Prévisualisez les mouvements d’attente subtils après l’importation d’un personnage dans un moteur de jeu.**
+
+Le créateur attribue à GPT-6.2 Astra une animation d’attente et le transfert du personnage dans un projet Godot. Le clip montre une silhouette stylisée debout dans une scène simple, avec de petits mouvements, dont le clignement décrit par l’auteur.
+
+[![Une animation d’attente avec clignement dans Godot](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123137010122584065-poster-bf795035d5f4.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123137010122584065-aee4ec5a5942.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-72"></a>
+### Cas 72: [Voiliers interactifs en Three.js](https://x.com/marcthecreatorr/status/2123135975308038590) (par [@marcthecreatorr](https://x.com/marcthecreatorr))
+
+**Comparez coques, voiles et éclairage à partir d’une même consigne de modélisation.**
+
+Le créateur partage des navires Astra et Opus 5.5 et indique leur avoir donné la même consigne Three.js, sans prompts supplémentaires ni retouches manuelles. Les exécutions ont utilisé des outils différents et pris des durées différentes. La vidéo permet de comparer visuellement les deux navires.
+
+[![Voiliers interactifs en Three.js](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123135680050085888-poster-1c911dd3358a.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123135680050085888-bf9ca4eab721.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-73"></a>
+### Cas 73: [Une partie d’échecs entre Astra et Fable](https://x.com/Leapofcode/status/2123078382628000098) (par [@Leapofcode](https://x.com/Leapofcode))
+
+**Examinez coups et résultat d’une seule partie avant de généraliser.**
+
+Leapofcode partage une partie entre GPT-6.2 Astra et Claude Fable 5.2. Le créateur annonce une victoire d’Astra après 71 coups. Une seule partie ne suffit pas à établir un classement de force de jeu.
+
+[![Une partie d’échecs entre Astra et Fable](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123078116801499137-poster-0398233cfd9d.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123078116801499137-17b78c7589bb.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-74"></a>
+### Cas 74: [Un château voxel avec cycle jour-nuit](https://x.com/marcthecreatorr/status/2123058963197362606) (par [@marcthecreatorr](https://x.com/marcthecreatorr))
+
+**Comparez les éléments de l’environnement du jeu aux commandes montrées dans le clip.**
+
+Le créateur montre un bac à sable voxel construit avec GPT-6.2 Astra xhigh, avec châteaux, lanternes, roue à eau, cycle jour-nuit et mode de vol. Il annonce une exécution de 78 minutes et environ $5.69 de coût API estimé.
+
+[![Un château voxel avec cycle jour-nuit](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123058287004229632-poster-b2280028bcab.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123058287004229632-5601d374166e.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
 
 <a id="case-37"></a>
 ### Cas 37: [Un T-Rex assemblé à partir d’une ressource téléchargée](https://x.com/luckeyfaraday/status/2122854206709051691) (par [@luckeyfaraday](https://x.com/luckeyfaraday))
@@ -991,6 +1203,6 @@ Type: Demo | Date: 2026-11-09
 <a id="acknowledge"></a>
 ## 🙏 Remerciements
 
-[@SadAlbert10](https://x.com/SadAlbert10), [@leo114119](https://x.com/leo114119), [@FiniYang](https://x.com/FiniYang), [@notjazii](https://x.com/notjazii), [@GulaGala001](https://x.com/GulaGala001), [@noclipepe](https://x.com/noclipepe), [@marcthecreatorr](https://x.com/marcthecreatorr), [@nelia](https://linux.do/u/nelia), [@AI_Screening](https://x.com/AI_Screening), [@hakmgpt](https://x.com/hakmgpt), [@FixlationAI](https://x.com/FixlationAI), [@YFeng2022](https://x.com/YFeng2022), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@mirochill](https://x.com/mirochill), [@N1n3VASthR33H](https://x.com/N1n3VASthR33H), [@YouArtStudio](https://x.com/YouArtStudio), [@ATFANSEN](https://x.com/ATFANSEN), [@Mashiro_0619](https://x.com/Mashiro_0619), [@NFT_Chen](https://x.com/NFT_Chen), [@j4kcdq](https://x.com/j4kcdq), [@twno1indiaa3](https://x.com/twno1indiaa3), [@luckeyfaraday](https://x.com/luckeyfaraday), [@skalskip92](https://x.com/skalskip92), [@intheworldofai](https://x.com/intheworldofai), [@withplayground](https://x.com/withplayground), [@ZryMiller](https://x.com/ZryMiller), [@Angaisb_](https://x.com/Angaisb_), [@ChrisGPT](https://x.com/ChrisGPT), [@Densitylucky](https://x.com/Densitylucky), [@ShadeLurk](https://x.com/ShadeLurk), [@magnific](https://x.com/magnific), [@PhysAIAnalysis](https://x.com/PhysAIAnalysis), [@Masimo_Blue](https://x.com/Masimo_Blue), [@voxelbench](https://x.com/voxelbench), [@higgsfield_ai](https://x.com/higgsfield_ai), [@Da7_Tech](https://x.com/Da7_Tech), [@lukaspet](https://x.com/lukaspet), [@simonw](https://x.com/simonw), [@thefourthchime](https://news.ycombinator.com/user?id=thefourthchime), [@goyozi](https://news.ycombinator.com/user?id=goyozi), [@simonw](https://github.com/simonw), [@XCSme](https://news.ycombinator.com/user?id=XCSme), [@stbenjam](https://github.com/stbenjam), [@OpenAI](https://openai.com/), [ferret (问心)](https://linux.do/u/ferret), [@chetaslua](https://x.com/chetaslua), [@Smlay_ero](https://x.com/Smlay_ero), [@Octoberry](https://x.com/Octoberry)
+[@SadAlbert10](https://x.com/SadAlbert10), [@leo114119](https://x.com/leo114119), [@FiniYang](https://x.com/FiniYang), [@notjazii](https://x.com/notjazii), [@GulaGala001](https://x.com/GulaGala001), [@noclipepe](https://x.com/noclipepe), [@marcthecreatorr](https://x.com/marcthecreatorr), [@nelia](https://linux.do/u/nelia), [@AI_Screening](https://x.com/AI_Screening), [@hakmgpt](https://x.com/hakmgpt), [@FixlationAI](https://x.com/FixlationAI), [@YFeng2022](https://x.com/YFeng2022), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@mirochill](https://x.com/mirochill), [@N1n3VASthR33H](https://x.com/N1n3VASthR33H), [@YouArtStudio](https://x.com/YouArtStudio), [@ATFANSEN](https://x.com/ATFANSEN), [@Mashiro_0619](https://x.com/Mashiro_0619), [@NFT_Chen](https://x.com/NFT_Chen), [@j4kcdq](https://x.com/j4kcdq), [@twno1indiaa3](https://x.com/twno1indiaa3), [@luckeyfaraday](https://x.com/luckeyfaraday), [@skalskip92](https://x.com/skalskip92), [@intheworldofai](https://x.com/intheworldofai), [@withplayground](https://x.com/withplayground), [@ZryMiller](https://x.com/ZryMiller), [@Angaisb_](https://x.com/Angaisb_), [@ChrisGPT](https://x.com/ChrisGPT), [@Densitylucky](https://x.com/Densitylucky), [@ShadeLurk](https://x.com/ShadeLurk), [@magnific](https://x.com/magnific), [@PhysAIAnalysis](https://x.com/PhysAIAnalysis), [@Masimo_Blue](https://x.com/Masimo_Blue), [@voxelbench](https://x.com/voxelbench), [@higgsfield_ai](https://x.com/higgsfield_ai), [@Da7_Tech](https://x.com/Da7_Tech), [@lukaspet](https://x.com/lukaspet), [@simonw](https://x.com/simonw), [@thefourthchime](https://news.ycombinator.com/user?id=thefourthchime), [@goyozi](https://news.ycombinator.com/user?id=goyozi), [@simonw](https://github.com/simonw), [@XCSme](https://news.ycombinator.com/user?id=XCSme), [@stbenjam](https://github.com/stbenjam), [@OpenAI](https://openai.com/), [@mnhcorp](https://news.ycombinator.com/user?id=mnhcorp), [@nicochristie](https://x.com/nicochristie), [@vib3coded](https://x.com/vib3coded), [@SPAC89](https://x.com/SPAC89), [@eliadele](https://x.com/eliadele), [@ivanainai](https://x.com/ivanainai), [@LexnLin](https://x.com/LexnLin), [@aisearchio](https://x.com/aisearchio), [@JamesC_Alpha](https://x.com/JamesC_Alpha), [@aug5thmusic](https://x.com/aug5thmusic), [@DeryaTR_](https://x.com/DeryaTR_), [@soya_da_yoot](https://x.com/soya_da_yoot), [@Leapofcode](https://x.com/Leapofcode), [ferret (问心)](https://linux.do/u/ferret), [@chetaslua](https://x.com/chetaslua), [@Smlay_ero](https://x.com/Smlay_ero), [@Octoberry](https://x.com/Octoberry)
 
 Merci aux créateurs et aux personnes qui ont partagé ces démonstrations. Les médias tiers conservent leurs droits d’origine. Pour demander une correction d’attribution ou un retrait, ouvrez une issue avec le lien vers la source concernée.

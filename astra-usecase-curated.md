@@ -2,6 +2,21 @@
 
 | Case | Title | Source |
 |---|---|---|
+| 60 | [Frontier Observatory timeline dashboard](README.md#case-60) | [@mnhcorp](https://news.ycombinator.com/item?id=50553966) |
+| 61 | [Drawing cherry blossoms side by side](README.md#case-61) | [@nicochristie](https://x.com/nicochristie/status/2123185990923874325) |
+| 62 | [Alpine helicopter game in one HTML file](README.md#case-62) | [@vib3coded](https://x.com/vib3coded/status/2123173597661233427) |
+| 63 | [Four models animate interlocking gears](README.md#case-63) | [@SPAC89](https://x.com/SPAC89/status/2123171830739632189) |
+| 64 | [Four landing pages for a New York pizzeria](README.md#case-64) | [@eliadele](https://x.com/eliadele/status/2123162596790718674) |
+| 65 | [Two architectural framing studies](README.md#case-65) | [@ivanainai](https://x.com/ivanainai/status/2123160875611623711) |
+| 66 | [Yosemite Firefall rendered with code](README.md#case-66) | [@LexnLin](https://x.com/LexnLin/status/2123156510339465525) |
+| 67 | [A sequenced song in a piano-roll editor](README.md#case-67) | [@aisearchio](https://x.com/aisearchio/status/2123150416448020698) |
+| 68 | [Distortion waves in a smart-home dashboard](README.md#case-68) | [@JamesC_Alpha](https://x.com/JamesC_Alpha/status/2123143524530913734) |
+| 69 | [A Game Boy town theme and score video](README.md#case-69) | [@aug5thmusic](https://x.com/aug5thmusic/status/2123140487368642799) |
+| 70 | [A macOS molecular conformer viewer](README.md#case-70) | [@DeryaTR_](https://x.com/DeryaTR_/status/2123140175807304163) |
+| 71 | [A blinking idle animation in Godot](README.md#case-71) | [@soya_da_yoot](https://x.com/soya_da_yoot/status/2123137245607555293) |
+| 72 | [Interactive sailing ships in Three.js](README.md#case-72) | [@marcthecreatorr](https://x.com/marcthecreatorr/status/2123135975308038590) |
+| 73 | [Astra and Fable play one chess game](README.md#case-73) | [@Leapofcode](https://x.com/Leapofcode/status/2123078382628000098) |
+| 74 | [A voxel castle game with a day-night cycle](README.md#case-74) | [@marcthecreatorr](https://x.com/marcthecreatorr/status/2123058963197362606) |
 | 37 | [A T-Rex result built from a downloaded asset](README.md#case-37) | [@luckeyfaraday](https://x.com/luckeyfaraday/status/2122854206709051691) |
 | 38 | [Basketball player poses from a single model call](README.md#case-38) | [@skalskip92](https://x.com/skalskip92/status/2122847867782009063) |
 | 39 | [A Babylon.js dungeon expanded through a follow-up](README.md#case-39) | [@intheworldofai](https://x.com/intheworldofai/status/2122846010367934819) |

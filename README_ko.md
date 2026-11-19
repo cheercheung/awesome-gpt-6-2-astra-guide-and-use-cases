@@ -30,7 +30,7 @@
 <a id="overview"></a>
 ## 📊 개요
 
-사례 59개 · 데모 시각 자료 101개 · 작업 유형 4개. 검토한 자료 중 조건을 충족하는 데모를 모두 수록했으며, 같은 작품의 재게시물은 하나로 묶었습니다. 완전한 프롬프트 공개는 수록의 필수 조건이 아닙니다.
+사례 74개 · 데모 시각 자료 116개 · 작업 유형 4개. 검토한 자료 중 조건을 충족하는 데모를 모두 수록했으며, 같은 작품의 재게시물은 하나로 묶었습니다. 완전한 프롬프트 공개는 수록의 필수 조건이 아닙니다.
 
 > [!NOTE]
 > 모델 표기, 소요 시간, 비교 관찰은 링크된 크리에이터의 설명을 따릅니다.
@@ -49,6 +49,21 @@
 
 | 사례 | 분류 | 보여 주는 내용 | 유형 |
 |---|---|---|---|
+| [60. Frontier Observatory 타임라인 대시보드](#case-60) | 프런트엔드 및 모션 | 연구소 산출물 차트와 필터, 아카이브 탐색 | 데모 |
+| [61. 나란히 그리는 벚꽃 장면](#case-61) | 프런트엔드 및 모션 | 협업형 JavaScript 그림 비교 | 평가 |
+| [62. HTML 파일 하나로 만든 알프스 헬리콥터 게임](#case-62) | 게임 및 장면 | 세 카메라 시점으로 보는 알프스 비행 | 데모 |
+| [63. 네 모델의 맞물린 기어 애니메이션](#case-63) | 3D 및 애니메이션 | 모델 이름이 붙은 네 기어 기구 | 평가 |
+| [64. 뉴욕 피자 가게의 랜딩 페이지 네 가지](#case-64) | 프런트엔드 및 모션 | 한 가상 피자 가게의 네 디자인 | 평가 |
+| [65. 두 건축 골조 표현](#case-65) | 3D 및 애니메이션 | Astra와 Fable의 골조 렌더링 | 평가 |
+| [66. 코드로 표현한 요세미티 불폭포](#case-66) | 프런트엔드 및 모션 | 절벽 앞에서 색이 변하는 폭포 | 데모 |
+| [67. 피아노 롤 편집기의 시퀀싱된 곡](#case-67) | 프런트엔드 및 모션 | 모델이 만든 것으로 소개된 곡과 편곡 | 데모 |
+| [68. 스마트홈 대시보드의 왜곡 물결](#case-68) | 프런트엔드 및 모션 | 참고 자료 기반 효과가 있는 대시보드 | 데모 |
+| [69. Game Boy 마을 테마곡과 악보 영상](#case-69) | 프런트엔드 및 모션 | 픽셀 아트 영상과 나란히 표시된 악보 | 데모 |
+| [70. macOS 분자 배좌 뷰어](#case-70) | 3D 및 애니메이션 | 상호작용 가능한 분자 배좌와 앱 조작부 | 데모 |
+| [71. Godot에서 눈을 깜박이는 대기 애니메이션](#case-71) | 3D 및 애니메이션 | 엔진 장면에서 대기하며 눈을 깜박이는 캐릭터 | 데모 |
+| [72. Three.js의 인터랙티브 범선](#case-72) | 3D 및 애니메이션 | 모델 이름이 붙은 두 Three.js 범선 | 평가 |
+| [73. Astra와 Fable의 체스 한 경기](#case-73) | 게임 및 장면 | 두 모델 이름이 표시된 체스 경기 녹화 | 평가 |
+| [74. 낮과 밤이 바뀌는 복셀 성 게임](#case-74) | 게임 및 장면 | 성과 비행 모드가 있는 복셀 세계 | 데모 |
 | [37. 완성된 에셋을 내려받아 만든 티라노사우루스 결과](#case-37) | 3D 및 애니메이션 | 완성된 공룡과 에셋 출처 설명 | 한계 |
 | [38. 한 번의 모델 호출로 추정한 농구 선수 자세](#case-38) | 3D 및 애니메이션 | 선수 골격이 겹쳐 표시된 농구 영상 | 데모 |
 | [39. 추가 요청으로 확장한 Babylon.js 던전](#case-39) | 게임 및 장면 | 던전과 대장간, 골렘 전투 장면 | 데모 |
@@ -112,6 +127,203 @@
 [개요](#overview) · [빠른 시작](#quick-start) · [관련 저장소](#related-repositories) · [감사의 말](#acknowledge)
 
 ## 🎬 커뮤니티 데모
+
+<a id="case-60"></a>
+### 사례 60: [Frontier Observatory 타임라인 대시보드](https://news.ycombinator.com/item?id=50553966) (제작자 [@mnhcorp](https://news.ycombinator.com/user?id=mnhcorp))
+
+**연구 동향 관찰 요구를 간결한 인터랙티브 대시보드로 바꿔 보세요.**
+
+mnhcorp는 최전선 연구소의 발표와 연구를 시간에 따라 둘러보는 Frontier Observatory를 공유합니다. 제작자는 GPT-6.2 Astra High를 사용했고 처음 공개한 요구를 다듬었다고 설명합니다. 실제 인터페이스는 기간 선택, 시계열 차트, 연구소별 최신 요약, 필터와 아카이브 탐색을 결합합니다. 확인 가능한 프런트엔드 결과물이지만, 수록 사건과 예측은 프로젝트 자체의 데이터와 추정이며 독립 검증된 연구소 산출량 지표는 아닙니다.
+
+[공개된 대시보드 살펴보기](https://frontier-lab-observatory.lucentcarrot1.chatgpt.site/).
+
+[![Frontier Observatory 타임라인 대시보드](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50553966-1-d66115401633.png)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50553966-1-d66115401633.png)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-61"></a>
+### 사례 61: [나란히 그리는 벚꽃 장면](https://x.com/nicochristie/status/2123185990923874325) (제작자 [@nicochristie](https://x.com/nicochristie))
+
+**두 모델이 같은 장면을 한 획씩 어떻게 완성하는지 비교하세요.**
+
+Nico Christie는 Draw with Me에서 Claude Fable 5.2와 GPT-6.2 Astra로 표시된 두 벚꽃 장면을 보여 줍니다. 녹화에는 같은 인터페이스에서 다른 구도와 그리기 순서가 나타납니다. 제작자의 단일 사례이며 통제된 미술 품질 점수는 없습니다.
+
+[![나란히 그리는 벚꽃 장면](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123185045305470976-poster-83a549c6f6b2.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123185045305470976-29f433f6e329.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-62"></a>
+### 사례 62: [HTML 파일 하나로 만든 알프스 헬리콥터 게임](https://x.com/vib3coded/status/2123173597661233427) (제작자 [@vib3coded](https://x.com/vib3coded))
+
+**작은 브라우저 게임에서 비행 조작과 카메라 전환을 확인하세요.**
+
+제작자는 픽셀 아트 헬리콥터가 알프스 계곡을 비행하는 모습을 보여 주며, HTML 파일 하나에 세 가지 카메라 시점이 있다고 설명합니다. 보고된 16분과 $6.55는 이번 실행에 관한 수치입니다.
+
+[![HTML 파일 하나로 만든 알프스 헬리콥터 게임](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123172517741297664-poster-046b00d42596.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123172517741297664-b3caa0da4462.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-63"></a>
+### 사례 63: [네 모델의 맞물린 기어 애니메이션](https://x.com/SPAC89/status/2123171830739632189) (제작자 [@SPAC89](https://x.com/SPAC89))
+
+**비용을 판단하기 전에 보이는 기어 배치와 움직임을 비교하세요.**
+
+제작자는 Gemini 4 Neon, Gemini 4 Carbon, GPT-6.2 Astra Max, GPT-6.2 Sol Max를 한 녹화에서 보여 줍니다. 네 기구는 기어 배치와 세부 표현이 다릅니다. 영상은 제작자의 설정 아래에서 시각적 비교를 제공합니다.
+
+[![네 모델의 맞물린 기어 애니메이션](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123170788958171137-poster-04fb18026784.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123170788958171137-9d51b6b659ef.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-64"></a>
+### 사례 64: [뉴욕 피자 가게의 랜딩 페이지 네 가지](https://x.com/eliadele/status/2123162596790718674) (제작자 [@eliadele](https://x.com/eliadele))
+
+**각 모델에 같은 짧은 요구를 주고 어떤 상호작용을 구현하는지 비교하세요.**
+
+OutputBench는 한 문장의 같은 요구로 만든 가상의 뉴욕 피자 가게 페이지 네 가지를 보여 줍니다. Astra 버전은 움직이는 글자와 단색 도시 스타일을 사용합니다. 제작자는 이번 실행 비용을 $4.09로 보고합니다. 공개 비용과 디자인은 녹화된 이 시험을 설명합니다.
+
+[![뉴욕 피자 가게의 랜딩 페이지 네 가지](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123162533758644224-poster-1c36c5408ded.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123162533758644224-b170fcab8a5c.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-65"></a>
+### 사례 65: [두 건축 골조 표현](https://x.com/ivanainai/status/2123160875611623711) (제작자 [@ivanainai](https://x.com/ivanainai))
+
+**짝지은 출력에서 어떤 구조적 세부가 보이는지 확인하세요.**
+
+출처는 Fable 5.2와 Astra 6.2의 결과로 표시된 두 건축 골조 모습을 보여 줍니다. 함께 제시된 가격은 Artificial Analysis 수치를 인용합니다. 이 렌더링을 만드는 데 든 시간이나 비용은 보고하지 않습니다.
+
+[![두 건축 골조 표현](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123160210030075904-poster-b8b2e5471d19.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123160210030075904-caff03a482bd.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-66"></a>
+### 사례 66: [코드로 표현한 요세미티 불폭포](https://x.com/LexnLin/status/2123156510339465525) (제작자 [@LexnLin](https://x.com/LexnLin))
+
+**빛과 흐르는 폭포가 짧은 장면을 어떻게 전달하는지 살펴보세요.**
+
+LexnLin은 절벽을 배경으로 폭포가 흐르는 불폭포 애니메이션을 올리고 코드를 GPT-6.2 Astra의 작업으로 소개합니다. 영상은 시각적 결과를 보여 줍니다. 작성자는 전체 요구나 구현 세부를 제공하지 않습니다.
+
+[![코드로 표현한 요세미티 불폭포](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123148879977668610-poster-8a08a19bec22.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123148879977668610-cd895c4e9c6d.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-67"></a>
+### 사례 67: [피아노 롤 편집기의 시퀀싱된 곡](https://x.com/aisearchio/status/2123150416448020698) (제작자 [@aisearchio](https://x.com/aisearchio))
+
+**소리와 함께 녹화에 보이는 음표와 트랙 구성을 검토하세요.**
+
+AI Search는 GPT-6.2 Astra가 만든 것으로 소개한 곡을 공유합니다. 영상은 곡을 재생하면서 멀티트랙 편곡과 피아노 롤 음표를 보여 줍니다. 출처는 제작 과정 중 어떤 부분을 모델이 수행했는지 명시하지 않습니다.
+
+[![피아노 롤 편집기의 시퀀싱된 곡](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123150294356037633-poster-cf8c8ef0b5bb.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123150294356037633-4ec077feba6d.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-68"></a>
+### 사례 68: [스마트홈 대시보드의 왜곡 물결](https://x.com/JamesC_Alpha/status/2123143524530913734) (제작자 [@JamesC_Alpha](https://x.com/JamesC_Alpha))
+
+**참고 자료를 바탕으로 한 애니메이션이 주변 조작부와 어울리는지 확인하세요.**
+
+JamesC_Alpha는 물결 같은 왜곡 효과가 있는 대시보드 애니메이션을 공유하며 GPT-6.2 Astra의 참고 자료 기반 작업 흐름과 연결합니다. 영상은 인터페이스 안에서 효과를 보여 줍니다. 글은 댓글의 관련 skill로도 안내합니다.
+
+[![스마트홈 대시보드의 왜곡 물결](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123143475440787456-poster-ac0962416665.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123143475440787456-4f4d8d77e057.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-69"></a>
+### 사례 69: [Game Boy 마을 테마곡과 악보 영상](https://x.com/aug5thmusic/status/2123140487368642799) (제작자 [@aug5thmusic](https://x.com/aug5thmusic))
+
+**칩튠 요구에 시각적 악보를 결합해 청자가 각 성부를 살펴보게 하세요.**
+
+작성자는 LilyPond 작곡 요구와 별도의 영상 요구가 있는 GPT-6.2 Astra xhigh 사례를 공유합니다. 녹화는 픽셀 아트 마을과 악보를 나란히 보여 줍니다. 요구는 두 선율 악기가 서로 얽히도록 하며 Game Boy 오디오 제약을 지정합니다.
+
+[![Game Boy 마을 테마곡과 악보 영상](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123139516274003968-poster-3bbdd7bc1684.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123139516274003968-42a255d65cf2.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-70"></a>
+### 사례 70: [macOS 분자 배좌 뷰어](https://x.com/DeryaTR_/status/2123140175807304163) (제작자 [@DeryaTR_](https://x.com/DeryaTR_))
+
+**과학 뷰어가 가져오기와 회전, 읽기 쉬운 조작부를 결합하는지 확인하세요.**
+
+Derya는 GPT-6.2 Astra로 만든 macOS 화학 앱을 공유하고 분자 배좌를 표시하고 회전하는 모습을 보여 줍니다. 내레이션은 Higgsfield가 맡았다고 설명합니다. 영상은 인터페이스를 보여 주지만 분석 정확도를 입증하지 않습니다.
+
+[![macOS 분자 배좌 뷰어](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123139873272221696-poster-21eac403c7be.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123139873272221696-807df9200d14.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-71"></a>
+### 사례 71: [Godot에서 눈을 깜박이는 대기 애니메이션](https://x.com/soya_da_yoot/status/2123137245607555293) (제작자 [@soya_da_yoot](https://x.com/soya_da_yoot))
+
+**캐릭터를 게임 엔진으로 가져온 후 미세한 대기 움직임을 미리 보세요.**
+
+제작자는 GPT-6.2 Astra가 대기 애니메이션을 만들고 캐릭터를 Godot 프로젝트로 옮겼다고 설명합니다. 영상은 단순한 장면에 선 스타일화된 인물이 작은 동작을 하는 모습을 보여 주며, 작성자가 언급한 눈 깜박임도 포함합니다.
+
+[![Godot에서 눈을 깜박이는 대기 애니메이션](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123137010122584065-poster-bf795035d5f4.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123137010122584065-aee4ec5a5942.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-72"></a>
+### 사례 72: [Three.js의 인터랙티브 범선](https://x.com/marcthecreatorr/status/2123135975308038590) (제작자 [@marcthecreatorr](https://x.com/marcthecreatorr))
+
+**같은 모델링 요구 아래 선체와 돛, 조명을 비교하세요.**
+
+제작자는 Astra와 Opus 5.5의 배를 공유하며 추가 프롬프트나 수동 수정 없이 같은 Three.js 요구를 주었다고 보고합니다. 두 실행은 서로 다른 도구를 사용했고 소요 시간도 달랐습니다. 영상은 두 배의 시각적 비교를 제공합니다.
+
+[![Three.js의 인터랙티브 범선](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123135680050085888-poster-1c911dd3358a.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123135680050085888-bf9ca4eab721.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-73"></a>
+### 사례 73: [Astra와 Fable의 체스 한 경기](https://x.com/Leapofcode/status/2123078382628000098) (제작자 [@Leapofcode](https://x.com/Leapofcode))
+
+**일반화하기 전에 한 경기의 수순과 결과를 확인하세요.**
+
+Leapofcode는 GPT-6.2 Astra와 Claude Fable 5.2의 체스 경기를 공유합니다. 제작자는 Astra가 71수 뒤에 이겼다고 보고합니다. 한 경기만으로 경기력 순위를 정할 수는 없습니다.
+
+[![Astra와 Fable의 체스 한 경기](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123078116801499137-poster-0398233cfd9d.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123078116801499137-17b78c7589bb.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-74"></a>
+### 사례 74: [낮과 밤이 바뀌는 복셀 성 게임](https://x.com/marcthecreatorr/status/2123058963197362606) (제작자 [@marcthecreatorr](https://x.com/marcthecreatorr))
+
+**게임의 환경 기능을 영상에 보이는 조작과 대조하세요.**
+
+제작자는 GPT-6.2 Astra xhigh로 만든 복셀 샌드박스를 보여 줍니다. 성과 등불, 물레방아, 낮밤 주기와 비행 모드가 있습니다. 제작자는 78분의 실행과 약 $5.69의 추정 API 비용을 보고합니다.
+
+[![낮과 밤이 바뀌는 복셀 성 게임](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123058287004229632-poster-b2280028bcab.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123058287004229632-5601d374166e.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
 
 <a id="case-37"></a>
 ### 사례 37: [완성된 에셋을 내려받아 만든 티라노사우루스 결과](https://x.com/luckeyfaraday/status/2122854206709051691) (제작자 [@luckeyfaraday](https://x.com/luckeyfaraday))
@@ -991,6 +1203,6 @@ Type: Demo | Date: 2026-11-09
 <a id="acknowledge"></a>
 ## 🙏 감사의 말
 
-[@SadAlbert10](https://x.com/SadAlbert10), [@leo114119](https://x.com/leo114119), [@FiniYang](https://x.com/FiniYang), [@notjazii](https://x.com/notjazii), [@GulaGala001](https://x.com/GulaGala001), [@noclipepe](https://x.com/noclipepe), [@marcthecreatorr](https://x.com/marcthecreatorr), [@nelia](https://linux.do/u/nelia), [@AI_Screening](https://x.com/AI_Screening), [@hakmgpt](https://x.com/hakmgpt), [@FixlationAI](https://x.com/FixlationAI), [@YFeng2022](https://x.com/YFeng2022), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@mirochill](https://x.com/mirochill), [@N1n3VASthR33H](https://x.com/N1n3VASthR33H), [@YouArtStudio](https://x.com/YouArtStudio), [@ATFANSEN](https://x.com/ATFANSEN), [@Mashiro_0619](https://x.com/Mashiro_0619), [@NFT_Chen](https://x.com/NFT_Chen), [@j4kcdq](https://x.com/j4kcdq), [@twno1indiaa3](https://x.com/twno1indiaa3), [@luckeyfaraday](https://x.com/luckeyfaraday), [@skalskip92](https://x.com/skalskip92), [@intheworldofai](https://x.com/intheworldofai), [@withplayground](https://x.com/withplayground), [@ZryMiller](https://x.com/ZryMiller), [@Angaisb_](https://x.com/Angaisb_), [@ChrisGPT](https://x.com/ChrisGPT), [@Densitylucky](https://x.com/Densitylucky), [@ShadeLurk](https://x.com/ShadeLurk), [@magnific](https://x.com/magnific), [@PhysAIAnalysis](https://x.com/PhysAIAnalysis), [@Masimo_Blue](https://x.com/Masimo_Blue), [@voxelbench](https://x.com/voxelbench), [@higgsfield_ai](https://x.com/higgsfield_ai), [@Da7_Tech](https://x.com/Da7_Tech), [@lukaspet](https://x.com/lukaspet), [@simonw](https://x.com/simonw), [@thefourthchime](https://news.ycombinator.com/user?id=thefourthchime), [@goyozi](https://news.ycombinator.com/user?id=goyozi), [@simonw](https://github.com/simonw), [@XCSme](https://news.ycombinator.com/user?id=XCSme), [@stbenjam](https://github.com/stbenjam), [@OpenAI](https://openai.com/), [ferret (问心)](https://linux.do/u/ferret), [@chetaslua](https://x.com/chetaslua), [@Smlay_ero](https://x.com/Smlay_ero), [@Octoberry](https://x.com/Octoberry)
+[@SadAlbert10](https://x.com/SadAlbert10), [@leo114119](https://x.com/leo114119), [@FiniYang](https://x.com/FiniYang), [@notjazii](https://x.com/notjazii), [@GulaGala001](https://x.com/GulaGala001), [@noclipepe](https://x.com/noclipepe), [@marcthecreatorr](https://x.com/marcthecreatorr), [@nelia](https://linux.do/u/nelia), [@AI_Screening](https://x.com/AI_Screening), [@hakmgpt](https://x.com/hakmgpt), [@FixlationAI](https://x.com/FixlationAI), [@YFeng2022](https://x.com/YFeng2022), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@mirochill](https://x.com/mirochill), [@N1n3VASthR33H](https://x.com/N1n3VASthR33H), [@YouArtStudio](https://x.com/YouArtStudio), [@ATFANSEN](https://x.com/ATFANSEN), [@Mashiro_0619](https://x.com/Mashiro_0619), [@NFT_Chen](https://x.com/NFT_Chen), [@j4kcdq](https://x.com/j4kcdq), [@twno1indiaa3](https://x.com/twno1indiaa3), [@luckeyfaraday](https://x.com/luckeyfaraday), [@skalskip92](https://x.com/skalskip92), [@intheworldofai](https://x.com/intheworldofai), [@withplayground](https://x.com/withplayground), [@ZryMiller](https://x.com/ZryMiller), [@Angaisb_](https://x.com/Angaisb_), [@ChrisGPT](https://x.com/ChrisGPT), [@Densitylucky](https://x.com/Densitylucky), [@ShadeLurk](https://x.com/ShadeLurk), [@magnific](https://x.com/magnific), [@PhysAIAnalysis](https://x.com/PhysAIAnalysis), [@Masimo_Blue](https://x.com/Masimo_Blue), [@voxelbench](https://x.com/voxelbench), [@higgsfield_ai](https://x.com/higgsfield_ai), [@Da7_Tech](https://x.com/Da7_Tech), [@lukaspet](https://x.com/lukaspet), [@simonw](https://x.com/simonw), [@thefourthchime](https://news.ycombinator.com/user?id=thefourthchime), [@goyozi](https://news.ycombinator.com/user?id=goyozi), [@simonw](https://github.com/simonw), [@XCSme](https://news.ycombinator.com/user?id=XCSme), [@stbenjam](https://github.com/stbenjam), [@OpenAI](https://openai.com/), [@mnhcorp](https://news.ycombinator.com/user?id=mnhcorp), [@nicochristie](https://x.com/nicochristie), [@vib3coded](https://x.com/vib3coded), [@SPAC89](https://x.com/SPAC89), [@eliadele](https://x.com/eliadele), [@ivanainai](https://x.com/ivanainai), [@LexnLin](https://x.com/LexnLin), [@aisearchio](https://x.com/aisearchio), [@JamesC_Alpha](https://x.com/JamesC_Alpha), [@aug5thmusic](https://x.com/aug5thmusic), [@DeryaTR_](https://x.com/DeryaTR_), [@soya_da_yoot](https://x.com/soya_da_yoot), [@Leapofcode](https://x.com/Leapofcode), [ferret (问心)](https://linux.do/u/ferret), [@chetaslua](https://x.com/chetaslua), [@Smlay_ero](https://x.com/Smlay_ero), [@Octoberry](https://x.com/Octoberry)
 
 이 데모를 만들고 공유한 크리에이터들에게 감사합니다. 제3자 미디어의 원래 권리는 유지됩니다. 출처 표기 수정이나 삭제를 요청하려면 관련 출처 링크와 함께 issue를 등록해 주세요.

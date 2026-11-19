@@ -30,7 +30,7 @@
 <a id="overview"></a>
 ## 📊 概要
 
-59 件の事例 · 101 点のデモビジュアル · 4 系統のタスク。調査対象のコレクションから条件を満たすすべてのデモを収録し、同じ作品の再投稿はひとつにまとめています。完全なプロンプトの公開は収録条件ではありません。
+74 件の事例 · 116 点のデモビジュアル · 4 系統のタスク。調査対象のコレクションから条件を満たすすべてのデモを収録し、同じ作品の再投稿はひとつにまとめています。完全なプロンプトの公開は収録条件ではありません。
 
 > [!NOTE]
 > モデル名の表記、所要時間、比較についての観察は、リンク先のクリエイターによる記述に従っています。
@@ -49,6 +49,21 @@
 
 | 事例 | カテゴリ | 内容 | 種類 |
 |---|---|---|---|
+| [60. Frontier Observatory の時系列ダッシュボード](#case-60) | フロントエンドとモーション | 研究所の発表グラフ、絞り込み、アーカイブ移動 | デモ |
+| [61. 桜の場面を並べて描く](#case-61) | フロントエンドとモーション | 共同制作型 JavaScript アートの比較 | 評価 |
+| [62. 一つの HTML ファイルのアルプス飛行ゲーム](#case-62) | ゲームとシーン | 三つの視点によるアルプスの飛行 | デモ |
+| [63. 四つのモデルが動かすかみ合った歯車](#case-63) | 3D とアニメーション | ラベル付きの四つの歯車機構 | 評価 |
+| [64. ニューヨークのピザ店を表す四つのページ](#case-64) | フロントエンドとモーション | 一つの架空のピザ店を表す四つのデザイン | 評価 |
+| [65. 二つの建築骨組みの表現](#case-65) | 3D とアニメーション | Astra と Fable の建築骨組み画像 | 評価 |
+| [66. コードで描いたヨセミテのファイアフォール](#case-66) | フロントエンドとモーション | 崖を背景に色が変わる滝 | デモ |
+| [67. ピアノロール編集画面の楽曲](#case-67) | フロントエンドとモーション | モデル作とされる楽曲とそのアレンジ | デモ |
+| [68. スマートホーム画面の歪む波](#case-68) | フロントエンドとモーション | 参考資料を基にした効果のある操作画面 | デモ |
+| [69. Game Boy 風の町の曲と楽譜動画](#case-69) | フロントエンドとモーション | ピクセルアートと並ぶ楽譜 | デモ |
+| [70. macOS の分子配座ビューアー](#case-70) | 3D とアニメーション | 操作可能な分子配座とアプリの操作部 | デモ |
+| [71. Godot で瞬きする待機アニメーション](#case-71) | 3D とアニメーション | エンジン内で待機して瞬きする人物 | デモ |
+| [72. Three.js の操作できる帆船](#case-72) | 3D とアニメーション | ラベル付きの二隻の Three.js 帆船 | 評価 |
+| [73. Astra と Fable の一局のチェス](#case-73) | ゲームとシーン | 二つのモデル表示付きのチェス対局録画 | 評価 |
+| [74. 昼夜が切り替わるボクセルの城ゲーム](#case-74) | ゲームとシーン | 城と飛行モードのあるボクセル世界 | デモ |
 | [37. 既存アセットのダウンロードで作られたティラノサウルス](#case-37) | 3D とアニメーション | 完成した恐竜とアセットの出所説明 | 制約 |
 | [38. モデルを一度呼び出して推定したバスケットボール選手の姿勢](#case-38) | 3D とアニメーション | 選手の骨格を重ねたバスケットボール映像 | デモ |
 | [39. 追加の依頼で拡張した Babylon.js のダンジョン](#case-39) | ゲームとシーン | ダンジョン、鍛冶場、ゴーレムとの戦い | デモ |
@@ -112,6 +127,203 @@
 [概要](#overview) · [クイックスタート](#quick-start) · [関連リポジトリ](#related-repositories) · [謝辞](#acknowledge)
 
 ## 🎬 コミュニティのデモ
+
+<a id="case-60"></a>
+### 事例 60: [Frontier Observatory の時系列ダッシュボード](https://news.ycombinator.com/item?id=50553966) (作者 [@mnhcorp](https://news.ycombinator.com/user?id=mnhcorp))
+
+**研究動向を追う課題を、小さな対話型ダッシュボードにまとめましょう。**
+
+mnhcorp は先端研究所の発表や研究を時系列で閲覧する Frontier Observatory を公開しています。作者は GPT-6.2 Astra High を使い、最初の公開課題を改善したと説明しています。実際の画面には期間選択、時系列グラフ、研究所別の最新情報、絞り込み、アーカイブ移動があります。確認可能なフロントエンド作品ですが、収録イベントや予測はプロジェクト自身のデータと推計であり、独立検証された研究所の生産性指標ではありません。
+
+[公開されたダッシュボードを見る](https://frontier-lab-observatory.lucentcarrot1.chatgpt.site/).
+
+[![Frontier Observatory の時系列ダッシュボード](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50553966-1-d66115401633.png)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50553966-1-d66115401633.png)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-61"></a>
+### 事例 61: [桜の場面を並べて描く](https://x.com/nicochristie/status/2123185990923874325) (作者 [@nicochristie](https://x.com/nicochristie))
+
+**二つのモデルが同じ場面を一筆ずつどう作るか比較しましょう。**
+
+Nico Christie は Draw with Me で、Claude Fable 5.2 と GPT-6.2 Astra と表示された二つの桜の場面を示しています。録画では共通の画面内で構図や描画順序の違いが見られます。作者の一例であり、条件を統制した芸術品質の採点ではありません。
+
+[![桜の場面を並べて描く](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123185045305470976-poster-83a549c6f6b2.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123185045305470976-29f433f6e329.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-62"></a>
+### 事例 62: [一つの HTML ファイルのアルプス飛行ゲーム](https://x.com/vib3coded/status/2123173597661233427) (作者 [@vib3coded](https://x.com/vib3coded))
+
+**小さなブラウザーゲームで飛行操作とカメラ切り替えを確認しましょう。**
+
+作者はアルプスの谷を飛ぶピクセルアートのヘリコプターを示し、単一 HTML ファイルに三つのカメラ視点があると説明しています。報告された 16 分と $6.55 は、この実行についての値です。
+
+[![一つの HTML ファイルのアルプス飛行ゲーム](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123172517741297664-poster-046b00d42596.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123172517741297664-b3caa0da4462.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-63"></a>
+### 事例 63: [四つのモデルが動かすかみ合った歯車](https://x.com/SPAC89/status/2123171830739632189) (作者 [@SPAC89](https://x.com/SPAC89))
+
+**費用の結論を出す前に、見えている歯車の配置と動きを比べましょう。**
+
+作者は Gemini 4 Neon、Gemini 4 Carbon、GPT-6.2 Astra Max、GPT-6.2 Sol Max を一つの録画で示しています。四つの機構は歯車の配置と細部が異なります。作者の設定下で視覚的に比較できる映像です。
+
+[![四つのモデルが動かすかみ合った歯車](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123170788958171137-poster-04fb18026784.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123170788958171137-9d51b6b659ef.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-64"></a>
+### 事例 64: [ニューヨークのピザ店を表す四つのページ](https://x.com/eliadele/status/2123162596790718674) (作者 [@eliadele](https://x.com/eliadele))
+
+**各モデルに同じ短い課題を与え、どのような操作を実装するか比べましょう。**
+
+OutputBench は架空のニューヨークのピザ店について、同じ一文の課題から作った四つのページを示しています。Astra 版は流れる文字とモノクロの街の表現を使います。作者の報告では、この実行は $4.09 でした。公開された費用とデザインは録画された試験のものです。
+
+[![ニューヨークのピザ店を表す四つのページ](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123162533758644224-poster-1c36c5408ded.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123162533758644224-b170fcab8a5c.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-65"></a>
+### 事例 65: [二つの建築骨組みの表現](https://x.com/ivanainai/status/2123160875611623711) (作者 [@ivanainai](https://x.com/ivanainai))
+
+**対になった出力のどの構造的細部が見えるか確認しましょう。**
+
+出典は Fable 5.2 と Astra 6.2 によるものと表示された二つの建築骨組みを示しています。添えられた価格は Artificial Analysis の数値を参照しています。これらの画像を制作した時間や費用は報告されていません。
+
+[![二つの建築骨組みの表現](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123160210030075904-poster-b8b2e5471d19.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123160210030075904-caff03a482bd.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-66"></a>
+### 事例 66: [コードで描いたヨセミテのファイアフォール](https://x.com/LexnLin/status/2123156510339465525) (作者 [@LexnLin](https://x.com/LexnLin))
+
+**光と流れる滝が短い場面をどう表現するか観察しましょう。**
+
+LexnLin は崖沿いの滝を映したファイアフォールのアニメーションを投稿し、コードを GPT-6.2 Astra によるものとしています。動画には視覚的な結果がありますが、課題の全文や実装の詳細はありません。
+
+[![コードで描いたヨセミテのファイアフォール](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123148879977668610-poster-8a08a19bec22.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123148879977668610-cd895c4e9c6d.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-67"></a>
+### 事例 67: [ピアノロール編集画面の楽曲](https://x.com/aisearchio/status/2123150416448020698) (作者 [@aisearchio](https://x.com/aisearchio))
+
+**音を聴くとともに、録画に見える音符とトラック構成も確認しましょう。**
+
+AI Search は GPT-6.2 Astra によるものとする楽曲を公開しています。再生中の動画にはマルチトラックの構成とピアノロールの音符が表示されます。制作工程のどの部分をモデルが担当したかは明示されていません。
+
+[![ピアノロール編集画面の楽曲](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123150294356037633-poster-cf8c8ef0b5bb.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123150294356037633-4ec077feba6d.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-68"></a>
+### 事例 68: [スマートホーム画面の歪む波](https://x.com/JamesC_Alpha/status/2123143524530913734) (作者 [@JamesC_Alpha](https://x.com/JamesC_Alpha))
+
+**参考資料を基にしたアニメーションが周囲の操作部と調和するか確認しましょう。**
+
+JamesC_Alpha は波のような歪みのあるダッシュボードアニメーションを公開し、GPT-6.2 Astra を使う参考資料ベースの工程と関連付けています。動画は画面内での効果を示します。投稿はコメント内の関連 skill も案内しています。
+
+[![スマートホーム画面の歪む波](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123143475440787456-poster-ac0962416665.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123143475440787456-4f4d8d77e057.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-69"></a>
+### 事例 69: [Game Boy 風の町の曲と楽譜動画](https://x.com/aug5thmusic/status/2123140487368642799) (作者 [@aug5thmusic](https://x.com/aug5thmusic))
+
+**チップチューンの課題に見える楽譜を組み合わせ、各声部を確認できるようにしましょう。**
+
+作者は LilyPond の作曲課題と別の動画課題を含む GPT-6.2 Astra xhigh の例を公開しています。録画はピクセルアートの町と楽譜を組み合わせています。課題は二つの旋律楽器を絡み合わせ、Game Boy の音源制約を守るよう求めています。
+
+[![Game Boy 風の町の曲と楽譜動画](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123139516274003968-poster-3bbdd7bc1684.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123139516274003968-42a255d65cf2.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-70"></a>
+### 事例 70: [macOS の分子配座ビューアー](https://x.com/DeryaTR_/status/2123140175807304163) (作者 [@DeryaTR_](https://x.com/DeryaTR_))
+
+**科学用ビューアーで、読み込み、回転、分かりやすい操作部がそろっているか確認しましょう。**
+
+Derya は GPT-6.2 Astra で作った macOS の化学アプリを公開し、分子配座の表示と回転を実演しています。ナレーションは Higgsfield によるものと説明しています。映像は画面を示しますが、分析精度を確認するものではありません。
+
+[![macOS の分子配座ビューアー](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123139873272221696-poster-21eac403c7be.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123139873272221696-807df9200d14.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-71"></a>
+### 事例 71: [Godot で瞬きする待機アニメーション](https://x.com/soya_da_yoot/status/2123137245607555293) (作者 [@soya_da_yoot](https://x.com/soya_da_yoot))
+
+**キャラクターをゲームエンジンに取り込んだ後、微細な待機動作を確認しましょう。**
+
+作者は GPT-6.2 Astra が待機アニメーションを作り、キャラクターを Godot プロジェクトに移したとしています。動画では簡単な場面に立つ様式化された人物が小さく動き、作者が述べた瞬きも見られます。
+
+[![Godot で瞬きする待機アニメーション](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123137010122584065-poster-bf795035d5f4.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123137010122584065-aee4ec5a5942.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-72"></a>
+### 事例 72: [Three.js の操作できる帆船](https://x.com/marcthecreatorr/status/2123135975308038590) (作者 [@marcthecreatorr](https://x.com/marcthecreatorr))
+
+**同じモデリング課題による船体、帆、光を比較しましょう。**
+
+作者は Astra と Opus 5.5 の船を公開し、追加プロンプトや手作業の修正なしで同じ Three.js の課題を与えたと報告しています。実行には異なるツールが使われ、所要時間も異なります。映像は二隻の視覚比較を支えます。
+
+[![Three.js の操作できる帆船](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123135680050085888-poster-1c911dd3358a.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123135680050085888-bf9ca4eab721.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-73"></a>
+### 事例 73: [Astra と Fable の一局のチェス](https://x.com/Leapofcode/status/2123078382628000098) (作者 [@Leapofcode](https://x.com/Leapofcode))
+
+**一般化する前に、一局の指し手と結果を確認しましょう。**
+
+Leapofcode は GPT-6.2 Astra と Claude Fable 5.2 のチェスを公開しています。作者は 71 手で Astra が勝ったと報告しています。一局だけで棋力の順位を確立することはできません。
+
+[![Astra と Fable の一局のチェス](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123078116801499137-poster-0398233cfd9d.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123078116801499137-17b78c7589bb.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-74"></a>
+### 事例 74: [昼夜が切り替わるボクセルの城ゲーム](https://x.com/marcthecreatorr/status/2123058963197362606) (作者 [@marcthecreatorr](https://x.com/marcthecreatorr))
+
+**ゲームの環境要素と、動画に示された操作を照らし合わせましょう。**
+
+作者は GPT-6.2 Astra xhigh で作ったボクセルのサンドボックスを公開しています。城、ランタン、水車、昼夜の循環、飛行モードがあります。作者の報告では実行は 78 分で、API 費用の推計は約 $5.69 です。
+
+[![昼夜が切り替わるボクセルの城ゲーム](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123058287004229632-poster-b2280028bcab.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123058287004229632-5601d374166e.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
 
 <a id="case-37"></a>
 ### 事例 37: [既存アセットのダウンロードで作られたティラノサウルス](https://x.com/luckeyfaraday/status/2122854206709051691) (作者 [@luckeyfaraday](https://x.com/luckeyfaraday))
@@ -991,6 +1203,6 @@ Type: Demo | Date: 2026-11-09
 <a id="acknowledge"></a>
 ## 🙏 謝辞
 
-[@SadAlbert10](https://x.com/SadAlbert10), [@leo114119](https://x.com/leo114119), [@FiniYang](https://x.com/FiniYang), [@notjazii](https://x.com/notjazii), [@GulaGala001](https://x.com/GulaGala001), [@noclipepe](https://x.com/noclipepe), [@marcthecreatorr](https://x.com/marcthecreatorr), [@nelia](https://linux.do/u/nelia), [@AI_Screening](https://x.com/AI_Screening), [@hakmgpt](https://x.com/hakmgpt), [@FixlationAI](https://x.com/FixlationAI), [@YFeng2022](https://x.com/YFeng2022), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@mirochill](https://x.com/mirochill), [@N1n3VASthR33H](https://x.com/N1n3VASthR33H), [@YouArtStudio](https://x.com/YouArtStudio), [@ATFANSEN](https://x.com/ATFANSEN), [@Mashiro_0619](https://x.com/Mashiro_0619), [@NFT_Chen](https://x.com/NFT_Chen), [@j4kcdq](https://x.com/j4kcdq), [@twno1indiaa3](https://x.com/twno1indiaa3), [@luckeyfaraday](https://x.com/luckeyfaraday), [@skalskip92](https://x.com/skalskip92), [@intheworldofai](https://x.com/intheworldofai), [@withplayground](https://x.com/withplayground), [@ZryMiller](https://x.com/ZryMiller), [@Angaisb_](https://x.com/Angaisb_), [@ChrisGPT](https://x.com/ChrisGPT), [@Densitylucky](https://x.com/Densitylucky), [@ShadeLurk](https://x.com/ShadeLurk), [@magnific](https://x.com/magnific), [@PhysAIAnalysis](https://x.com/PhysAIAnalysis), [@Masimo_Blue](https://x.com/Masimo_Blue), [@voxelbench](https://x.com/voxelbench), [@higgsfield_ai](https://x.com/higgsfield_ai), [@Da7_Tech](https://x.com/Da7_Tech), [@lukaspet](https://x.com/lukaspet), [@simonw](https://x.com/simonw), [@thefourthchime](https://news.ycombinator.com/user?id=thefourthchime), [@goyozi](https://news.ycombinator.com/user?id=goyozi), [@simonw](https://github.com/simonw), [@XCSme](https://news.ycombinator.com/user?id=XCSme), [@stbenjam](https://github.com/stbenjam), [@OpenAI](https://openai.com/), [ferret (问心)](https://linux.do/u/ferret), [@chetaslua](https://x.com/chetaslua), [@Smlay_ero](https://x.com/Smlay_ero), [@Octoberry](https://x.com/Octoberry)
+[@SadAlbert10](https://x.com/SadAlbert10), [@leo114119](https://x.com/leo114119), [@FiniYang](https://x.com/FiniYang), [@notjazii](https://x.com/notjazii), [@GulaGala001](https://x.com/GulaGala001), [@noclipepe](https://x.com/noclipepe), [@marcthecreatorr](https://x.com/marcthecreatorr), [@nelia](https://linux.do/u/nelia), [@AI_Screening](https://x.com/AI_Screening), [@hakmgpt](https://x.com/hakmgpt), [@FixlationAI](https://x.com/FixlationAI), [@YFeng2022](https://x.com/YFeng2022), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@mirochill](https://x.com/mirochill), [@N1n3VASthR33H](https://x.com/N1n3VASthR33H), [@YouArtStudio](https://x.com/YouArtStudio), [@ATFANSEN](https://x.com/ATFANSEN), [@Mashiro_0619](https://x.com/Mashiro_0619), [@NFT_Chen](https://x.com/NFT_Chen), [@j4kcdq](https://x.com/j4kcdq), [@twno1indiaa3](https://x.com/twno1indiaa3), [@luckeyfaraday](https://x.com/luckeyfaraday), [@skalskip92](https://x.com/skalskip92), [@intheworldofai](https://x.com/intheworldofai), [@withplayground](https://x.com/withplayground), [@ZryMiller](https://x.com/ZryMiller), [@Angaisb_](https://x.com/Angaisb_), [@ChrisGPT](https://x.com/ChrisGPT), [@Densitylucky](https://x.com/Densitylucky), [@ShadeLurk](https://x.com/ShadeLurk), [@magnific](https://x.com/magnific), [@PhysAIAnalysis](https://x.com/PhysAIAnalysis), [@Masimo_Blue](https://x.com/Masimo_Blue), [@voxelbench](https://x.com/voxelbench), [@higgsfield_ai](https://x.com/higgsfield_ai), [@Da7_Tech](https://x.com/Da7_Tech), [@lukaspet](https://x.com/lukaspet), [@simonw](https://x.com/simonw), [@thefourthchime](https://news.ycombinator.com/user?id=thefourthchime), [@goyozi](https://news.ycombinator.com/user?id=goyozi), [@simonw](https://github.com/simonw), [@XCSme](https://news.ycombinator.com/user?id=XCSme), [@stbenjam](https://github.com/stbenjam), [@OpenAI](https://openai.com/), [@mnhcorp](https://news.ycombinator.com/user?id=mnhcorp), [@nicochristie](https://x.com/nicochristie), [@vib3coded](https://x.com/vib3coded), [@SPAC89](https://x.com/SPAC89), [@eliadele](https://x.com/eliadele), [@ivanainai](https://x.com/ivanainai), [@LexnLin](https://x.com/LexnLin), [@aisearchio](https://x.com/aisearchio), [@JamesC_Alpha](https://x.com/JamesC_Alpha), [@aug5thmusic](https://x.com/aug5thmusic), [@DeryaTR_](https://x.com/DeryaTR_), [@soya_da_yoot](https://x.com/soya_da_yoot), [@Leapofcode](https://x.com/Leapofcode), [ferret (问心)](https://linux.do/u/ferret), [@chetaslua](https://x.com/chetaslua), [@Smlay_ero](https://x.com/Smlay_ero), [@Octoberry](https://x.com/Octoberry)
 
 これらのデモを制作・共有した皆さんに感謝します。第三者のメディアの権利は元の権利者に帰属します。帰属表記の訂正や削除を希望する場合は、該当する出典リンクを添えて issue を作成してください。

@@ -30,7 +30,7 @@
 <a id="overview"></a>
 ## 📊 Обзор
 
-59 примеров · 101 визуальных демонстраций · 4 группы задач. Включены все демонстрации из рассмотренной подборки, соответствующие критериям; повторные публикации одной работы объединены. Полный промпт не является обязательным условием включения.
+74 примеров · 116 визуальных демонстраций · 4 группы задач. Включены все демонстрации из рассмотренной подборки, соответствующие критериям; повторные публикации одной работы объединены. Полный промпт не является обязательным условием включения.
 
 > [!NOTE]
 > Обозначения моделей, время работы и наблюдения при сравнении приведены по сообщениям авторов, на которых даны ссылки.
@@ -49,6 +49,21 @@
 
 | Пример | Категория | Что показано | Тип |
 |---|---|---|---|
+| [60. Временная панель Frontier Observatory](#case-60) | Фронтенд и моушн-дизайн | График результатов лабораторий, фильтры и архив | Демонстрация |
+| [61. Два варианта рисования цветущей сакуры](#case-61) | Фронтенд и моушн-дизайн | Сравнение совместного рисования на JavaScript | Оценка |
+| [62. Альпийский вертолётный симулятор в одном HTML-файле](#case-62) | Игры и сцены | Полёт в Альпах с тремя ракурсами | Демонстрация |
+| [63. Четыре модели анимируют сцепленные шестерни](#case-63) | 3D и анимация | Четыре подписанных зубчатых механизма | Оценка |
+| [64. Четыре страницы нью-йоркской пиццерии](#case-64) | Фронтенд и моушн-дизайн | Четыре варианта одной вымышленной пиццерии | Оценка |
+| [65. Два исследования архитектурного каркаса](#case-65) | 3D и анимация | Визуализации каркасов от Astra и Fable | Оценка |
+| [66. Огненный водопад Йосемити, созданный кодом](#case-66) | Фронтенд и моушн-дизайн | Водопад меняет цвет на фоне скалы | Демонстрация |
+| [67. Композиция в редакторе piano roll](#case-67) | Фронтенд и моушн-дизайн | Приписанная модели песня и её аранжировка | Демонстрация |
+| [68. Волны искажения на панели умного дома](#case-68) | Фронтенд и моушн-дизайн | Панель с эффектом по референсу | Демонстрация |
+| [69. Музыка городка Game Boy и видео с партитурой](#case-69) | Фронтенд и моушн-дизайн | Пиксельное видео рядом с партитурой | Демонстрация |
+| [70. Просмотр молекулярных конформеров в macOS](#case-70) | 3D и анимация | Интерактивные конформеры и управление приложением | Демонстрация |
+| [71. Анимация ожидания с морганием в Godot](#case-71) | 3D и анимация | Персонаж ожидает и моргает в сцене движка | Демонстрация |
+| [72. Интерактивные парусники в Three.js](#case-72) | 3D и анимация | Два подписанных парусника Three.js | Оценка |
+| [73. Одна шахматная партия Astra против Fable](#case-73) | Игры и сцены | Запись шахматной партии с двумя подписями моделей | Оценка |
+| [74. Воксельная игра с замком и сменой суток](#case-74) | Игры и сцены | Воксельный мир с замком и режимом полёта | Демонстрация |
 | [37. Тираннозавр из скачанной готовой модели](#case-37) | 3D и анимация | Готовый тираннозавр и раскрытие происхождения модели | Ограничение |
 | [38. Позы баскетболистов из одного вызова модели](#case-38) | 3D и анимация | Баскетбольная запись со скелетами игроков | Демонстрация |
 | [39. Подземелье Babylon.js, расширенное дополнительным запросом](#case-39) | Игры и сцены | Подземелье, кузница и встреча с големом | Демонстрация |
@@ -112,6 +127,203 @@
 [Обзор](#overview) · [Быстрый старт](#quick-start) · [Связанные репозитории](#related-repositories) · [Благодарности](#acknowledge)
 
 ## 🎬 Демонстрации сообщества
+
+<a id="case-60"></a>
+### Пример 60: [Временная панель Frontier Observatory](https://news.ycombinator.com/item?id=50553966) (автор [@mnhcorp](https://news.ycombinator.com/user?id=mnhcorp))
+
+**Превратите задание на мониторинг исследований в компактную интерактивную панель.**
+
+mnhcorp публикует Frontier Observatory для просмотра выпусков и исследований передовых лабораторий во времени. Создатель указывает GPT-6.2 Astra High и описывает уточнение первоначального открытого задания. Интерфейс объединяет выбор периода, временной график, последние события по лабораториям, фильтры и архивную навигацию. Это доступный для изучения интерфейс; индекс событий и прогнозы остаются данными и оценками проекта, а не независимо проверенной мерой результатов лабораторий.
+
+[Изучить опубликованную панель](https://frontier-lab-observatory.lucentcarrot1.chatgpt.site/).
+
+[![Временная панель Frontier Observatory](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50553966-1-d66115401633.png)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/hn-50553966-1-d66115401633.png)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-61"></a>
+### Пример 61: [Два варианта рисования цветущей сакуры](https://x.com/nicochristie/status/2123185990923874325) (автор [@nicochristie](https://x.com/nicochristie))
+
+**Сравните, как две модели создают одну сцену штрих за штрихом.**
+
+Nico Christie показывает в Draw with Me две сцены с сакурой, подписанные Claude Fable 5.2 и GPT-6.2 Astra. В записи видны разные композиции и последовательности рисования в общем интерфейсе. Это один авторский пример без контролируемой оценки художественного качества.
+
+[![Два варианта рисования цветущей сакуры](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123185045305470976-poster-83a549c6f6b2.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123185045305470976-29f433f6e329.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-62"></a>
+### Пример 62: [Альпийский вертолётный симулятор в одном HTML-файле](https://x.com/vib3coded/status/2123173597661233427) (автор [@vib3coded](https://x.com/vib3coded))
+
+**Проверьте управление полётом и переключение камер в небольшой браузерной игре.**
+
+Создатель показывает пиксельный вертолёт над альпийской долиной и сообщает о трёх ракурсах камеры в одном HTML-файле. Указанные 16 минут и $6.55 относятся к этому запуску.
+
+[![Альпийский вертолётный симулятор в одном HTML-файле](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123172517741297664-poster-046b00d42596.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123172517741297664-b3caa0da4462.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-63"></a>
+### Пример 63: [Четыре модели анимируют сцепленные шестерни](https://x.com/SPAC89/status/2123171830739632189) (автор [@SPAC89](https://x.com/SPAC89))
+
+**Прежде чем делать выводы о стоимости, сравните видимое устройство и движение шестерён.**
+
+Создатель показывает в одной записи Gemini 4 Neon, Gemini 4 Carbon, GPT-6.2 Astra Max и GPT-6.2 Sol Max. Четыре механизма отличаются расположением шестерён и детализацией. Запись позволяет визуально сравнить результаты в условиях автора.
+
+[![Четыре модели анимируют сцепленные шестерни](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123170788958171137-poster-04fb18026784.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123170788958171137-9d51b6b659ef.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-64"></a>
+### Пример 64: [Четыре страницы нью-йоркской пиццерии](https://x.com/eliadele/status/2123162596790718674) (автор [@eliadele](https://x.com/eliadele))
+
+**Дайте моделям одинаковое краткое задание и сравните выбранные ими взаимодействия.**
+
+OutputBench показывает четыре варианта вымышленной нью-йоркской пиццерии по одному заданию из одного предложения. Версия Astra использует бегущую строку и монохромный городской стиль. Создатель сообщает о $4.09 за этот запуск. Опубликованные цены и дизайны описывают записанный тест.
+
+[![Четыре страницы нью-йоркской пиццерии](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123162533758644224-poster-1c36c5408ded.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123162533758644224-b170fcab8a5c.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-65"></a>
+### Пример 65: [Два исследования архитектурного каркаса](https://x.com/ivanainai/status/2123160875611623711) (автор [@ivanainai](https://x.com/ivanainai))
+
+**Изучите структурные детали, видимые в паре результатов.**
+
+Источник показывает два подписанных вида архитектурного каркаса, приписанных Fable 5.2 и Astra 6.2. Сопутствующие цены ссылаются на данные Artificial Analysis. Время и стоимость создания этих изображений в публикации не указаны.
+
+[![Два исследования архитектурного каркаса](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123160210030075904-poster-b8b2e5471d19.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123160210030075904-caff03a482bd.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-66"></a>
+### Пример 66: [Огненный водопад Йосемити, созданный кодом](https://x.com/LexnLin/status/2123156510339465525) (автор [@LexnLin](https://x.com/LexnLin))
+
+**Посмотрите, как свет и движущаяся вода передают короткую сцену.**
+
+LexnLin публикует анимацию Огненного водопада на фоне скалы и приписывает код GPT-6.2 Astra. Ролик даёт визуальный результат. Полного задания и подробностей реализации автор не приводит.
+
+[![Огненный водопад Йосемити, созданный кодом](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123148879977668610-poster-8a08a19bec22.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123148879977668610-cd895c4e9c6d.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-67"></a>
+### Пример 67: [Композиция в редакторе piano roll](https://x.com/aisearchio/status/2123150416448020698) (автор [@aisearchio](https://x.com/aisearchio))
+
+**Оценивайте звук вместе с нотами и расположением дорожек в записи.**
+
+AI Search делится песней, приписанной GPT-6.2 Astra. Во время воспроизведения видео показывает многодорожечную аранжировку и ноты piano roll. Источник не уточняет, какие части производственного процесса выполнила модель.
+
+[![Композиция в редакторе piano roll](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123150294356037633-poster-cf8c8ef0b5bb.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123150294356037633-4ec077feba6d.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-68"></a>
+### Пример 68: [Волны искажения на панели умного дома](https://x.com/JamesC_Alpha/status/2123143524530913734) (автор [@JamesC_Alpha](https://x.com/JamesC_Alpha))
+
+**Проверьте, сочетается ли анимация по референсу с окружающими элементами управления.**
+
+JamesC_Alpha показывает анимацию панели с волнообразным искажением и связывает её с процессом работы по референсу с GPT-6.2 Astra. Эффект показан в контексте интерфейса. Публикация также отсылает к связанному skill в комментариях.
+
+[![Волны искажения на панели умного дома](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123143475440787456-poster-ac0962416665.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123143475440787456-4f4d8d77e057.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-69"></a>
+### Пример 69: [Музыка городка Game Boy и видео с партитурой](https://x.com/aug5thmusic/status/2123140487368642799) (автор [@aug5thmusic](https://x.com/aug5thmusic))
+
+**Сочетайте задание на чиптюн с видимой партитурой, чтобы слушатели могли изучить партии.**
+
+Автор публикует пример GPT-6.2 Astra xhigh с заданием на композицию LilyPond и отдельным заданием на видео. Запись объединяет пиксельный городок и ноты. Условия требуют две переплетающиеся мелодические партии и соблюдение ограничений звука Game Boy.
+
+[![Музыка городка Game Boy и видео с партитурой](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123139516274003968-poster-3bbdd7bc1684.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123139516274003968-42a255d65cf2.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-70"></a>
+### Пример 70: [Просмотр молекулярных конформеров в macOS](https://x.com/DeryaTR_/status/2123140175807304163) (автор [@DeryaTR_](https://x.com/DeryaTR_))
+
+**Проверьте, объединяет ли научный просмотрщик импорт, вращение и понятное управление.**
+
+Derya делится химическим приложением macOS, созданным с GPT-6.2 Astra, и демонстрирует отображение и вращение молекулярных конформеров. Озвучивание автор приписывает Higgsfield. Запись показывает интерфейс, но не подтверждает аналитическую точность.
+
+[![Просмотр молекулярных конформеров в macOS](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123139873272221696-poster-21eac403c7be.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123139873272221696-807df9200d14.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-71"></a>
+### Пример 71: [Анимация ожидания с морганием в Godot](https://x.com/soya_da_yoot/status/2123137245607555293) (автор [@soya_da_yoot](https://x.com/soya_da_yoot))
+
+**После переноса персонажа в игровой движок просмотрите тонкие движения в состоянии ожидания.**
+
+Создатель приписывает GPT-6.2 Astra создание анимации ожидания и перенос персонажа в проект Godot. В ролике стилизованная фигура стоит в простой сцене и слегка двигается, в том числе моргает, как описывает автор.
+
+[![Анимация ожидания с морганием в Godot](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123137010122584065-poster-bf795035d5f4.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123137010122584065-aee4ec5a5942.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
+
+<a id="case-72"></a>
+### Пример 72: [Интерактивные парусники в Three.js](https://x.com/marcthecreatorr/status/2123135975308038590) (автор [@marcthecreatorr](https://x.com/marcthecreatorr))
+
+**Сравните корпуса, паруса и освещение по одинаковому заданию моделирования.**
+
+Создатель публикует корабли Astra и Opus 5.5 и сообщает, что обе модели получили одинаковое задание Three.js без дополнительных промптов и ручных исправлений. Запуски использовали разные инструменты и заняли разное время. Запись позволяет визуально сравнить два корабля.
+
+[![Интерактивные парусники в Three.js](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123135680050085888-poster-1c911dd3358a.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123135680050085888-bf9ca4eab721.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-73"></a>
+### Пример 73: [Одна шахматная партия Astra против Fable](https://x.com/Leapofcode/status/2123078382628000098) (автор [@Leapofcode](https://x.com/Leapofcode))
+
+**Изучите ходы и исход одной партии, прежде чем делать обобщения.**
+
+Leapofcode публикует шахматную партию GPT-6.2 Astra против Claude Fable 5.2. Автор сообщает о победе Astra после 71 хода. Одной партии недостаточно для установления рейтинга игровой силы.
+
+[![Одна шахматная партия Astra против Fable](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123078116801499137-poster-0398233cfd9d.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123078116801499137-17b78c7589bb.mp4)
+
+Type: Evaluation | Date: 2026-11-18
+
+---
+
+<a id="case-74"></a>
+### Пример 74: [Воксельная игра с замком и сменой суток](https://x.com/marcthecreatorr/status/2123058963197362606) (автор [@marcthecreatorr](https://x.com/marcthecreatorr))
+
+**Сопоставьте возможности окружения игры с управлением, показанным в ролике.**
+
+Создатель показывает воксельную песочницу, сделанную с GPT-6.2 Astra xhigh: замки, фонари, водяное колесо, смену дня и ночи и режим полёта. Автор сообщает о 78 минутах работы и примерно $5.69 предполагаемой стоимости API.
+
+[![Воксельная игра с замком и сменой суток](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123058287004229632-poster-b2280028bcab.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123058287004229632-5601d374166e.mp4)
+
+Type: Demo | Date: 2026-11-18
+
+---
 
 <a id="case-37"></a>
 ### Пример 37: [Тираннозавр из скачанной готовой модели](https://x.com/luckeyfaraday/status/2122854206709051691) (автор [@luckeyfaraday](https://x.com/luckeyfaraday))
@@ -991,6 +1203,6 @@ Type: Demo | Date: 2026-11-09
 <a id="acknowledge"></a>
 ## 🙏 Благодарности
 
-[@SadAlbert10](https://x.com/SadAlbert10), [@leo114119](https://x.com/leo114119), [@FiniYang](https://x.com/FiniYang), [@notjazii](https://x.com/notjazii), [@GulaGala001](https://x.com/GulaGala001), [@noclipepe](https://x.com/noclipepe), [@marcthecreatorr](https://x.com/marcthecreatorr), [@nelia](https://linux.do/u/nelia), [@AI_Screening](https://x.com/AI_Screening), [@hakmgpt](https://x.com/hakmgpt), [@FixlationAI](https://x.com/FixlationAI), [@YFeng2022](https://x.com/YFeng2022), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@mirochill](https://x.com/mirochill), [@N1n3VASthR33H](https://x.com/N1n3VASthR33H), [@YouArtStudio](https://x.com/YouArtStudio), [@ATFANSEN](https://x.com/ATFANSEN), [@Mashiro_0619](https://x.com/Mashiro_0619), [@NFT_Chen](https://x.com/NFT_Chen), [@j4kcdq](https://x.com/j4kcdq), [@twno1indiaa3](https://x.com/twno1indiaa3), [@luckeyfaraday](https://x.com/luckeyfaraday), [@skalskip92](https://x.com/skalskip92), [@intheworldofai](https://x.com/intheworldofai), [@withplayground](https://x.com/withplayground), [@ZryMiller](https://x.com/ZryMiller), [@Angaisb_](https://x.com/Angaisb_), [@ChrisGPT](https://x.com/ChrisGPT), [@Densitylucky](https://x.com/Densitylucky), [@ShadeLurk](https://x.com/ShadeLurk), [@magnific](https://x.com/magnific), [@PhysAIAnalysis](https://x.com/PhysAIAnalysis), [@Masimo_Blue](https://x.com/Masimo_Blue), [@voxelbench](https://x.com/voxelbench), [@higgsfield_ai](https://x.com/higgsfield_ai), [@Da7_Tech](https://x.com/Da7_Tech), [@lukaspet](https://x.com/lukaspet), [@simonw](https://x.com/simonw), [@thefourthchime](https://news.ycombinator.com/user?id=thefourthchime), [@goyozi](https://news.ycombinator.com/user?id=goyozi), [@simonw](https://github.com/simonw), [@XCSme](https://news.ycombinator.com/user?id=XCSme), [@stbenjam](https://github.com/stbenjam), [@OpenAI](https://openai.com/), [ferret (问心)](https://linux.do/u/ferret), [@chetaslua](https://x.com/chetaslua), [@Smlay_ero](https://x.com/Smlay_ero), [@Octoberry](https://x.com/Octoberry)
+[@SadAlbert10](https://x.com/SadAlbert10), [@leo114119](https://x.com/leo114119), [@FiniYang](https://x.com/FiniYang), [@notjazii](https://x.com/notjazii), [@GulaGala001](https://x.com/GulaGala001), [@noclipepe](https://x.com/noclipepe), [@marcthecreatorr](https://x.com/marcthecreatorr), [@nelia](https://linux.do/u/nelia), [@AI_Screening](https://x.com/AI_Screening), [@hakmgpt](https://x.com/hakmgpt), [@FixlationAI](https://x.com/FixlationAI), [@YFeng2022](https://x.com/YFeng2022), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@mirochill](https://x.com/mirochill), [@N1n3VASthR33H](https://x.com/N1n3VASthR33H), [@YouArtStudio](https://x.com/YouArtStudio), [@ATFANSEN](https://x.com/ATFANSEN), [@Mashiro_0619](https://x.com/Mashiro_0619), [@NFT_Chen](https://x.com/NFT_Chen), [@j4kcdq](https://x.com/j4kcdq), [@twno1indiaa3](https://x.com/twno1indiaa3), [@luckeyfaraday](https://x.com/luckeyfaraday), [@skalskip92](https://x.com/skalskip92), [@intheworldofai](https://x.com/intheworldofai), [@withplayground](https://x.com/withplayground), [@ZryMiller](https://x.com/ZryMiller), [@Angaisb_](https://x.com/Angaisb_), [@ChrisGPT](https://x.com/ChrisGPT), [@Densitylucky](https://x.com/Densitylucky), [@ShadeLurk](https://x.com/ShadeLurk), [@magnific](https://x.com/magnific), [@PhysAIAnalysis](https://x.com/PhysAIAnalysis), [@Masimo_Blue](https://x.com/Masimo_Blue), [@voxelbench](https://x.com/voxelbench), [@higgsfield_ai](https://x.com/higgsfield_ai), [@Da7_Tech](https://x.com/Da7_Tech), [@lukaspet](https://x.com/lukaspet), [@simonw](https://x.com/simonw), [@thefourthchime](https://news.ycombinator.com/user?id=thefourthchime), [@goyozi](https://news.ycombinator.com/user?id=goyozi), [@simonw](https://github.com/simonw), [@XCSme](https://news.ycombinator.com/user?id=XCSme), [@stbenjam](https://github.com/stbenjam), [@OpenAI](https://openai.com/), [@mnhcorp](https://news.ycombinator.com/user?id=mnhcorp), [@nicochristie](https://x.com/nicochristie), [@vib3coded](https://x.com/vib3coded), [@SPAC89](https://x.com/SPAC89), [@eliadele](https://x.com/eliadele), [@ivanainai](https://x.com/ivanainai), [@LexnLin](https://x.com/LexnLin), [@aisearchio](https://x.com/aisearchio), [@JamesC_Alpha](https://x.com/JamesC_Alpha), [@aug5thmusic](https://x.com/aug5thmusic), [@DeryaTR_](https://x.com/DeryaTR_), [@soya_da_yoot](https://x.com/soya_da_yoot), [@Leapofcode](https://x.com/Leapofcode), [ferret (问心)](https://linux.do/u/ferret), [@chetaslua](https://x.com/chetaslua), [@Smlay_ero](https://x.com/Smlay_ero), [@Octoberry](https://x.com/Octoberry)
 
 Спасибо авторам и участникам, которые создали и распространили эти демонстрации. Права на сторонние медиа сохраняются за их правообладателями. Для исправления авторства или удаления материала откройте issue со ссылкой на соответствующий источник.
