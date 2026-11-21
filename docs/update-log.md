@@ -1,5 +1,9 @@
 # Case updates
 
+## 2026-11-21
+
+Added 52 source-linked cases with 79 visual previews. The collection now has 126 cases and 195 visual previews in all eleven README editions.
+
 ## 2026-11-19
 
 Added 15 source-linked cases with 15 visual previews. The collection now has 74 cases and 116 visual previews in all eleven README editions.

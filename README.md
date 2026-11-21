@@ -30,7 +30,7 @@ A collection of GPT-6.2 Astra demos and use cases from the creator community.
 <a id="overview"></a>
 ## 📊 Overview
 
-74 cases · 116 demo visuals · 4 task families. All qualifying demonstrations in the reviewed collection are included; reposts of the same work are grouped together. Complete prompts are optional.
+126 cases · 195 demo visuals · 4 task families. All qualifying demonstrations in the reviewed collection are included; reposts of the same work are grouped together. Complete prompts are optional.
 
 > [!NOTE]
 > Model labels, timings and comparison observations follow the linked creators.
@@ -49,6 +49,58 @@ A collection of GPT-6.2 Astra demos and use cases from the creator community.
 
 | Case | Category | What it shows | Type |
 |---|---|---|---|
+| [75. A moonlit village reflected in still water](#case-75) | 3D & animation | A village above water under a large moon | Demo |
+| [76. Four seaplane landings over Bora Bora](#case-76) | 3D & animation | Four outputs from one seaplane brief | Evaluation |
+| [77. Two robot arms clear objects from a box](#case-77) | 3D & animation | Two labeled physical robot rollouts | Evaluation |
+| [78. A game spanning several film settings](#case-78) | Games & scenes | A character game with several film-themed environments | Demo |
+| [79. An animated introduction for a Nerdearla talk](#case-79) | Front-end & motion | A conference opener with a Codexmaxxing title | Demo |
+| [80. A floating New York diorama built in layers](#case-80) | 3D & animation | Sprite-stacked streets and an underground cutaway | Demo |
+| [81. A flyable seaplane in the Alaskan mountains](#case-81) | Games & scenes | A seaplane flight simulator with a lake setting | Demo |
+| [82. Two winter castles from one prompt](#case-82) | 3D & animation | Two labeled castles with towers and interiors | Evaluation |
+| [83. Calibrating a Jenga collapse in MuJoCo](#case-83) | 3D & animation | Studio video beside two simulated block towers | Evaluation |
+| [84. Mount Fuji and four other coded mountain scenes](#case-84) | Illustration | Five mountain compositions and lighting treatments | Demo |
+| [85. Turning an ocean reference into a Three.js scene](#case-85) | 3D & animation | A moving ocean and the accompanying reference | Demo |
+| [86. Explorable hand-drawn street corners with Pocket City](#case-86) | Games & scenes | A rotating miniature city and its place details | Demo |
+| [87. Three models build a rally driving scene](#case-87) | Games & scenes | Three labeled driving scenes and road environments | Evaluation |
+| [88. Tachyon Sprint runs in Chrome with WebGPU](#case-88) | Games & scenes | A WebGPU racing game and a public build | Demo |
+| [89. A space-battle game with a hangar launch](#case-89) | Games & scenes | A spacecraft, hangar and combat interface | Demo |
+| [90. A painted scene becomes a playable Godot level](#case-90) | Games & scenes | A 2.5D environment tutorial with prompts | Tutorial |
+| [91. Two block-building games at highest reasoning](#case-91) | Games & scenes | Two labeled block-world games from one prompt | Evaluation |
+| [92. A snowy observatory built in Blender and Three.js](#case-92) | 3D & animation | An observatory and mountain roads from above | Demo |
+| [93. Astra and Gemini Neon play a chess match](#case-93) | Games & scenes | A recorded Astra versus Neon chess game | Evaluation |
+| [94. Three rainy Kyoto alleys rendered in Blender](#case-94) | 3D & animation | Three labeled nighttime alley renders | Evaluation |
+| [95. Four spaceships in the same Earth orbit](#case-95) | 3D & animation | Four labeled cockpit and orbital scenes | Evaluation |
+| [96. A spider-eye view misses the requested viewpoint](#case-96) | Front-end & motion | A floor-level spider scene and a stated mismatch | Limit |
+| [97. A custom stage inside Sonic Unleashed](#case-97) | Games & scenes | A custom stage and the author's playtest | Evaluation |
+| [98. Two wolf-to-leopard transformations from one brief](#case-98) | Front-end & motion | Two labeled animal transformation clips | Evaluation |
+| [99. Two character models from shared references](#case-99) | 3D & animation | Two full-body character model results | Evaluation |
+| [100. A robot reference becomes a browser 3D model](#case-100) | 3D & animation | A textured robot and its visual design sheet | Demo |
+| [101. Astra advises animation work on a game](#case-101) | Games & scenes | A first-person animation test in a game project | Demo |
+| [102. Three illustrations of a train compartment](#case-102) | Illustration | Three treatments of the same sunlit train interior | Evaluation |
+| [103. Two one-shot interpretations of an airplane mission](#case-103) | Games & scenes | Two labeled airplane mission scenes | Evaluation |
+| [104. Two street racers using the same Meshy assets](#case-104) | Games & scenes | Two Three.js racers built with 19 shared assets | Evaluation |
+| [105. An exploded PC assembly rendered in Blender](#case-105) | 3D & animation | A computer and chip disassemble and reassemble | Demo |
+| [106. A Dada-inspired animated paper collage](#case-106) | Front-end & motion | Cutout-style graphics and animated musical elements | Demo |
+| [107. A waterfall photograph becomes a Vision Pro scene](#case-107) | 3D & animation | A mixed-reality doorway into a waterfall image | Demo |
+| [108. A water-lily photograph reworked as Monet-style studies](#case-108) | Illustration | Twelve painted variants of one water-lily subject | Demo |
+| [109. Seven coded illustrations through a common archway](#case-109) | Illustration | Seven palettes and scenes framed by an arch | Demo |
+| [110. Two dawn walks through Kyoto in Three.js](#case-110) | 3D & animation | Two rendered Kyoto paths after rain | Evaluation |
+| [111. Recreating a drone-racing template in OpenMotion](#case-111) | Front-end & motion | A source template and a recreated motion sequence | Demo |
+| [112. A plum-blossom vignette planned with Astra](#case-112) | Front-end & motion | A still and a 15-second character vignette | Demo |
+| [113. A kitten explores a code-rendered room](#case-113) | 3D & animation | A rendered room and a kitten's short adventure | Demo |
+| [114. An open-world driving prototype refined across models](#case-114) | Games & scenes | A driving prototype with a second model's graphics pass | Demo |
+| [115. Animated characters added to a live-action video](#case-115) | Front-end & motion | A desk video with animated miniature characters | Demo |
+| [116. Three.js scenes compared with Seedance video](#case-116) | 3D & animation | Scripted Three.js camera runs versus generated footage | Evaluation |
+| [117. Astra renders a Blender dragon on a rented GPU](#case-117) | 3D & animation | A dragon cinematic and a GPU render workflow | Demo |
+| [118. A large moth animated in close-up](#case-118) | 3D & animation | A close-up motion study of a moth | Demo |
+| [119. A fictional launch animation in Three.js](#case-119) | 3D & animation | A miniature base and an animated launch | Demo |
+| [120. A character follows a cat with her eyes](#case-120) | 3D & animation | Gaze and head motion in a character scene | Demo |
+| [121. A firefighting aircraft game over a forest](#case-121) | Games & scenes | A plane and fire fronts near a reservoir | Demo |
+| [122. Two models animate a series of landscapes](#case-122) | 3D & animation | Labeled landscape sequences from two models | Evaluation |
+| [123. Four models animate horses in open country](#case-123) | 3D & animation | Four labeled horse animations | Evaluation |
+| [124. Hair physics for a 3D character](#case-124) | 3D & animation | Hair controls alongside walk and combat-idle previews | Demo |
+| [125. Three one-shot floating-island builds](#case-125) | 3D & animation | Three versions of a floating island by day and night | Evaluation |
+| [126. A one-shot Mars habitat benchmark](#case-126) | Games & scenes | A Mars habitat scene in a shared-prompt comparison | Evaluation |
 | [60. Frontier Observatory timeline dashboard](#case-60) | Front-end & motion | Lab-output chart, filters and archive navigation | Demo |
 | [61. Drawing cherry blossoms side by side](#case-61) | Front-end & motion | A collaborative JavaScript art comparison | Evaluation |
 | [62. Alpine helicopter game in one HTML file](#case-62) | Games & scenes | An Alpine flight with three camera views | Demo |
@@ -127,6 +179,714 @@ A collection of GPT-6.2 Astra demos and use cases from the creator community.
 [Overview](#overview) · [Quick Start](#quick-start) · [Related Repositories](#related-repositories) · [Acknowledge](#acknowledge)
 
 ## 🎬 Community Demos
+
+<a id="case-75"></a>
+### Case 75: [A moonlit village reflected in still water](https://x.com/vib3coded/status/2123907432334217548) (by [@vib3coded](https://x.com/vib3coded))
+
+**Inspect how the moon, buildings and character reflections line up in a stylized nighttime scene.**
+
+The creator's clip labels the scene GPT-6.2 Astra and shows a walkable-looking village above a mirror-like surface. The creator reports a 22-minute build costing $15.78 for this run.
+
+[![A moonlit village reflected in still water](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123907177018507264-poster-8b5915b5cb42.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123907177018507264-3cec25771a89.mp4)
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-76"></a>
+### Case 76: [Four seaplane landings over Bora Bora](https://x.com/eliadele/status/2123878763624857693) (by [@eliadele](https://x.com/eliadele))
+
+**Compare how four single-file scenes handle the same flight, water landing and passenger drop-off brief.**
+
+OutputBench labels results GPT-6.2 Astra, Gemini 4 Neon, Claude Fable 5.2 and Claude Opus 5.5. The creator reports a 31.7 MB HTML output for Astra and says it did not use Three.js. The reported build times and costs are from this run.
+
+[![Four seaplane landings over Bora Bora](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123878694540419072-poster-3c30831d16e8.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123878694540419072-67b50b3ed20b.mp4)
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-77"></a>
+### Case 77: [Two robot arms clear objects from a box](https://x.com/ArtificialAnlys/status/2123866468156854664) (by [@ArtificialAnlys](https://x.com/ArtificialAnlys))
+
+**Watch how two models use the robot arms for the same cleanup task and compare the number of commands.**
+
+Artificial Analysis shows GPT-6.2 Astra alongside Claude Fable 5.2 in an AA-Robotics v0.1 box-cleanup task. It reports 92 arm commands for Astra on this task.
+
+[![Two robot arms clear objects from a box](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123856804627263488-poster-2bad71afd4cf.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123856804627263488-a148951ccf68.mp4)
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-78"></a>
+### Case 78: [A game spanning several film settings](https://x.com/noclipepe/status/2123858223778423081) (by [@noclipepe](https://x.com/noclipepe))
+
+**Compare how different environments and costume cues distinguish the roles in one game.**
+
+The creator credits GPT-6.2 Astra and Claude Fable 5.2. The clip shows a Casino Royale scene and other film settings. The post reports build costs by model and does not break down which model created each asset.
+
+[![A game spanning several film settings](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123855457005531136-poster-e5a65763a696.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123855457005531136-2a967059fc14.mp4)
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-79"></a>
+### Case 79: [An animated introduction for a Nerdearla talk](https://x.com/victornunez/status/2123851782249906511) (by [@victornunez](https://x.com/victornunez))
+
+**Study how animated typography and a few illustrations introduce a technical talk.**
+
+The speaker credits GPT-6.2 Astra with creating the opener for their Nerdearla talk. The screen recording presents the Spanish title and animated visuals.
+
+[![An animated introduction for a Nerdearla talk](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123851737052176385-poster-2742f66d4b73.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123851737052176385-21e6c4adabe8.mp4)
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-80"></a>
+### Case 80: [A floating New York diorama built in layers](https://x.com/semichenkko/status/2123837890182414567) (by [@semichenkko](https://x.com/semichenkko))
+
+**Trace how a street grid, taxis and a skyline build up into a layered diorama.**
+
+The creator attributes the animation to GPT-6.2 Astra and describes a sequence from one statue piece through street-level props to a floating New York scene with underground layers.
+
+[![A floating New York diorama built in layers](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123837704336994304-poster-f1d129334ff4.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123837704336994304-ac5fa41b4ed7.mp4)
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-81"></a>
+### Case 81: [A flyable seaplane in the Alaskan mountains](https://x.com/LuminaBench/status/2123833392386957812) (by [@LuminaBench](https://x.com/LuminaBench))
+
+**Check whether the aircraft and camera controls make the mountain lake scene readable in flight.**
+
+LuminaBench labels the demo GPT-6.2 Astra and describes the seaplane as flyable. The recording shows the aircraft and flight interface against a mountain lake.
+
+[![A flyable seaplane in the Alaskan mountains](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123832337444032512-poster-95c236530659.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123832337444032512-489e986fe614.mp4)
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-82"></a>
+### Case 82: [Two winter castles from one prompt](https://x.com/EnvolDev/status/2123815633347543159) (by [@EnvolDev](https://x.com/EnvolDev))
+
+**Compare tower detail, lighting and visible interiors in two attempts at the same castle.**
+
+The creator reports a one-shot winter castle brief for GPT-6.2 Astra and Claude Fable 5.2. The video labels both models, and the post reports separate build times and costs for this comparison.
+
+[![Two winter castles from one prompt](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123811012814180352-poster-e3ea5da5fb5b.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123811012814180352-a3432100f89e.mp4)
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-83"></a>
+### Case 83: [Calibrating a Jenga collapse in MuJoCo](https://x.com/withplayground/status/2123807543462117768) (by [@withplayground](https://x.com/withplayground))
+
+**Use the studio footage and simulation views to examine how parameter tuning changes a tower collapse.**
+
+The team credits GPT-6.2 Astra with tuning a MuJoCo reconstruction and reports a difference of 0.33° from the studio recording. The video juxtaposes the physical collapse with simulated reconstructions.
+
+[![Calibrating a Jenga collapse in MuJoCo](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123807439707320320-poster-2f228274728a.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123807439707320320-d8af440a22d7.mp4)
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-84"></a>
+### Case 84: [Mount Fuji and four other coded mountain scenes](https://x.com/notjazii/status/2123797532757389487) (by [@notjazii](https://x.com/notjazii))
+
+**Compare how the five code-made views handle snow, reflection and depth.**
+
+The creator attributes the scenes to GPT-6.2 Astra and reports a single attempt for each without references or external assets. The five attached views include Mount Fuji above a lake.
+
+<table><thead><tr><th>Mount Fuji</th><th>Mountain study 2</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123797069169410048-c6120b48f047.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123797069169410048-c6120b48f047.jpg" alt="Mount Fuji" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123797131761004544-7706dda84d56.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123797131761004544-7706dda84d56.jpg" alt="Mountain study 2" width="360"></a></td></tr></tbody></table>
+
+<table><thead><tr><th>Mountain study 3</th><th>Mountain study 4</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123797131815489537-a79031cc9b9b.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123797131815489537-a79031cc9b9b.jpg" alt="Mountain study 3" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123797132444680192-b4074d52f001.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123797132444680192-b4074d52f001.jpg" alt="Mountain study 4" width="360"></a></td></tr></tbody></table>
+
+<table><thead><tr><th>Mountain study 5</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123797131878440960-298d6ebd4720.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123797131878440960-298d6ebd4720.jpg" alt="Mountain study 5" width="360"></a></td></tr></tbody></table>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-85"></a>
+### Case 85: [Turning an ocean reference into a Three.js scene](https://x.com/TokenGremlin/status/2123797090274885924) (by [@TokenGremlin](https://x.com/TokenGremlin))
+
+**Use the paired reference and running scene to compare wave shapes, color and perspective.**
+
+The creator gave GPT-6.2 Astra a reference image and asked for a single HTML file using Three.js. The post includes an ocean animation and a still, both with a white sphere above the waves.
+
+<table><thead><tr><th>Three.js ocean animation</th><th>Reference image</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123795272635453440-661d1abef2f9.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123795272635453440-poster-90f8120738ea.jpg" alt="Three.js ocean animation" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123797033358098433-a9bacf4d3fc3.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123797033358098433-a9bacf4d3fc3.png" alt="Reference image" width="360"></a></td></tr></tbody></table>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-86"></a>
+### Case 86: [Explorable hand-drawn street corners with Pocket City](https://x.com/Aprilzz423/status/2123788440714260673) (by [@Aprilzz423](https://x.com/Aprilzz423))
+
+**Use a familiar street corner to evaluate whether local mapping and seasonal details carry through to a miniature scene.**
+
+The creator credits Claude Fable 5.2 and GPT-6.2 Astra in building Pocket City and says it uses OpenStreetMap measurements. The creator describes adding location-specific weather, seasons and events.
+
+[![Explorable hand-drawn street corners with Pocket City](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123788215530508288-poster-6dd5aed6626c.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123788215530508288-3019336544b9.mp4)
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-87"></a>
+### Case 87: [Three models build a rally driving scene](https://x.com/ivanainai/status/2123787634787098976) (by [@ivanainai](https://x.com/ivanainai))
+
+**Compare roadside detail and vehicle motion across three code-built versions.**
+
+The clip labels Claude Opus 5.5, Gemini 4 Neon and GPT-6.2 Astra. The creator states that the outputs use code without premade 3D assets, and gives separate estimated API costs for the three builds.
+
+[![Three models build a rally driving scene](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123786637641465856-poster-3ccc80918ea7.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123786637641465856-b688b2b82c9a.mp4)
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-88"></a>
+### Case 88: [Tachyon Sprint runs in Chrome with WebGPU](https://x.com/_satyam_ai/status/2123787482747764918) (by [@_satyam_ai](https://x.com/_satyam_ai))
+
+**Test the public track build and inspect the car assets, driving view and startup speed.**
+
+The creator is building the engine and credits Claude Fable 5.2 and GPT-6.2 Astra with most assets, including the car. The post specifies Chrome with GPU acceleration and notes initial loading and optimization work.
+
+[Play the browser build](https://satyam-fp.github.io/race/v1/).
+
+[![Tachyon Sprint runs in Chrome with WebGPU](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123785351915548672-poster-03a90e4033c5.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123785351915548672-aeb398b5cdd8.mp4)
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-89"></a>
+### Case 89: [A space-battle game with a hangar launch](https://x.com/loktar00/status/2123778891642998857) (by [@loktar00](https://x.com/loktar00))
+
+**Inspect how the hangar, flight view and combat indicators fit together in the space game.**
+
+The game recording labels GPT-6.2 Astra and shows a spacecraft, a hangar with a bay marker and the on-screen flight interface.
+
+[![A space-battle game with a hangar launch](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123658240625934336-poster-2461fd898139.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123658240625934336-f7f6e7893385.mp4)
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-90"></a>
+### Case 90: [A painted scene becomes a playable Godot level](https://x.com/thomas_guilcher/status/2123774006683709684) (by [@thomas_guilcher](https://x.com/thomas_guilcher))
+
+**Follow the tutorial from painted source material to a navigable scene in Godot.**
+
+The creator used GPT-6.2 Astra Max with ImageGen in Codex for the 2.5D environment. The video shows the method and includes both prompts.
+
+[Godot environment skill](https://github.com/Thmsglchr/godot-2-5d-environments).
+
+[![A painted scene becomes a playable Godot level](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123773344352792576-poster-2a25a87c6d70.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123773344352792576-36f440091c07.mp4)
+
+Type: Tutorial | Date: 2026-11-20
+
+---
+
+<a id="case-91"></a>
+### Case 91: [Two block-building games at highest reasoning](https://x.com/notjazii/status/2123771548142305667) (by [@notjazii](https://x.com/notjazii))
+
+**Compare world coverage and graphical treatment under one brief.**
+
+The creator reports testing GPT-6.2 Astra and Claude Fable 5.2 at their highest available reasoning. The post says Astra included additional worlds and contrasts that expansion with the Fable version's graphics. Model times and costs are the creator's measurements.
+
+[![Two block-building games at highest reasoning](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123771114099027970-poster-50bcdb266fa4.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123771114099027970-d9d1e40314c7.mp4)
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-92"></a>
+### Case 92: [A snowy observatory built in Blender and Three.js](https://x.com/givros/status/2123763298839806347) (by [@givros](https://x.com/givros))
+
+**Study how a landmark, roads and surrounding terrain establish the shape of a level.**
+
+The creator labels the build GPT-6.2 Astra Ultra and credits Blender, Three.js and a custom skill. The recording shows the Meridian Observatory in snowy mountains. The author discusses a potential shooter map as a future use.
+
+[![A snowy observatory built in Blender and Three.js](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123669667164143616-poster-32ff17e3bba8.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123669667164143616-01604ab782b4.mp4)
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-93"></a>
+### Case 93: [Astra and Gemini Neon play a chess match](https://x.com/Leapofcode/status/2123757501531476294) (by [@Leapofcode](https://x.com/Leapofcode))
+
+**Replay a single match to inspect both models' moves and the creator's reported token use.**
+
+The source records GPT-6.2 Astra playing White against Gemini 4 Neon. The creator reports an Astra win in 107 moves and shares token figures for this match.
+
+[![Astra and Gemini Neon play a chess match](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123757243657277440-poster-584f2ee050e0.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123757243657277440-a9b885b8c116.mp4)
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-94"></a>
+### Case 94: [Three rainy Kyoto alleys rendered in Blender](https://x.com/mizugame_22/status/2123756243827486822) (by [@mizugame_22](https://x.com/mizugame_22))
+
+**Compare reflections, wet pavement and lighting under the same one-line Blender brief.**
+
+The creator gave Claude Fable 5.2, GPT-6.2 Astra and Gemini 4 Neon the same Kyoto alley request. The models rendered and revised the scenes 37, 29 and 25 times respectively, according to the creator. External assets are credited to Poly Haven under CC0, and the rain audio is synthetic.
+
+[![Three rainy Kyoto alleys rendered in Blender](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123756217856339968-poster-755187bb4797.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123756217856339968-952aba727f0f.mp4)
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-95"></a>
+### Case 95: [Four spaceships in the same Earth orbit](https://x.com/Lummox_eth/status/2123752557503775111) (by [@Lummox_eth](https://x.com/Lummox_eth))
+
+**Compare how each version frames the cockpit, spacecraft and planet under one challenge.**
+
+The creator shows GPT-6.2 Astra, GPT-6 Astra, Claude Fable 5.2 and Claude Opus 5.5. The post lists individual build times and costs for the four examples.
+
+[![Four spaceships in the same Earth orbit](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123752477862309888-poster-fb1b75d4f4b9.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123752477862309888-47e76ac2849d.mp4)
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-96"></a>
+### Case 96: [A spider-eye view misses the requested viewpoint](https://x.com/itssotsot/status/2123752414679334944) (by [@itssotsot](https://x.com/itssotsot))
+
+**Compare the rendered viewpoint with what you would expect from the requested multi-eye perspective.**
+
+The creator asked GPT-6.2 Astra for a spider POV video. The preview shows a room from floor level, and the creator says that it missed the expected view from the spider's eight eyes.
+
+[![A spider-eye view misses the requested viewpoint](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123752109325611008-poster-cc2e7a186010.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123752109325611008-fbc9202d8805.mp4)
+
+Type: Limit | Date: 2026-11-20
+
+---
+
+<a id="case-97"></a>
+### Case 97: [A custom stage inside Sonic Unleashed](https://x.com/patchzyy/status/2123752217018569032) (by [@patchzyy](https://x.com/patchzyy))
+
+**Inspect the custom route and obstacles alongside the maker's critical playtest notes.**
+
+The creator asked GPT-6.2 Astra to create a custom stage without guidance. The recording shows the level running in Sonic Unleashed. The creator considered it playable but judged the result weak as a custom stage.
+
+[![A custom stage inside Sonic Unleashed](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123751068261552128-poster-178169248f6f.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123751068261552128-a0445dadc6ac.mp4)
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-98"></a>
+### Case 98: [Two wolf-to-leopard transformations from one brief](https://x.com/kinderlayer/status/2123742786096632076) (by [@kinderlayer](https://x.com/kinderlayer))
+
+**Compare how the same motion brief handles the change in silhouette and pacing.**
+
+The post labels two outputs Claude Fable 5.2 and GPT-6.2 Astra and describes one shared prompt about a black wolf emerging from ice and becoming a snow leopard.
+
+[![Two wolf-to-leopard transformations from one brief](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123742702470610944-poster-4f22a561f5c2.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123742702470610944-2c3a819cf22d.mp4)
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-99"></a>
+### Case 99: [Two character models from shared references](https://x.com/noclipepe/status/2123720356930224464) (by [@noclipepe](https://x.com/noclipepe))
+
+**Compare the proportions, shapes and textures produced from the same character references.**
+
+The creator shows two 3D interpretations of Mandy from GTA 6, labeled GPT-6.2 Astra and Claude Fable 5.2. The creator reports that both models received the same prompt and references.
+
+[![Two character models from shared references](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123720001379028992-poster-71f4c07b73df.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123720001379028992-4ba41c3b45e0.mp4)
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-100"></a>
+### Case 100: [A robot reference becomes a browser 3D model](https://x.com/ouchi/status/2123707803932274901) (by [@ouchi](https://x.com/ouchi))
+
+**Compare the design sheet with the textured model as it moves in the browser.**
+
+The creator used GPT-6.2 Astra to test an image-to-3D workflow and report getting it running in a browser. The post includes the robot moving in a scene and a sheet showing visual and texture details.
+
+<table><thead><tr><th>Browser animation</th><th>Robot design sheet</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123705173768122368-f561fa526faf.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123705173768122368-poster-545dcc485ab7.jpg" alt="Browser animation" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123706189297119232-9c3c265bf33e.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123706189297119232-9c3c265bf33e.jpg" alt="Robot design sheet" width="360"></a></td></tr></tbody></table>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-101"></a>
+### Case 101: [Astra advises animation work on a game](https://x.com/Capetlevrai/status/2123704355153129960) (by [@Capetlevrai](https://x.com/Capetlevrai))
+
+**Study how the creator splits lead development and animation advice between two models.**
+
+The creator uses Claude Fable 5.2 as lead developer and GPT-6.2 Astra as an adviser. The post describes a single animation request and shows the result in the project's first-person test view.
+
+[![Astra advises animation work on a game](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123704304444043264-6a47500a6182.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123704304444043264-6a47500a6182.jpg)
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-102"></a>
+### Case 102: [Three illustrations of a train compartment](https://x.com/dken_w/status/2123697313868591219) (by [@dken_w](https://x.com/dken_w))
+
+**Compare the illustrations directly alongside the creator's account of differing model and human preferences.**
+
+The creator labels the images Claude Fable 5.2 xhigh, GPT-6.2 Astra xhigh and GPT-6.2 Astra max. All use the same brief, and the creator reports slight guidance for the max run.
+
+<table><thead><tr><th>Claude Fable 5.2 xhigh</th><th>GPT-6.2 Astra xhigh</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123697304372998145-5e41ac934e78.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123697304372998145-5e41ac934e78.jpg" alt="Claude Fable 5.2 xhigh" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123697304410742784-5cf5c829152c.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123697304410742784-5cf5c829152c.jpg" alt="GPT-6.2 Astra xhigh" width="360"></a></td></tr></tbody></table>
+
+<table><thead><tr><th>GPT-6.2 Astra max</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123697304335220736-8e1748b48fae.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123697304335220736-8e1748b48fae.jpg" alt="GPT-6.2 Astra max" width="360"></a></td></tr></tbody></table>
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-103"></a>
+### Case 103: [Two one-shot interpretations of an airplane mission](https://x.com/askKlaus/status/2123693176162595179) (by [@askKlaus](https://x.com/askKlaus))
+
+**Compare a shared game-scene brief for character handling, lighting and the resulting environment.**
+
+The creator asked GPT-6.2 Astra and Gemini Neon to interpret the same GTA 6 airplane-mission brief in one attempt each. The clip labels both outputs and the author reports about 16 and 22 minutes respectively.
+
+[![Two one-shot interpretations of an airplane mission](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123692883169427456-poster-60e1f3063866.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123692883169427456-eeb64ea4b9c2.mp4)
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-104"></a>
+### Case 104: [Two street racers using the same Meshy assets](https://x.com/MeshyAI/status/2123687796154200495) (by [@MeshyAI](https://x.com/MeshyAI))
+
+**Test the difference in scene design when the brief and 3D asset set are held constant.**
+
+Meshy gave Claude Fable 5.2 and GPT-6.2 Astra the same Three.js street-race prompt and 19 Meshy assets. The test allowed one generation per model without web search or code edits.
+
+[![Two street racers using the same Meshy assets](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123668358394683392-poster-97730eadf00a.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123668358394683392-e734f340de41.mp4)
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-105"></a>
+### Case 105: [An exploded PC assembly rendered in Blender](https://x.com/aijoey/status/2123684286318669976) (by [@aijoey](https://x.com/aijoey))
+
+**Use the animation to inspect how an exploded view communicates the order and relationship of component parts.**
+
+The creator credits GPT-6.2 Astra and Blender. The animation covers the enclosure, cooler, motherboard and chip, and the chip also separates into layers.
+
+[![An exploded PC assembly rendered in Blender](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123684189996298240-poster-ac319371f43a.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123684189996298240-84a10f9675b8.mp4)
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-106"></a>
+### Case 106: [A Dada-inspired animated paper collage](https://x.com/Leviwoyun/status/2123681305951187449) (by [@Leviwoyun](https://x.com/Leviwoyun))
+
+**Study how paper textures, typography and cutout shapes carry a short animation.**
+
+The creator says they tested GPT-6.2 Astra on a Dada-inspired style and links the public skill used. The preview shows paper textures and a stylized musician next to a score.
+
+[Skill used in the demo](https://github.com/lemomo-ai/lemo-opuscar).
+
+[![A Dada-inspired animated paper collage](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123680714784972800-poster-2512353c3b3c.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123680714784972800-49001bfc9723.mp4)
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-107"></a>
+### Case 107: [A waterfall photograph becomes a Vision Pro scene](https://x.com/xbh_artist/status/2123680650628649116) (by [@xbh_artist](https://x.com/xbh_artist))
+
+**Separate the spatial conversion, asset reuse and viewer interaction when studying this photo-to-scene workflow.**
+
+The creator converted their Seljalandsfoss photo with ML-SHARP, wrote the Vision Pro interaction with GPT-6.2 Astra and reused a rotated rock made with Tripo.
+
+[![A waterfall photograph becomes a Vision Pro scene](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123675541492695040-poster-4fb3dd2a5df4.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123675541492695040-3320e19b56d6.mp4)
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-108"></a>
+### Case 108: [A water-lily photograph reworked as Monet-style studies](https://x.com/wenwen11703261/status/2123665297773338890) (by [@wenwen11703261](https://x.com/wenwen11703261))
+
+**Compare changes in brush texture, light and palette across variations of the same subject.**
+
+The creator says they photographed the water lilies in April and asked GPT-6.2 Astra to reinterpret the photograph in Monet's style. The post includes the resulting image series.
+
+<table><thead><tr><th>Water-lily study 1</th><th>Water-lily study 2</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123664262698815488-dce3fd5e098d.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123664262698815488-dce3fd5e098d.png" alt="Water-lily study 1" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123664282902769664-2a02fcb010fc.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123664282902769664-2a02fcb010fc.png" alt="Water-lily study 2" width="360"></a></td></tr></tbody></table>
+
+<table><thead><tr><th>Water-lily study 3</th><th>Water-lily study 4</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123664302435606528-f392875a263c.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123664302435606528-f392875a263c.png" alt="Water-lily study 3" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123664320961912832-68781ae65e56.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123664320961912832-68781ae65e56.png" alt="Water-lily study 4" width="360"></a></td></tr></tbody></table>
+
+<table><thead><tr><th>Water-lily study 5</th><th>Water-lily study 6</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123664339588829184-ef0d7253b0e4.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123664339588829184-ef0d7253b0e4.png" alt="Water-lily study 5" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123664355623583744-f00cfac016e1.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123664355623583744-f00cfac016e1.png" alt="Water-lily study 6" width="360"></a></td></tr></tbody></table>
+
+<table><thead><tr><th>Water-lily study 7</th><th>Water-lily study 8</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123664372899999745-a5f9a4d5032f.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123664372899999745-a5f9a4d5032f.png" alt="Water-lily study 7" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123664393422684160-ecfcbf888d72.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123664393422684160-ecfcbf888d72.png" alt="Water-lily study 8" width="360"></a></td></tr></tbody></table>
+
+<table><thead><tr><th>Water-lily study 9</th><th>Water-lily study 10</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123664416294219776-3216d977bd79.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123664416294219776-3216d977bd79.png" alt="Water-lily study 9" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123664435629940736-15eb08e4da56.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123664435629940736-15eb08e4da56.png" alt="Water-lily study 10" width="360"></a></td></tr></tbody></table>
+
+<table><thead><tr><th>Water-lily study 11</th><th>Water-lily study 12</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123664450637246464-ff45c7c4ad2e.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123664450637246464-ff45c7c4ad2e.png" alt="Water-lily study 11" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123664463664742400-bf34d46c0138.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123664463664742400-bf34d46c0138.png" alt="Water-lily study 12" width="360"></a></td></tr></tbody></table>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-109"></a>
+### Case 109: [Seven coded illustrations through a common archway](https://x.com/dingchilling/status/2123653695141564431) (by [@dingchilling](https://x.com/dingchilling))
+
+**Use the repeated framing to see how color and subject change across a series of coded illustrations.**
+
+The creator attributes the multi-style images to GPT-6.2 Astra and says they were made in code. Each attached illustration shows a different scene or treatment through an arch.
+
+<table><thead><tr><th>Archway illustration 1</th><th>Archway illustration 2</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123652608179240960-068fb62f6b94.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123652608179240960-068fb62f6b94.jpg" alt="Archway illustration 1" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123652607894056960-2f1aa20c9a21.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123652607894056960-2f1aa20c9a21.jpg" alt="Archway illustration 2" width="360"></a></td></tr></tbody></table>
+
+<table><thead><tr><th>Archway illustration 3</th><th>Archway illustration 4</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123652606665056256-5dc78a0c9c04.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123652606665056256-5dc78a0c9c04.jpg" alt="Archway illustration 3" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123652606694400000-fc0d662be0d6.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123652606694400000-fc0d662be0d6.jpg" alt="Archway illustration 4" width="360"></a></td></tr></tbody></table>
+
+<table><thead><tr><th>Archway illustration 5</th><th>Archway illustration 6</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123652606690299904-166f6d3f0ac1.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123652606690299904-166f6d3f0ac1.jpg" alt="Archway illustration 5" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123652606677716992-1f4a6952d054.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123652606677716992-1f4a6952d054.jpg" alt="Archway illustration 6" width="360"></a></td></tr></tbody></table>
+
+<table><thead><tr><th>Archway illustration 7</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123652606656696320-b60fa970a0a3.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123652606656696320-b60fa970a0a3.jpg" alt="Archway illustration 7" width="360"></a></td></tr></tbody></table>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-110"></a>
+### Case 110: [Two dawn walks through Kyoto in Three.js](https://x.com/teddyaisi/status/2123627618146959641) (by [@teddyaisi](https://x.com/teddyaisi))
+
+**Compare the lighting and path design when two models animate the same dawn walk.**
+
+The creator labels the upper clip GPT-6.2 Astra and the lower clip Gemini 4 Neon. The brief covers Senbon Torii and the Arashiyama bamboo grove in a 20-second Three.js walk.
+
+[![Two dawn walks through Kyoto in Three.js](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123627040813568000-poster-6539af395982.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123627040813568000-533499dd1423.mp4)
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-111"></a>
+### Case 111: [Recreating a drone-racing template in OpenMotion](https://x.com/Leviwoyun/status/2123622476160868724) (by [@Leviwoyun](https://x.com/Leviwoyun))
+
+**Compare the recreated sequence with the original template to see where two rounds of changes helped.**
+
+The creator used GPT-6.2 Astra high to test the open-source OpenMotion project on its AI Grand Prix drone-race template. The side-by-side recording documents the result after two rounds of revisions.
+
+[![Recreating a drone-racing template in OpenMotion](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123620702435872768-poster-6f3ad265f211.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123620702435872768-1e77e08568b7.mp4)
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-112"></a>
+### Case 112: [A plum-blossom vignette planned with Astra](https://x.com/superfang119/status/2123608080781099337) (by [@superfang119](https://x.com/superfang119))
+
+**Separate concept development from the rendering pass when comparing the still and the finished clip.**
+
+The creator asked GPT-6.2 Astra to imagine a character and describes the scene as a traveler stopping for a falling plum blossom. The creator attributes the 15-second video render to local MiniMax H3 and says both prompts are shared in replies.
+
+<table><thead><tr><th>Character still</th><th>Video rendered with MiniMax H3</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123607916209152001-0bbee0b5d360.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123607916209152001-0bbee0b5d360.jpg" alt="Character still" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123607916242784256-953fc751a3e3.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123607916242784256-poster-76dd339e8f7f.jpg" alt="Video rendered with MiniMax H3" width="360"></a></td></tr></tbody></table>
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-113"></a>
+### Case 113: [A kitten explores a code-rendered room](https://x.com/rockeymen/status/2123605250825486383) (by [@rockeymen](https://x.com/rockeymen))
+
+**Inspect how a small character moves through a room built as a 3D scene.**
+
+The creator credits GPT-6.2 Astra with building the 3D scene and describes rendering the video with code. The clip shows a kitten's adventure inside a furnished room.
+
+[![A kitten explores a code-rendered room](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123602208608690176-poster-ba1e502f7eb0.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123602208608690176-6d17303a6166.mp4)
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-114"></a>
+### Case 114: [An open-world driving prototype refined across models](https://x.com/rubenssoto_ai/status/2123604745571164180) (by [@rubenssoto_ai](https://x.com/rubenssoto_ai))
+
+**Study the model handoff from a playable car-game prototype to graphics refinement.**
+
+The creator started the open-world car game with GPT-6.2 Astra and asked Claude Opus 5.5 to improve the graphics. The work is still in progress and the creator reports using at least ten prompts.
+
+[![An open-world driving prototype refined across models](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123591513003212800-poster-9552d8380ec0.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123591513003212800-19d42737e58f.mp4)
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-115"></a>
+### Case 115: [Animated characters added to a live-action video](https://x.com/samyamiam/status/2123593275844293039) (by [@samyamiam](https://x.com/samyamiam))
+
+**Pair a generated still with a separate animation pass and check how the added figures sit in the shot.**
+
+The creator describes generating the initial still in ChatGPT, then asking GPT-6.2 Astra to animate it. The published clip shows the characters inserted into live-action footage around a desk.
+
+[![Animated characters added to a live-action video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123588252024328192-poster-98d967cbaf70.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123588252024328192-508732c0ed5a.mp4)
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-116"></a>
+### Case 116: [Three.js scenes compared with Seedance video](https://x.com/ArtificialAnlys/status/2123581865965855205) (by [@ArtificialAnlys](https://x.com/ArtificialAnlys))
+
+**Compare how code-rendered and generated video approaches handle the same requested camera paths.**
+
+Artificial Analysis shows GPT-6.2 Astra writing Three.js for the Sydney Opera House, an exploded watch and a dragon scene. Dreamina Seedance 2.5 received camera directions as text plus route-reference images. Both were shown at 15 seconds, 1080p and 24 fps.
+
+[![Three.js scenes compared with Seedance video](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123581196999475200-poster-361d733cb014.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123581196999475200-2b6c9773903c.mp4)
+
+Type: Evaluation | Date: 2026-11-20
+
+---
+
+<a id="case-117"></a>
+### Case 117: [Astra renders a Blender dragon on a rented GPU](https://x.com/TokenGremlin/status/2123572605516964080) (by [@TokenGremlin](https://x.com/TokenGremlin))
+
+**Use the render session as an example of handing an existing Blender project to an agent for GPU setup and export.**
+
+The creator credits GPT-6.2 Astra in Higgsfield Supercomputer with setting up OptiX on an NVIDIA L40S and rendering an existing Blender project. The reported session rendered 960 frames at 1920×804 in about 88 minutes.
+
+[![Astra renders a Blender dragon on a rented GPU](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123555734533062656-poster-f3028f50a126.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123555734533062656-5bd123bb9579.mp4)
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-118"></a>
+### Case 118: [A large moth animated in close-up](https://x.com/lemomo_ai/status/2123569820105162899) (by [@lemomo_ai](https://x.com/lemomo_ai))
+
+**Inspect the timing of wings and small body motions in the short insect study.**
+
+The creator labels the clip GPT-6.2 Astra High and presents a large moth in motion.
+
+[![A large moth animated in close-up](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123569653385756672-poster-529770d3f347.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123569653385756672-3730d65684ec.mp4)
+
+Type: Demo | Date: 2026-11-20
+
+---
+
+<a id="case-119"></a>
+### Case 119: [A fictional launch animation in Three.js](https://x.com/zavrenn/status/2123566988148846777) (by [@zavrenn](https://x.com/zavrenn))
+
+**Inspect how a miniature scene stages a launch using geometry and camera movement.**
+
+The creator attributes the Three.js scene to GPT-6.2 Astra and says it uses no imported models. The recording shows a fictional launch sequence, and the post links an explorable scene.
+
+[Explore the Three.js scene](https://worldframe.zavrenn.workers.dev).
+
+[![A fictional launch animation in Three.js](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123565693966733312-poster-46a3f850761a.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123565693966733312-971a0dd5f771.mp4)
+
+Type: Demo | Date: 2026-11-19
+
+---
+
+<a id="case-120"></a>
+### Case 120: [A character follows a cat with her eyes](https://x.com/ShadeLurk/status/2123542270381293970) (by [@ShadeLurk](https://x.com/ShadeLurk))
+
+**Compare small gaze shifts with the larger head turns used when the cat moves out of view.**
+
+The creator credits Tripo and GPT-6.2 Astra and cites MetaHuman Animator Markerless Motion Capture, Kimodo for UE 5.9 and blender-skills. The clip shows a stylized character interacting with a cat.
+
+[![A character follows a cat with her eyes](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123540959745257472-poster-ec2513b0c52d.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123540959745257472-021bdb1710ef.mp4)
+
+Type: Demo | Date: 2026-11-19
+
+---
+
+<a id="case-121"></a>
+### Case 121: [A firefighting aircraft game over a forest](https://x.com/loktar00/status/2123541074232901885) (by [@loktar00](https://x.com/loktar00))
+
+**Look at how onboard views and mission cues guide a player between water and forest fires.**
+
+The clip labels the build GPT-6.2 Astra and shows an aircraft flying over a forest and lake with active fire fronts. The author presents it as a firefighting game.
+
+[![A firefighting aircraft game over a forest](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123527155371958272-poster-af2b66a0652f.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123527155371958272-ce34500615ad.mp4)
+
+Type: Demo | Date: 2026-11-19
+
+---
+
+<a id="case-122"></a>
+### Case 122: [Two models animate a series of landscapes](https://x.com/codewithjerry01/status/2123535538317594832) (by [@codewithjerry01](https://x.com/codewithjerry01))
+
+**Compare lighting and motion across the two versions of each landscape shown.**
+
+The recording puts Claude Fable 5.2 above GPT-6.2 Astra across several landscape sequences. The post names the models, with no run settings or timing details given.
+
+[![Two models animate a series of landscapes](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123535464544034817-poster-a73fc2132ba0.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123535464544034817-b6e58a8f93e0.mp4)
+
+Type: Evaluation | Date: 2026-11-19
+
+---
+
+<a id="case-123"></a>
+### Case 123: [Four models animate horses in open country](https://x.com/jony_palino/status/2123521701891748223) (by [@jony_palino](https://x.com/jony_palino))
+
+**Compare how each version conveys a horse's gait, body weight and outdoor lighting.**
+
+The clip labels GPT-6.2 Astra, GPT-6.2 Sol, Gemini 4 Neon and Claude Fable 5.2. The four panels show different interpretations of a horse in an outdoor scene.
+
+[![Four models animate horses in open country](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123519811388895232-poster-9685bf212f54.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123519811388895232-36ca6ae1a681.mp4)
+
+Type: Evaluation | Date: 2026-11-19
+
+---
+
+<a id="case-124"></a>
+### Case 124: [Hair physics for a 3D character](https://x.com/ryanflorence/status/2123521045105975357) (by [@ryanflorence](https://x.com/ryanflorence))
+
+**Use the setup image and motion clip together to inspect how hair reacts across two character animations.**
+
+The creator credits GPT-6.2 Astra after asking to add physics to the character's hair. The still shows the hair setup from multiple views, and the clip shows a walk and a combat idle.
+
+<table><thead><tr><th>Hair setup from three views</th><th>Walk and combat-idle preview</th></tr></thead><tbody><tr><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123520274520027136-463c7b021ab0.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123520274520027136-463c7b021ab0.jpg" alt="Hair setup from three views" width="360"></a></td><td align="center"><a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123520741723480064-7b5ac4ccabd0.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123520741723480064-poster-ce9ba80482a5.jpg" alt="Walk and combat-idle preview" width="360"></a></td></tr></tbody></table>
+
+Type: Demo | Date: 2026-11-19
+
+---
+
+<a id="case-125"></a>
+### Case 125: [Three one-shot floating-island builds](https://x.com/0xShoopy/status/2123518721981374468) (by [@0xShoopy](https://x.com/0xShoopy))
+
+**Compare the same three scenes in daylight and at night, when differences in lighting become easier to see.**
+
+The creator reports one attempt per setup using the same prompt: GPT-6.2 Astra, Claude Fable 5.2 and Claude Opus 5.5 with Fable advisor. The post gives each run's time and cost, and the clip shows the three outputs together.
+
+[![Three one-shot floating-island builds](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123517971037327361-poster-7e27baf7db87.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123517971037327361-9b7656c668d0.mp4)
+
+Type: Evaluation | Date: 2026-11-19
+
+---
+
+<a id="case-126"></a>
+### Case 126: [A one-shot Mars habitat benchmark](https://x.com/anshuc/status/2123517628258058470) (by [@anshuc](https://x.com/anshuc))
+
+**Inspect the habitat before comparing runs made with the same brief in dream-loop.**
+
+The creator says several models received the same one-shot Mars habitat task. The video shows a six-model comparison and the post links the public benchmark with its model labels.
+
+[Benchmark comparison](https://dreambench.anshu.dev).
+
+[![A one-shot Mars habitat benchmark](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123517504727449600-poster-7a6b7360c92f.jpg)](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/github-repo-media/awesome-gpt-6-2-astra-guide-and-use-cases/media/2123517504727449600-9c01502da96b.mp4)
+
+Type: Evaluation | Date: 2026-11-19
+
+---
 
 <a id="case-60"></a>
 ### Case 60: [Frontier Observatory timeline dashboard](https://news.ycombinator.com/item?id=50553966) (by [@mnhcorp](https://news.ycombinator.com/user?id=mnhcorp))
@@ -1203,6 +1963,6 @@ Type: Demo | Date: 2026-11-09
 <a id="acknowledge"></a>
 ## 🙏 Acknowledge
 
-[@SadAlbert10](https://x.com/SadAlbert10), [@leo114119](https://x.com/leo114119), [@FiniYang](https://x.com/FiniYang), [@notjazii](https://x.com/notjazii), [@GulaGala001](https://x.com/GulaGala001), [@noclipepe](https://x.com/noclipepe), [@marcthecreatorr](https://x.com/marcthecreatorr), [@nelia](https://linux.do/u/nelia), [@AI_Screening](https://x.com/AI_Screening), [@hakmgpt](https://x.com/hakmgpt), [@FixlationAI](https://x.com/FixlationAI), [@YFeng2022](https://x.com/YFeng2022), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@mirochill](https://x.com/mirochill), [@N1n3VASthR33H](https://x.com/N1n3VASthR33H), [@YouArtStudio](https://x.com/YouArtStudio), [@ATFANSEN](https://x.com/ATFANSEN), [@Mashiro_0619](https://x.com/Mashiro_0619), [@NFT_Chen](https://x.com/NFT_Chen), [@j4kcdq](https://x.com/j4kcdq), [@twno1indiaa3](https://x.com/twno1indiaa3), [@luckeyfaraday](https://x.com/luckeyfaraday), [@skalskip92](https://x.com/skalskip92), [@intheworldofai](https://x.com/intheworldofai), [@withplayground](https://x.com/withplayground), [@ZryMiller](https://x.com/ZryMiller), [@Angaisb_](https://x.com/Angaisb_), [@ChrisGPT](https://x.com/ChrisGPT), [@Densitylucky](https://x.com/Densitylucky), [@ShadeLurk](https://x.com/ShadeLurk), [@magnific](https://x.com/magnific), [@PhysAIAnalysis](https://x.com/PhysAIAnalysis), [@Masimo_Blue](https://x.com/Masimo_Blue), [@voxelbench](https://x.com/voxelbench), [@higgsfield_ai](https://x.com/higgsfield_ai), [@Da7_Tech](https://x.com/Da7_Tech), [@lukaspet](https://x.com/lukaspet), [@simonw](https://x.com/simonw), [@thefourthchime](https://news.ycombinator.com/user?id=thefourthchime), [@goyozi](https://news.ycombinator.com/user?id=goyozi), [@simonw](https://github.com/simonw), [@XCSme](https://news.ycombinator.com/user?id=XCSme), [@stbenjam](https://github.com/stbenjam), [@OpenAI](https://openai.com/), [@mnhcorp](https://news.ycombinator.com/user?id=mnhcorp), [@nicochristie](https://x.com/nicochristie), [@vib3coded](https://x.com/vib3coded), [@SPAC89](https://x.com/SPAC89), [@eliadele](https://x.com/eliadele), [@ivanainai](https://x.com/ivanainai), [@LexnLin](https://x.com/LexnLin), [@aisearchio](https://x.com/aisearchio), [@JamesC_Alpha](https://x.com/JamesC_Alpha), [@aug5thmusic](https://x.com/aug5thmusic), [@DeryaTR_](https://x.com/DeryaTR_), [@soya_da_yoot](https://x.com/soya_da_yoot), [@Leapofcode](https://x.com/Leapofcode), [ferret (问心)](https://linux.do/u/ferret), [@chetaslua](https://x.com/chetaslua), [@Smlay_ero](https://x.com/Smlay_ero), [@Octoberry](https://x.com/Octoberry)
+[@SadAlbert10](https://x.com/SadAlbert10), [@leo114119](https://x.com/leo114119), [@FiniYang](https://x.com/FiniYang), [@notjazii](https://x.com/notjazii), [@GulaGala001](https://x.com/GulaGala001), [@noclipepe](https://x.com/noclipepe), [@marcthecreatorr](https://x.com/marcthecreatorr), [@nelia](https://linux.do/u/nelia), [@AI_Screening](https://x.com/AI_Screening), [@hakmgpt](https://x.com/hakmgpt), [@FixlationAI](https://x.com/FixlationAI), [@YFeng2022](https://x.com/YFeng2022), [@pankajkumar_dev](https://x.com/pankajkumar_dev), [@mirochill](https://x.com/mirochill), [@N1n3VASthR33H](https://x.com/N1n3VASthR33H), [@YouArtStudio](https://x.com/YouArtStudio), [@ATFANSEN](https://x.com/ATFANSEN), [@Mashiro_0619](https://x.com/Mashiro_0619), [@NFT_Chen](https://x.com/NFT_Chen), [@j4kcdq](https://x.com/j4kcdq), [@twno1indiaa3](https://x.com/twno1indiaa3), [@luckeyfaraday](https://x.com/luckeyfaraday), [@skalskip92](https://x.com/skalskip92), [@intheworldofai](https://x.com/intheworldofai), [@withplayground](https://x.com/withplayground), [@ZryMiller](https://x.com/ZryMiller), [@Angaisb_](https://x.com/Angaisb_), [@ChrisGPT](https://x.com/ChrisGPT), [@Densitylucky](https://x.com/Densitylucky), [@ShadeLurk](https://x.com/ShadeLurk), [@magnific](https://x.com/magnific), [@PhysAIAnalysis](https://x.com/PhysAIAnalysis), [@Masimo_Blue](https://x.com/Masimo_Blue), [@voxelbench](https://x.com/voxelbench), [@higgsfield_ai](https://x.com/higgsfield_ai), [@Da7_Tech](https://x.com/Da7_Tech), [@lukaspet](https://x.com/lukaspet), [@simonw](https://x.com/simonw), [@thefourthchime](https://news.ycombinator.com/user?id=thefourthchime), [@goyozi](https://news.ycombinator.com/user?id=goyozi), [@simonw](https://github.com/simonw), [@XCSme](https://news.ycombinator.com/user?id=XCSme), [@stbenjam](https://github.com/stbenjam), [@OpenAI](https://openai.com/), [@mnhcorp](https://news.ycombinator.com/user?id=mnhcorp), [@nicochristie](https://x.com/nicochristie), [@vib3coded](https://x.com/vib3coded), [@SPAC89](https://x.com/SPAC89), [@eliadele](https://x.com/eliadele), [@ivanainai](https://x.com/ivanainai), [@LexnLin](https://x.com/LexnLin), [@aisearchio](https://x.com/aisearchio), [@JamesC_Alpha](https://x.com/JamesC_Alpha), [@aug5thmusic](https://x.com/aug5thmusic), [@DeryaTR_](https://x.com/DeryaTR_), [@soya_da_yoot](https://x.com/soya_da_yoot), [@Leapofcode](https://x.com/Leapofcode), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@victornunez](https://x.com/victornunez), [@semichenkko](https://x.com/semichenkko), [@LuminaBench](https://x.com/LuminaBench), [@EnvolDev](https://x.com/EnvolDev), [@TokenGremlin](https://x.com/TokenGremlin), [@Aprilzz423](https://x.com/Aprilzz423), [@_satyam_ai](https://x.com/_satyam_ai), [@loktar00](https://x.com/loktar00), [@thomas_guilcher](https://x.com/thomas_guilcher), [@givros](https://x.com/givros), [@mizugame_22](https://x.com/mizugame_22), [@Lummox_eth](https://x.com/Lummox_eth), [@itssotsot](https://x.com/itssotsot), [@patchzyy](https://x.com/patchzyy), [@kinderlayer](https://x.com/kinderlayer), [@ouchi](https://x.com/ouchi), [@Capetlevrai](https://x.com/Capetlevrai), [@dken_w](https://x.com/dken_w), [@askKlaus](https://x.com/askKlaus), [@MeshyAI](https://x.com/MeshyAI), [@aijoey](https://x.com/aijoey), [@Leviwoyun](https://x.com/Leviwoyun), [@xbh_artist](https://x.com/xbh_artist), [@wenwen11703261](https://x.com/wenwen11703261), [@dingchilling](https://x.com/dingchilling), [@teddyaisi](https://x.com/teddyaisi), [@superfang119](https://x.com/superfang119), [@rockeymen](https://x.com/rockeymen), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@samyamiam](https://x.com/samyamiam), [@lemomo_ai](https://x.com/lemomo_ai), [@zavrenn](https://x.com/zavrenn), [@codewithjerry01](https://x.com/codewithjerry01), [@jony_palino](https://x.com/jony_palino), [@ryanflorence](https://x.com/ryanflorence), [@0xShoopy](https://x.com/0xShoopy), [@anshuc](https://x.com/anshuc), [ferret (问心)](https://linux.do/u/ferret), [@chetaslua](https://x.com/chetaslua), [@Smlay_ero](https://x.com/Smlay_ero), [@Octoberry](https://x.com/Octoberry)
 
 Thanks to the creators and sharers behind these demonstrations. Third-party media retains its original rights. For an attribution correction or removal request, open an issue with the relevant source link.

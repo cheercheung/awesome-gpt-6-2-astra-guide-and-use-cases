@@ -2,6 +2,58 @@
 
 | Case | Title | Source |
 |---|---|---|
+| 75 | [A moonlit village reflected in still water](README.md#case-75) | [@vib3coded](https://x.com/vib3coded/status/2123907432334217548) |
+| 76 | [Four seaplane landings over Bora Bora](README.md#case-76) | [@eliadele](https://x.com/eliadele/status/2123878763624857693) |
+| 77 | [Two robot arms clear objects from a box](README.md#case-77) | [@ArtificialAnlys](https://x.com/ArtificialAnlys/status/2123866468156854664) |
+| 78 | [A game spanning several film settings](README.md#case-78) | [@noclipepe](https://x.com/noclipepe/status/2123858223778423081) |
+| 79 | [An animated introduction for a Nerdearla talk](README.md#case-79) | [@victornunez](https://x.com/victornunez/status/2123851782249906511) |
+| 80 | [A floating New York diorama built in layers](README.md#case-80) | [@semichenkko](https://x.com/semichenkko/status/2123837890182414567) |
+| 81 | [A flyable seaplane in the Alaskan mountains](README.md#case-81) | [@LuminaBench](https://x.com/LuminaBench/status/2123833392386957812) |
+| 82 | [Two winter castles from one prompt](README.md#case-82) | [@EnvolDev](https://x.com/EnvolDev/status/2123815633347543159) |
+| 83 | [Calibrating a Jenga collapse in MuJoCo](README.md#case-83) | [@withplayground](https://x.com/withplayground/status/2123807543462117768) |
+| 84 | [Mount Fuji and four other coded mountain scenes](README.md#case-84) | [@notjazii](https://x.com/notjazii/status/2123797532757389487) |
+| 85 | [Turning an ocean reference into a Three.js scene](README.md#case-85) | [@TokenGremlin](https://x.com/TokenGremlin/status/2123797090274885924) |
+| 86 | [Explorable hand-drawn street corners with Pocket City](README.md#case-86) | [@Aprilzz423](https://x.com/Aprilzz423/status/2123788440714260673) |
+| 87 | [Three models build a rally driving scene](README.md#case-87) | [@ivanainai](https://x.com/ivanainai/status/2123787634787098976) |
+| 88 | [Tachyon Sprint runs in Chrome with WebGPU](README.md#case-88) | [@_satyam_ai](https://x.com/_satyam_ai/status/2123787482747764918) |
+| 89 | [A space-battle game with a hangar launch](README.md#case-89) | [@loktar00](https://x.com/loktar00/status/2123778891642998857) |
+| 90 | [A painted scene becomes a playable Godot level](README.md#case-90) | [@thomas_guilcher](https://x.com/thomas_guilcher/status/2123774006683709684) |
+| 91 | [Two block-building games at highest reasoning](README.md#case-91) | [@notjazii](https://x.com/notjazii/status/2123771548142305667) |
+| 92 | [A snowy observatory built in Blender and Three.js](README.md#case-92) | [@givros](https://x.com/givros/status/2123763298839806347) |
+| 93 | [Astra and Gemini Neon play a chess match](README.md#case-93) | [@Leapofcode](https://x.com/Leapofcode/status/2123757501531476294) |
+| 94 | [Three rainy Kyoto alleys rendered in Blender](README.md#case-94) | [@mizugame_22](https://x.com/mizugame_22/status/2123756243827486822) |
+| 95 | [Four spaceships in the same Earth orbit](README.md#case-95) | [@Lummox_eth](https://x.com/Lummox_eth/status/2123752557503775111) |
+| 96 | [A spider-eye view misses the requested viewpoint](README.md#case-96) | [@itssotsot](https://x.com/itssotsot/status/2123752414679334944) |
+| 97 | [A custom stage inside Sonic Unleashed](README.md#case-97) | [@patchzyy](https://x.com/patchzyy/status/2123752217018569032) |
+| 98 | [Two wolf-to-leopard transformations from one brief](README.md#case-98) | [@kinderlayer](https://x.com/kinderlayer/status/2123742786096632076) |
+| 99 | [Two character models from shared references](README.md#case-99) | [@noclipepe](https://x.com/noclipepe/status/2123720356930224464) |
+| 100 | [A robot reference becomes a browser 3D model](README.md#case-100) | [@ouchi](https://x.com/ouchi/status/2123707803932274901) |
+| 101 | [Astra advises animation work on a game](README.md#case-101) | [@Capetlevrai](https://x.com/Capetlevrai/status/2123704355153129960) |
+| 102 | [Three illustrations of a train compartment](README.md#case-102) | [@dken_w](https://x.com/dken_w/status/2123697313868591219) |
+| 103 | [Two one-shot interpretations of an airplane mission](README.md#case-103) | [@askKlaus](https://x.com/askKlaus/status/2123693176162595179) |
+| 104 | [Two street racers using the same Meshy assets](README.md#case-104) | [@MeshyAI](https://x.com/MeshyAI/status/2123687796154200495) |
+| 105 | [An exploded PC assembly rendered in Blender](README.md#case-105) | [@aijoey](https://x.com/aijoey/status/2123684286318669976) |
+| 106 | [A Dada-inspired animated paper collage](README.md#case-106) | [@Leviwoyun](https://x.com/Leviwoyun/status/2123681305951187449) |
+| 107 | [A waterfall photograph becomes a Vision Pro scene](README.md#case-107) | [@xbh_artist](https://x.com/xbh_artist/status/2123680650628649116) |
+| 108 | [A water-lily photograph reworked as Monet-style studies](README.md#case-108) | [@wenwen11703261](https://x.com/wenwen11703261/status/2123665297773338890) |
+| 109 | [Seven coded illustrations through a common archway](README.md#case-109) | [@dingchilling](https://x.com/dingchilling/status/2123653695141564431) |
+| 110 | [Two dawn walks through Kyoto in Three.js](README.md#case-110) | [@teddyaisi](https://x.com/teddyaisi/status/2123627618146959641) |
+| 111 | [Recreating a drone-racing template in OpenMotion](README.md#case-111) | [@Leviwoyun](https://x.com/Leviwoyun/status/2123622476160868724) |
+| 112 | [A plum-blossom vignette planned with Astra](README.md#case-112) | [@superfang119](https://x.com/superfang119/status/2123608080781099337) |
+| 113 | [A kitten explores a code-rendered room](README.md#case-113) | [@rockeymen](https://x.com/rockeymen/status/2123605250825486383) |
+| 114 | [An open-world driving prototype refined across models](README.md#case-114) | [@rubenssoto_ai](https://x.com/rubenssoto_ai/status/2123604745571164180) |
+| 115 | [Animated characters added to a live-action video](README.md#case-115) | [@samyamiam](https://x.com/samyamiam/status/2123593275844293039) |
+| 116 | [Three.js scenes compared with Seedance video](README.md#case-116) | [@ArtificialAnlys](https://x.com/ArtificialAnlys/status/2123581865965855205) |
+| 117 | [Astra renders a Blender dragon on a rented GPU](README.md#case-117) | [@TokenGremlin](https://x.com/TokenGremlin/status/2123572605516964080) |
+| 118 | [A large moth animated in close-up](README.md#case-118) | [@lemomo_ai](https://x.com/lemomo_ai/status/2123569820105162899) |
+| 119 | [A fictional launch animation in Three.js](README.md#case-119) | [@zavrenn](https://x.com/zavrenn/status/2123566988148846777) |
+| 120 | [A character follows a cat with her eyes](README.md#case-120) | [@ShadeLurk](https://x.com/ShadeLurk/status/2123542270381293970) |
+| 121 | [A firefighting aircraft game over a forest](README.md#case-121) | [@loktar00](https://x.com/loktar00/status/2123541074232901885) |
+| 122 | [Two models animate a series of landscapes](README.md#case-122) | [@codewithjerry01](https://x.com/codewithjerry01/status/2123535538317594832) |
+| 123 | [Four models animate horses in open country](README.md#case-123) | [@jony_palino](https://x.com/jony_palino/status/2123521701891748223) |
+| 124 | [Hair physics for a 3D character](README.md#case-124) | [@ryanflorence](https://x.com/ryanflorence/status/2123521045105975357) |
+| 125 | [Three one-shot floating-island builds](README.md#case-125) | [@0xShoopy](https://x.com/0xShoopy/status/2123518721981374468) |
+| 126 | [A one-shot Mars habitat benchmark](README.md#case-126) | [@anshuc](https://x.com/anshuc/status/2123517628258058470) |
 | 60 | [Frontier Observatory timeline dashboard](README.md#case-60) | [@mnhcorp](https://news.ycombinator.com/item?id=50553966) |
 | 61 | [Drawing cherry blossoms side by side](README.md#case-61) | [@nicochristie](https://x.com/nicochristie/status/2123185990923874325) |
 | 62 | [Alpine helicopter game in one HTML file](README.md#case-62) | [@vib3coded](https://x.com/vib3coded/status/2123173597661233427) |
